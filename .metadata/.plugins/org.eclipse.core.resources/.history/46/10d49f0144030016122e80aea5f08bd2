@@ -1,0 +1,4 @@
+/*Todo lo relacionado con posicionamiento, esquema del diseño, etc.*/
+.centrar{
+	text-align:"center";
+}

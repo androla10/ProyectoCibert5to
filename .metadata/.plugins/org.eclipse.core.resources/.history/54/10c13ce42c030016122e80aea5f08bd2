@@ -1,0 +1,5 @@
+package com.cibertec.Dao;
+import com.cibertec.InterfaceMapper.*;
+public class UsuarioDao implements UsuarioBeanMapper {
+
+}

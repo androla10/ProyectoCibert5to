@@ -1,0 +1,20 @@
+package com.cibertec.Actions;
+
+import com.cibertec.Bean.UsuarioBean;
+
+public class ActionLogin {
+	private UsuarioBean usuario;
+
+	public UsuarioBean getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(UsuarioBean usuario) {
+		this.usuario = usuario;
+	}
+	
+	public void login(){
+		if(usuario.getUsuario().equalsIgnoreCase("Admin") && usuario.getPassword().equalsIgnoreCase("123"))
+	}
+	
+}

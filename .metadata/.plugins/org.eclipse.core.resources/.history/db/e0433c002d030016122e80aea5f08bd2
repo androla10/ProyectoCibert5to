@@ -1,0 +1,5 @@
+package com.cibertec.InterfaceMapper;
+
+public interface UsuarioBeanMapper {
+	
+}

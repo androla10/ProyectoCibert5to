@@ -1,0 +1,10 @@
+package com.cibertec.InterfaceMapper;
+
+import java.sql.SQLException;
+
+public interface UsuarioBeanMapper {
+	public int Registrar()throws SQLException;
+	public int Modificar()throws SQLException;
+	public int registrar()throws SQLException;
+	public int registrar()throws SQLException;
+}
