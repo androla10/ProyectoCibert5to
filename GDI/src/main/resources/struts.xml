@@ -6,9 +6,15 @@ StrutsConfiguration
 "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
-    <package name="proyecto1" extends="struts-default">
-      	<action name="Login" class="com.cibertec.Actions.LoginAction" method="login">
-      	    <result name="ok">Parcial/Principal.jsp</result>
-      	</action>
-    </package>
+	<package name="proyecto1" extends="struts-default">
+		<result-types>
+			<result-type name="tiles"
+				class="org.apache.struts2.views.tiles.TilesResult" />
+		</result-types>
+
+		<action name="Login" class="com.cibertec.Actions.LoginAction"
+			method="login">
+			<result name="ok" type="tiles">principal</result>
+		</action>
+	</package>
 </struts>

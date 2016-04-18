@@ -1,7 +1,7 @@
 package com.cibertec.InterfaceMapper;
 
-import java.sql.SQLException;
-import java.util.*;
+import java.util.List;
+
 import com.cibertec.Bean.UsuarioBean;
 
 public interface UsuarioBeanMapper {
