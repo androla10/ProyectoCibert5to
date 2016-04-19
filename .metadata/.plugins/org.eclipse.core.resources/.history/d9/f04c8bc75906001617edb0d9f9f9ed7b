@@ -1,0 +1,11 @@
+/*Tipo de fuente o tipografía, adornos de fuente (negrita, cursiva, subrayado). Ancho de líneas, espaciado, tamaño de fuente.*/
+.navbar-brand {
+    float: left;
+    height: 30px;
+    padding: 5px 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.navbar-brand > a{
+	cursor: default;
+}

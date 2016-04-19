@@ -1,0 +1,5 @@
+package com.cibertec.interceptor;
+
+public class Autenticacion {
+
+}

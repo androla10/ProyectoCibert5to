@@ -1,1 +1,17 @@
 /*TODOS los estilos de formularios y elementos de interacción.*/
+.frmLogin {
+	background-color: #fff;
+	box-shadow: 5px 5px 5px 5px #ccc;
+	padding: 10px 0px 10px 0px;
+}
+
+.jumbotron p {
+	margin-bottom: 0px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+
+hr {
+	margin: 5px 0px;
+}

@@ -1,0 +1,4 @@
+/*Tipo de fuente o tipografía, adornos de fuente (negrita, cursiva, subrayado). Ancho de líneas, espaciado, tamaño de fuente.*/
+.navbar-fixed-bottom > a{
+	font-size: 10px;
+}

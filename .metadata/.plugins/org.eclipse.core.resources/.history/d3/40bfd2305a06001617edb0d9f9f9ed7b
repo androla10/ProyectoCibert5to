@@ -1,0 +1,17 @@
+/*Todo lo relacionado con posicionamiento, esquema del diseño, etc.*/
+.centrar {
+	text-align: center;
+}
+
+body {
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.navbar-fixed-bottom {
+	min-height: 30px;
+}
+
+.navbar-fixed-top {
+	min-height: 50px;
+}

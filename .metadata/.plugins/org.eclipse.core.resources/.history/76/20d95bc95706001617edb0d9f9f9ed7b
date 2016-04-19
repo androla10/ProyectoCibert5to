@@ -1,0 +1,11 @@
+/*Todo lo relacionado con posicionamiento, esquema del diseño, etc.*/
+.centrar{
+	text-align:center;
+}
+body {
+ padding-top: 70px; 
+ padding-bottom: 40px;
+}
+.footer{
+	height: 40px;
+}

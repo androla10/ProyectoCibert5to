@@ -6,27 +6,39 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Sistema de Gestion de Incidencias</title>
-<link rel="stylesheet" href="../css/estilos.css" />
 <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
 <link rel="stylesheet" href="../css/bootstrap/bootstrap-theme.min.css" />
+<link rel="stylesheet" href="../css/animate/animate.css" />
+<link rel="stylesheet" href="../css/font-awesome/font-awesome.min.css" />
+<link rel="stylesheet" href="../css/estilos.css" />
+
 </head>
 <body class="container-fluid">
-	<h2 class="text-center">Bienvenido al sistema de Gestión De Incidencias</h2>
+	<h2 class="text-center">Bienvenido al sistema de Gestión De
+		Incidencias</h2>
+	</br>
 	<div class="row">
 		<div class="col-sm-4 col-sm-offset-4">
-			<form action="Login" method="post">
-				<div class="form-group">
-					<label for="usuario">Usuario</label> <input type="text" id="usuario"
-						name="usuario.usuario" class="form-control"
-						placeholder="Ingrese Usuario">
+			<div class="jumbotron frmLogin">
+				<div class="container">
+						<p>Ingrese sus credenciales</p>
+						<hr>
+					<form action="Login" method="post">
+						<div class="form-group">
+							<label for="usuario"><span class="glyphicon glyphicon-user"></span> Usuario</label> <input type="text"
+								id="usuario" name="usuario.usuario" class="form-control"
+								placeholder="Ingrese Usuario" required>
+						</div>
+						<div class="form-group">
+							<label for="clave"><span class="glyphicon glyphicon-lock"></span> Password</label> <input type="password"
+								id="clave" name="usuario.password" class="form-control"
+								placeholder="Ingrese Password" required>
+						</div>
+						<button type="submit" class="btn btn-primary">Ingresar</button>
+					</form>
+					<small class="mensajeError animated bounceInLeft"><s:property value="msjError"/></small>
 				</div>
-				<div class="form-group">
-					<label for="clave">Password</label> <input type="password" id="clave"
-						name="usuario.password" class="form-control"
-						placeholder="Ingrese Password">
-				</div>
-				<button type="submit" class="btn btn-primary">Ingresar</button>
-			</form>
+			</div>
 			<!--<s:form action="Login">
 				<s:textfield name="usuario.usuario"/>
 				<s:password name="usuario.password"/>
