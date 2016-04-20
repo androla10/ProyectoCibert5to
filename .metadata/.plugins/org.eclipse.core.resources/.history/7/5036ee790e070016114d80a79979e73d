@@ -1,5 +1,0 @@
-$(document).ready(function() {
-	$(".list-group").children().css("color", "blue");
-	alert($(".list-group").children().find("a").outerHtml);
-//	alert();
-});

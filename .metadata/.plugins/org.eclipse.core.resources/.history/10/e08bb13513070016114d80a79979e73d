@@ -1,8 +1,0 @@
-$(document).ready(function() {
-//	$(".list-group").children().css("color", "blue");
-	$(".list-group").children("a").each(function(index,element){
-		alert($(this).find("i").html());
-		$(this).html("<i>HOLA!</i>");
-	});
-//	alert();
-});

@@ -1,4 +1,0 @@
-$(document).ready(function(){
-	var aside = $(".list-group > a");
-	alert(aside[0].outHTML);
-});

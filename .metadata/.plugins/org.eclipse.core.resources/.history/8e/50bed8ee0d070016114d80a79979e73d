@@ -1,4 +1,0 @@
-$(document).ready(function(){
-//	var aside = ;
-	alert($(".list-group").children("a").css( "color", "blue" )[0][0]);
-});

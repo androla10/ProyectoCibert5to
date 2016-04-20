@@ -1,4 +1,0 @@
-$(document).ready(function(){
-	var aside = $(".list-group");
-	alert(aside);
-});
