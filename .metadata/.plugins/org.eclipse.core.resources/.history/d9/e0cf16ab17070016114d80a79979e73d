@@ -1,0 +1,11 @@
+$(document).ready(function() {
+//	$(".list-group").children().css("color", "blue");
+	$(".list-group").children("a").each(function(index,element){
+//		alert($(this).val() + " : "+ $(this).text() +" : ");
+		var html = $(element).html().substring($(element).html().indexOf(0,"&nbsp;"),-8);
+		alert(html);
+		$(element).html(html+""+ "SDF");
+//		$(this).html("<i>HOLA!</i>");
+	});
+//	alert();
+});

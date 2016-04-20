@@ -1,0 +1,36 @@
+/*Todo lo relacionado con posicionamiento, esquema del diseño, etc.*/
+.centrar {
+	text-align: center;
+}
+
+body {
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	padding-top: 50px;
+	padding-left: 180px;
+}
+
+.palabra {
+	display: inline-block;
+}
+
+.aside {
+	position: fixed;
+	top: 50px;
+	left: 0px;
+	width: 180px;
+}
+
+
+@media screen and (max-width: 480px) {
+	.palabra {
+		display: none;
+	}
+	.aside {
+		width: 50px;
+	}
+	body {
+	padding-left: 50px;
+}
+}

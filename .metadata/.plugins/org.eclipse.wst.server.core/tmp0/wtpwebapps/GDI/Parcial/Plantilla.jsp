@@ -6,14 +6,18 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
 <link rel="stylesheet" href="../css/bootstrap/bootstrap-theme.min.css">
+<link rel="stylesheet" href="../css/font-awesome/font-awesome.min.css">
 <link rel="stylesheet" href="../css/estilos.css">
 <script src="../js/librerias/jquery-2.2.3.min.js.js"></script>
 <script src="../js/librerias/bootstrap.min.js"></script>
+<script src="../js/general.js"></script>
 <title>Sistema de Gestión de Incidencias</title>
 </head>
 <body>
+
 	<div class="header">
 		<tiles:insertAttribute name="header"/>
 	</div>
@@ -26,7 +30,6 @@
 	<div class="footer">
 		<tiles:insertAttribute name="footer"/>
 	</div>
-	
 
 </body>
 </html>

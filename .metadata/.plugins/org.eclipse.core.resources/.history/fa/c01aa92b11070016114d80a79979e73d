@@ -1,0 +1,8 @@
+$(document).ready(function() {
+//	$(".list-group").children().css("color", "blue");
+	$(".list-group").children("a").each(function(index){
+		alert($(this).text("<i class='fa fa-cog fa-fw'></i>"));
+		
+	});
+//	alert();
+});

@@ -1,0 +1,15 @@
+/*Todo lo relacionado con posicionamiento, esquema del diseño, etc.*/
+.centrar {
+	text-align: center;
+}
+
+body {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		background-color: #000;
+	}
+}

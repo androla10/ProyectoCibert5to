@@ -1,0 +1,7 @@
+$(document).ready(function() {
+//	$(".list-group").children().css("color", "blue");
+	$(".list-group").children("a").each(function(index){
+		alert(index + ": "+ $(this).html);
+	});
+//	alert();
+});

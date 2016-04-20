@@ -1,0 +1,4 @@
+$(document).ready(function(){
+//	var aside = ;
+	alert($(".list-group").children(".list-group-item").val());
+});

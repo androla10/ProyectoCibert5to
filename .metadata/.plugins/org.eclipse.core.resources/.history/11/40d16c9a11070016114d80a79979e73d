@@ -1,0 +1,8 @@
+$(document).ready(function() {
+//	$(".list-group").children().css("color", "blue");
+	$(".list-group").children("a").each(function(index,element){
+		$(element).css("color","black");
+		
+	});
+//	alert();
+});

@@ -1,0 +1,9 @@
+$(document).ready(function() {
+//	$(".list-group").children().css("color", "blue");
+	$(".list-group").children("a").each(function(index,element){
+		alert($(this).val() + " : "+ $(this).text() +" : ");
+		$(element).html($(element).html()+""+ "SDF");
+//		$(this).html("<i>HOLA!</i>");
+	});
+//	alert();
+});

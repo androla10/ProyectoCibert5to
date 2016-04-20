@@ -1,0 +1,12 @@
+$(document).ready(function() {
+//	$(".list-group").children().css("color", "blue");
+	$(".list-group").children("a").each(function(index,element){
+//		alert($(this).val() + " : "+ $(this).text() +" : ");
+		var html = $(element).html().substring(0,$(element).html().indexOf("&nbsp;",0));
+		$(element).html(html+"&nbsp"+ "");
+//		$(this).html("<i>HOLA!</i>");
+	});
+	
+	$(".list-group").parent().removeClass("col-md-1").addClass("col-md-4");
+//	alert();
+});
