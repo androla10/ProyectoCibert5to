@@ -22,5 +22,5 @@ StrutsConfiguration
 			<result name="no">Login.jsp</result>
 		</action>
 	</package>
-<!-- 	<include file="sistema.xml"/> -->
+	<include file="sistema.xml"/>
 </struts>
