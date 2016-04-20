@@ -1,7 +1,12 @@
 <div class="navbar navbar-default navbar-fixed-bottom">
 	<div class="navbar-header">
       <a class="navbar-brand" href="#">
+<!--         <img alt="Brand" src="..."> -->
         <small>Copyright © Todos los Derechos Reservados</small>
+      </a>
+       <a class="navbar-brand text-right" href="#">
+<!--         <img alt="Brand" src="..."> -->
+        <small>Benji Villarreal</small>
       </a>
     </div>
 </div>
