@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="../css/estilos.css">
 <script src="../js/librerias/jquery-2.2.3.min.js.js"></script>
 <script src="../js/librerias/bootstrap.min.js"></script>
+<script src="../js/librerias/detectMovil.js"></script>
 <script src="../js/general.js"></script>
 <title>Sistema de Gestión de Incidencias</title>
 </head>
