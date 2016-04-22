@@ -12,4 +12,7 @@ Foundation//DTD Tiles Configuration 2.0//EN"
 	<definition name='principal' extends='d_plantilla'>
 		<put-attribute name="body" value='/Parcial/Principal.jsp' />
 	</definition>
+	<definition name='registrarUsuario' extends='d_plantilla'>
+		<put-attribute name="body" value='/Usuario/Registrar.jsp' />
+	</definition>
 </tiles-definitions>

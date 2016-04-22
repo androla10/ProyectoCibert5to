@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE struts PUBLIC
-"-//Apache Software Foundation//DTD
-StrutsConfiguration
-2.3//EN"
-"http://struts.apache.org/dtds/struts-2.3.dtd">
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd">
 
 <struts>
-	<package name="proyecto1" namespace="/" extends="struts-default">
+	<!-- Esta constante indicara a struts que estamos en etapa de desarrollo 
+		por lo tanto generará mas mensajes de salida para que sepamos si estamos 
+		haciendo algo mal. -->
+	<constant name="struts.devMode" value="true" />
+
+	<!-- Esta constante indica que cuando modifiquemos los archivos de configuracion 
+		de struts 2 no tengamos que volver a hacer un deployement de la aplicacion 
+		para que los cambios tomen efecto -->
+	<constant name="struts.configuration.xml.reload" value="true" />
+
+
+	<package name="proyecto1" namespace="/Parcial" extends="struts-default">
 		<result-types>
 			<result-type name="tiles"
 				class="org.apache.struts2.views.tiles.TilesResult" />
 		</result-types>
 
 		<action name="FormularioLogin">
-			<result>Parcial/Login.jsp</result>
+			<result>Login.jsp</result>
+		</action>
+
+		<action name="FormularioPrincipal">
+			<result type="tiles">principal</result>
 		</action>
 
 		<action name="Login" class="com.cibertec.Actions.LoginAction"
@@ -21,6 +32,9 @@ StrutsConfiguration
 			<result name="ok" type="tiles">principal</result>
 			<result name="no">Login.jsp</result>
 		</action>
+
 	</package>
-<!-- 	<include file="sistema.xml"/> -->
+
+	<include file="strutsUsuario/UsuarioAction.xml" />
+	<!-- <include file="sistema.xml"/> -->
 </struts>

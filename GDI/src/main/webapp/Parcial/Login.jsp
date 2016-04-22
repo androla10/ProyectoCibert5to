@@ -22,29 +22,32 @@
 		<div class="col-sm-4 col-sm-offset-4">
 			<div class="jumbotron frmLogin">
 				<div class="container">
-						<p>Ingrese sus credenciales</p>
-						<hr>
-					<form action="Login" method="post">
+					<p>Ingrese sus credenciales</p>
+					<hr>
+					<form action="Login" method="get">
 						<div class="form-group">
-							<label for="usuario"><span class="glyphicon glyphicon-user"></span> Usuario</label> <input type="text"
-								id="usuario" name="usuario.usuario" class="form-control"
-								placeholder="Ingrese Usuario" required>
+							<label for="usuario"><span
+								class="glyphicon glyphicon-user"></span> Usuario</label> <input
+								type="text" id="usuario" name="usuario.usuario"
+								class="form-control" placeholder="Ingrese Usuario" required>
 						</div>
 						<div class="form-group">
-							<label for="clave"><span class="glyphicon glyphicon-lock"></span> Password</label> <input type="password"
-								id="clave" name="usuario.password" class="form-control"
+							<label for="clave"><span class="glyphicon glyphicon-lock"></span>
+								Password</label> <input type="password" id="clave"
+								name="usuario.password" class="form-control"
 								placeholder="Ingrese Password" required>
 						</div>
 						<button type="submit" class="btn btn-primary">Ingresar</button>
 					</form>
-					<small class="mensajeError animated bounceInLeft"><s:property value="msjError"/></small>
+					<small class="mensajeError animated bounceInLeft"><s:property
+							value="msjError" /></small>
 				</div>
 			</div>
-			<!--<s:form action="Login">
-				<s:textfield name="usuario.usuario"/>
-				<s:password name="usuario.password"/>
-				<s:submit value="Ingresar"/>
-			</s:form>-->
+			<%-- 				<s:form action="Login"> --%>
+			<%-- 					<s:textfield name="usuario.usuario"/> --%>
+			<%-- 					<s:password name="usuario.password" /> --%>
+			<%-- 					<s:submit value="Ingresar" /> --%>
+			<%-- 				</s:form> --%>
 		</div>
 	</div>
 </body>
