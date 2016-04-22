@@ -1,0 +1,19 @@
+<div class="container-fluid">
+	<h2><i class="fa fa-user fa-1x"></i>&nbsp;Registrar Usuario</h2>
+	</hr>
+	<div class="panel-primary">
+		<div class="panel-heading">
+			<h4>Registrar Usuario</h4>
+		</div>
+		<div class="panel-body">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					
+				</div>
+				<div class="col-xs-12 col-sm-12 col-sm-6 col-lg-6">
+				
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
