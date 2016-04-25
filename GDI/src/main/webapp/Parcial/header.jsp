@@ -1,3 +1,4 @@
+<%@ taglib uri="/struts-tags" prefix="s" %>
 <nav class="navbar navbar-default navbar-fixed-top navcabecera">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -17,9 +18,9 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> Alex Urbina <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#"><i class="fa fa-wrench fa-ws"></i> Configuración</a></li>
+            <li><s:a href="#"><i class="fa fa-wrench fa-ws"></i> Configuración</s:a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#"><i class="fa fa-sign-out fa-ws"></i> Cerrar Sesión</a></li>
+            <li><s:a href="../Parcial/LoginOut"><i class="fa fa-sign-out fa-ws"></i> Cerrar Sesión</s:a></li>
           </ul>
         </li>
       </ul>
