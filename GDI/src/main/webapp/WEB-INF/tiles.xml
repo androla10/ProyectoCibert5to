@@ -15,4 +15,10 @@ Foundation//DTD Tiles Configuration 2.0//EN"
 	<definition name='registrarUsuario' extends='d_plantilla'>
 		<put-attribute name="body" value='/Usuario/Registrar.jsp' />
 	</definition>
+	<definition name='administrar' extends='d_plantilla'>
+		<put-attribute name="body" value='/Admin/Admin.jsp' />
+	</definition>
+	<definition name='Usuarios' extends='d_plantilla'>
+		<put-attribute name="body" value='/Usuario/Usuarios.jsp' />
+	</definition>
 </tiles-definitions>

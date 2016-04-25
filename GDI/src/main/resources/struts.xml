@@ -26,6 +26,12 @@
 		<action name="FormularioPrincipal">
 			<result type="tiles">principal</result>
 		</action>
+		
+		
+		<action name="FormularioAdministrador">
+		    <result type="tiles">administrar</result>
+		</action>
+		
 
 		<action name="Login" class="com.cibertec.Actions.LoginAction"
 			method="login">
