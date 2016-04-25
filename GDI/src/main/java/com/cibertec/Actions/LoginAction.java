@@ -37,10 +37,6 @@ public class LoginAction implements SessionAware {
 //		}
 	}
 
-	// @Override
-	// public void setSession(Map<String, Object> arg0) {
-	// this.session = arg0;
-	// }
 
 	public Map getSession() {
 		return session;
