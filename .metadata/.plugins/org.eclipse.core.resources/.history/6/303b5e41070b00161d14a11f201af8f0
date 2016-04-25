@@ -1,0 +1,83 @@
+<div class="container-fluid">
+	<h3><i class="fa fa-users" aria-hidden="true"></i> Administrar</h3>
+	<hr>
+	<br>
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+			<div class="thumbnail">
+				<img src="../img/user.png" alt="Imagen User">
+				<div class="caption">
+					<h3>Usuarios</h3>
+					<div class="list-group">
+					  <button type="button" class="list-group-item">Cras justo odio</button>
+					  <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
+					  <button type="button" class="list-group-item">Morbi leo risus</button>
+					  <button type="button" class="list-group-item">Porta ac consectetur ac</button>
+					  <button type="button" class="list-group-item">Vestibulum at eros</button>
+					</div>
+					<p>
+						<a href="#" class="btn btn-primary" role="button">Button</a> <a
+							href="#" class="btn btn-default" role="button">Button</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+			<div class="thumbnail">
+				<img src="../img/incidencia.png" alt="...">
+				<div class="caption">
+					<h3>Incidencias</h3>
+					<div class="list-group">
+					  <button type="button" class="list-group-item">Cras justo odio</button>
+					  <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
+					  <button type="button" class="list-group-item">Morbi leo risus</button>
+					  <button type="button" class="list-group-item">Porta ac consectetur ac</button>
+					  <button type="button" class="list-group-item">Vestibulum at eros</button>
+					</div>
+					<p>
+						<a href="#" class="btn btn-primary" role="button">Button</a> <a
+							href="#" class="btn btn-default" role="button">Button</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+			<div class="thumbnail">
+				<img src="../img/reporte.png" alt="...">
+				<div class="caption">
+					<h3>Reportes</h3>
+					<div class="list-group">
+					  <button type="button" class="list-group-item">Cras justo odio</button>
+					  <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
+					  <button type="button" class="list-group-item">Morbi leo risus</button>
+					  <button type="button" class="list-group-item">Porta ac consectetur ac</button>
+					  <button type="button" class="list-group-item">Vestibulum at eros</button>
+					</div>
+					<p>
+						<a href="#" class="btn btn-primary" role="button">Button</a> <a
+							href="#" class="btn btn-default" role="button">Button</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+			<div class="thumbnail">
+				<img src="..." alt="...">
+				<div class="caption">
+					<h3>Reportes</h3>
+					<div class="list-group">
+					  <button type="button" class="list-group-item">Administrar Usuarios</button>
+					  <button type="button" class="list-group-item"></button>
+					  <button type="button" class="list-group-item">Morbi leo risus</button>
+					  <button type="button" class="list-group-item">Porta ac consectetur ac</button>
+					  <button type="button" class="list-group-item">Vestibulum at eros</button>
+					</div>
+					<p>
+						<a href="#" class="btn btn-primary" role="button">Button</a> <a
+							href="#" class="btn btn-default" role="button">Button</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

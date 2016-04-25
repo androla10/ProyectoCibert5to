@@ -1,0 +1,28 @@
+<div class="container-fluid">
+	<h3><i class="fa fa-user fa-2x"></i> Usuarios</h3>
+	<hr>
+	<table class="table table-hover table-striped">
+		<tr>
+			<th>Código</th>
+			<th>Usuario</th>
+			<th>Nombres</th>
+			<th>Apellidos</th>
+			<th>Fecha de Registro</th>
+			<th>Estado</th>
+			<th> </th>
+			<th> </th>
+		</tr>
+		<tr>
+			<td>1000</td>
+			<td>bvillarreal</td>
+			<td>Zeler Benji</td>
+			<td>Villarreal Marcelo</td>
+			<td>08/02/2016</td>
+			<td>Activado</td>
+			<td></td>
+			<td></td>
+
+		</tr>
+	</table>
+	
+</div>
