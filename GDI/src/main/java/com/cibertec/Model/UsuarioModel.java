@@ -1,6 +1,6 @@
-package com.cibertec.Bean;
+package com.cibertec.Model;
 
-public class UsuarioBean {
+public class UsuarioModel {
 	private String usuario;
 	private String password;
 	public String getUsuario() {

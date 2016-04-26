@@ -2,10 +2,10 @@ package com.cibertec.Service;
 
 import java.util.List;
 
-import com.cibertec.Bean.UsuarioBean;
-import com.cibertec.InterfaceMapper.UsuarioBeanMapper;
+import com.cibertec.InterfaceMapper.UsuarioModelMapper;
+import com.cibertec.Model.UsuarioModel;
 
-public class UsuarioDao implements UsuarioBeanMapper {
+public class UsuarioDao implements UsuarioModelMapper {
 
 	public int Registrar() throws Exception {
 		// TODO Auto-generated method stub
@@ -22,12 +22,12 @@ public class UsuarioDao implements UsuarioBeanMapper {
 		return 0;
 	}
 
-	public UsuarioBean Obtener(int idUsuario) throws Exception {
+	public UsuarioModel Obtener(int idUsuario) throws Exception {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	public List<UsuarioBean> Obtener() throws Exception {
+	public List<UsuarioModel> Obtener() throws Exception {
 		// TODO Auto-generated method stub
 		return null;
 	}
