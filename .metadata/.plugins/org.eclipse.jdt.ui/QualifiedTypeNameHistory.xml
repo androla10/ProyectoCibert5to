@@ -5,9 +5,13 @@
 <fullyQualifiedTypeName name="org.omg.PortableInterceptor.SUCCESSFUL"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
 <fullyQualifiedTypeName name="org.apache.struts2.interceptor.SessionAware"/>
-<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionContext"/>
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.interceptor.Interceptor"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="com.cibertec.Bean.UsuarioBean"/>
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.Action"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+<fullyQualifiedTypeName name="org.apache.struts2.dispatcher.SessionMap"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionContext"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.Preparable"/>
+<fullyQualifiedTypeName name="com.cibertec.Bean.UsuarioBean"/>
 </qualifiedTypeNameHistroy>

@@ -1,6 +1,0 @@
-package com.cibertec.Bean;
-
-public class UsuarioBean {
-	private String usuario;
-	private String password;
-}

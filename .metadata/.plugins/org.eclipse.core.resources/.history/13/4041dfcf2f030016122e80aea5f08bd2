@@ -1,7 +1,0 @@
-package com.cibertec.Actions;
-
-import com.cibertec.Bean.UsuarioBean;
-
-public class ActionLogin {
-	private UsuarioBean 
-}

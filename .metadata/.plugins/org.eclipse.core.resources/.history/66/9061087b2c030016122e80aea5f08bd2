@@ -1,5 +1,0 @@
-package InterfaceMapper;
-
-public interface UsuarioBeanMapper {
-
-}
