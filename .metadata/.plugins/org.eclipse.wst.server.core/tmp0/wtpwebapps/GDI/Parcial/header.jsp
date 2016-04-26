@@ -20,7 +20,7 @@
           <ul class="dropdown-menu">
             <li><s:a href="#"><i class="fa fa-wrench fa-ws"></i> Configuración</s:a></li>
             <li role="separator" class="divider"></li>
-            <li><s:a href="../Parcial/LoginOut"><i class="fa fa-sign-out fa-ws"></i> Cerrar Sesión</s:a></li>
+            <li><s:a href="../Login/LoginOut"><i class="fa fa-sign-out fa-ws"></i> Cerrar Sesión</s:a></li>
           </ul>
         </li>
       </ul>

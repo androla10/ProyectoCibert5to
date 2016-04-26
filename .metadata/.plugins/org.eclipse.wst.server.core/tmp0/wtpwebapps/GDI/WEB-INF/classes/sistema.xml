@@ -13,9 +13,13 @@
 		<default-interceptor-ref name="secureStack" />
 
 		<global-results>
-			<result name="login" type="redirect">/FormularioLogin.action</result>
+			<result name="login" type="redirect">/Parcial/FormularioLogin.action</result>
 		</global-results>
-
+		
+<!-- 		<action name=""> -->
+		    
+<!-- 		</action> -->
+		
 		<!-- <action name="DesplegarLista" class="ejemplos.struts2.action.AccionDesplegarLista"> -->
 		<!-- <result name="error">/formularioEntrada.jsp</result> -->
 		<!-- <result>/desplegarLista.jsp</result> -->

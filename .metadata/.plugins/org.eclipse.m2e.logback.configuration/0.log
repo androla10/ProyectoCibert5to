@@ -7989,3 +7989,1022 @@
 2016-04-26 14:31:38,449 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
 2016-04-26 14:31:38,459 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-04-26 14:31:38,460 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:38:57,304 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:38:57,307 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 14:38:57,311 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:38:57,311 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:39:27,151 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:39:27,152 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 14:39:27,157 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:39:27,157 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:39:58,874 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:39:58,878 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 14:39:58,883 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:39:58,884 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:40:21,696 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:40:21,698 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 14:40:21,701 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:40:21,701 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:40:29,882 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:40:29,885 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 14:40:29,887 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:40:29,888 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:40:40,436 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:40:40,438 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 14:40:40,443 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:40:40,444 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:41:16,425 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:41:16,427 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 14:41:16,430 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:41:16,431 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:41:18,530 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:41:18,534 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 14:41:18,537 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:41:18,538 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:41:20,610 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:41:20,611 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 14:41:20,613 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:41:20,614 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:41:52,374 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:41:52,376 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 14:41:52,379 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:41:52,380 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:41:54,666 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:41:54,667 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 14:41:54,670 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:41:54,671 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:42:05,075 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:42:05,077 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 14:42:05,081 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:42:05,082 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:42:10,123 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:42:10,124 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 14:42:10,126 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:42:10,127 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:42:12,783 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:42:12,783 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 14:42:12,787 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:42:12,788 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:42:34,615 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:42:34,616 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 14:42:34,619 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:42:34,620 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:42:44,226 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:42:44,227 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 14:42:44,229 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:42:44,230 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:42:47,502 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:42:47,504 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 14:42:47,507 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:42:47,508 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:42:50,955 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:42:50,956 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 14:42:50,958 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:42:50,958 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:42:57,413 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:42:57,414 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 14:42:57,416 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:42:57,417 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:43:03,489 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:43:03,490 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 14:43:03,493 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:43:03,493 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:43:06,506 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:43:06,507 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 14:43:06,509 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:43:06,511 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:43:09,655 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:43:09,656 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 14:43:09,658 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:43:09,659 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:43:22,289 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:43:22,290 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 14:43:22,293 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:43:22,293 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:43:24,922 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:43:24,922 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 14:43:24,924 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:43:24,925 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:43:29,157 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:43:29,158 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 14:43:29,161 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:43:29,162 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:44:40,523 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:44:40,524 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 14:44:40,525 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:44:40,526 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:44:55,897 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:44:55,898 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 14:44:55,899 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:44:55,899 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:55:06,909 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:55:06,912 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 14:55:06,914 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:55:06,915 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:55:32,915 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ognl/ognl/3.0.13/ognl-3.0.13-sources.jar
+2016-04-26 14:55:34,685 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ognl/ognl/3.0.13/ognl-3.0.13-sources.jar
+2016-04-26 14:55:35,125 [Worker-13] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ognl:ognl:3.0.13
+2016-04-26 14:55:35,689 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:55:35,690 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 14:55:35,692 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:55:35,693 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:56:06,792 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:56:06,794 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 14:56:06,797 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:56:06,798 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:57:40,211 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:57:40,213 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 14:57:40,216 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:57:40,216 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:58:00,808 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:58:00,810 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 14:58:00,811 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:58:00,812 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 14:58:27,494 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:58:27,495 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 14:58:27,497 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 14:58:27,497 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:01:04,934 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:01:04,935 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:01:04,937 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:01:04,938 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:01:43,283 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:01:43,286 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:01:43,289 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:01:43,290 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:05:31,051 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:05:31,053 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:05:31,056 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:05:31,056 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:05:34,361 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:05:34,363 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:05:34,364 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:05:34,365 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:05:42,359 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:05:42,361 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:05:42,364 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:05:42,365 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:06:12,239 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:06:12,240 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:06:12,242 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:06:12,242 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:07:35,360 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:07:35,362 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:07:35,364 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:07:35,365 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:07:38,915 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:07:38,917 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:07:38,920 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:07:38,920 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:08:04,464 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:08:04,465 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:08:04,467 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:08:04,467 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:08:14,549 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:08:14,553 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:08:14,556 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:08:14,557 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:08:18,031 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:08:18,033 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:08:18,035 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:08:18,036 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:08:34,587 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:08:34,589 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:08:34,591 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:08:34,591 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:08:40,387 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:08:40,389 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:08:40,391 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:08:40,391 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:08:42,341 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:08:42,345 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:08:42,349 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:08:42,351 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:08:46,529 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:08:46,531 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:08:46,532 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:08:46,533 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:09:15,411 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:09:15,413 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:09:15,416 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:09:15,417 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:10:20,574 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:10:20,576 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:10:20,578 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:10:20,578 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:10:28,594 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:10:28,596 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:10:28,597 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:10:28,598 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:10:29,996 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:10:29,997 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:10:30,000 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:10:30,001 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:11:48,814 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:11:48,816 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:11:48,818 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:11:48,819 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:12:01,205 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:12:01,206 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:12:01,208 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:12:01,209 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:12:11,812 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:12:11,814 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:12:11,815 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:12:11,816 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:12:29,656 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:12:29,657 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:12:29,659 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:12:29,660 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:12:31,266 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:12:31,267 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:12:31,270 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:12:31,271 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:12:34,200 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:12:34,202 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:12:34,205 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:12:34,206 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:12:45,667 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:12:45,668 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:12:45,670 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:12:45,671 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:13:26,823 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:13:26,824 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:13:26,826 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:13:26,827 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:16:10,977 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:16:10,979 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:16:10,982 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:16:10,983 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:16:19,058 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:16:19,060 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:16:19,062 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:16:19,063 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:16:22,495 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:16:22,497 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:16:22,499 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:16:22,499 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:27:41,234 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:27:41,236 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:27:41,237 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:27:41,238 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:30:15,266 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:30:15,267 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:30:15,270 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:30:15,271 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:30:17,495 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:30:17,497 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:30:17,499 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:30:17,500 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:30:32,002 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:30:32,004 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:30:32,006 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:30:32,007 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:30:49,130 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:30:49,132 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:30:49,136 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:30:49,139 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:30:53,052 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:30:53,053 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:30:53,055 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:30:53,055 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:32:54,006 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:32:54,007 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:32:54,010 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:32:54,010 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:32:57,316 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:32:57,318 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:32:57,321 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:32:57,321 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:33:29,656 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:33:29,658 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:33:29,660 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:33:29,662 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:34:54,822 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:34:54,825 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 15:34:54,835 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:34:54,836 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:35:04,590 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:35:04,593 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 15:35:04,596 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:35:04,597 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:35:06,696 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:35:06,697 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 15:35:06,700 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:35:06,701 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:35:29,384 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:35:29,418 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 15:35:29,419 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:35:29,420 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:35:45,705 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:35:45,706 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:35:45,708 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:35:45,709 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:38:38,428 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:38:38,429 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:38:38,431 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:38:38,431 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:38:45,608 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:38:45,612 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:38:45,617 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:38:45,626 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:38:46,894 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:38:46,896 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:38:46,898 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:38:46,899 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:40:33,959 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:40:33,960 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 15:40:33,964 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:40:33,965 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:40:58,641 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:40:58,642 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 15:40:58,644 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:40:58,645 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:41:03,613 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:41:03,617 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 15:41:03,618 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:41:03,618 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:42:38,328 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:42:38,329 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 15:42:38,331 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:42:38,332 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:42:47,603 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:42:47,603 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 15:42:47,605 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:42:47,605 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:42:52,102 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:42:52,104 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 15:42:52,106 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:42:52,107 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:45:29,349 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:45:29,350 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 15:45:29,351 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:45:29,352 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:45:38,740 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:45:38,741 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 15:45:38,743 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:45:38,743 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:45:46,926 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:45:46,926 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 15:45:46,928 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:45:46,929 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:46:00,328 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:46:00,329 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 15:46:00,331 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:46:00,332 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:46:54,825 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:46:54,827 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:46:54,828 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:46:54,829 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:49:05,267 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:49:05,269 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:49:05,273 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:49:05,274 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:50:37,432 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:50:37,434 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:50:37,439 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:50:37,439 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:53:24,672 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:53:24,681 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:53:24,687 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:53:24,688 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:53:44,396 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:53:44,397 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:53:44,400 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:53:44,400 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:58:21,912 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:58:21,913 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 15:58:21,916 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:58:21,916 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:58:32,310 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:58:32,311 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:58:32,314 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:58:32,315 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:58:34,507 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:58:34,509 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:58:34,513 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:58:34,513 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:58:38,478 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:58:38,480 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:58:38,485 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:58:38,486 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:59:21,188 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:59:21,189 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:59:21,191 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:59:21,193 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:59:55,374 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:59:55,376 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:59:55,378 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:59:55,379 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 15:59:57,892 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:59:57,894 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 15:59:57,896 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 15:59:57,897 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:01:26,343 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:01:26,344 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 16:01:26,346 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:01:26,347 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:01:27,684 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:01:27,685 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-04-26 16:01:27,692 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:01:27,693 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:03:56,673 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:03:56,709 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:03:56,712 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:03:56,713 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:04:02,127 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:04:02,128 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 16:04:02,130 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:04:02,130 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:04:04,334 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:04:04,335 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 16:04:04,338 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:04:04,339 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:04:14,058 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:04:14,059 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:04:14,061 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:04:14,061 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:04:15,310 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:04:15,311 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:04:15,313 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:04:15,314 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:04:22,678 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:04:22,680 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:04:22,682 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:04:22,682 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:04:25,395 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:04:25,396 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:04:25,399 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:04:25,400 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:04:38,331 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:04:38,334 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 16:04:38,337 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:04:38,338 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:04:44,747 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:04:44,748 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 16:04:44,750 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:04:44,750 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:05:11,637 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:05:11,638 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 16:05:11,640 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:05:11,641 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:05:15,420 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:05:15,420 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 16:05:15,421 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:05:15,423 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:06:04,403 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:06:04,405 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:06:04,408 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:06:04,409 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:06:11,345 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:06:11,347 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:06:11,351 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:06:11,352 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:06:14,784 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:06:14,786 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:06:14,789 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:06:14,790 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:06:53,375 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:06:53,376 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:06:53,381 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:06:53,382 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:09:16,680 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:09:16,681 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 16:09:16,684 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:09:16,689 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:09:47,662 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:09:47,663 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 16:09:47,664 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:09:47,664 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:09:57,120 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:09:57,121 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 16:09:57,122 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:09:57,123 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:10:06,941 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:10:06,943 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 16:10:06,944 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:10:06,945 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:10:17,386 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:10:17,388 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 16:10:17,390 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:10:17,390 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:11:59,389 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:11:59,395 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:11:59,399 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:11:59,400 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:12:02,226 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:12:02,228 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:12:02,232 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:12:02,233 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:12:04,412 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:12:04,413 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:12:04,415 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:12:04,416 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:13:57,445 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:13:57,446 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 16:13:57,447 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:13:57,447 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:15:22,997 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:15:23,000 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:15:23,004 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:15:23,005 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:15:35,504 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:15:35,505 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:15:35,507 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:15:35,507 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:15:38,360 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:15:38,362 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:15:38,364 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:15:38,364 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:15:42,085 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:15:42,087 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:15:42,094 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:15:42,095 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:16:16,465 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:16:16,467 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 16:16:16,470 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:16:16,471 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:16:49,955 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:16:49,956 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 16:16:49,959 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:16:49,960 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:25:14,784 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:25:14,785 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 16:25:14,787 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:25:14,793 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:25:18,745 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:25:18,746 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 16:25:18,747 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:25:18,747 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:25:37,825 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:25:37,825 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 16:25:37,826 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:25:37,827 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:26:10,628 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:26:10,630 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:26:10,632 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:26:10,632 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:26:46,711 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:26:46,712 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:26:46,714 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:26:46,714 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:28:17,066 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:28:17,068 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:28:17,071 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:28:17,072 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:28:20,560 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:28:20,564 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:28:20,568 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:28:20,570 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:28:22,887 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:28:22,888 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:28:22,890 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:28:22,896 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:29:01,798 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:29:01,800 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:29:01,802 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:29:01,803 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:30:56,014 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:30:56,018 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:30:56,021 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:30:56,022 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:31:55,831 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:31:55,832 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 16:31:55,833 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:31:55,834 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:32:12,447 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:32:12,448 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 16:32:12,452 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:32:12,453 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:32:59,531 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:32:59,533 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:32:59,535 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:32:59,536 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:33:35,287 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:33:35,296 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 16:33:35,297 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:33:35,298 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:34:24,304 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:34:24,306 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 16:34:24,309 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:34:24,310 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:36:21,430 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:36:21,432 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 16:36:21,435 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:36:21,436 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:36:38,249 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:36:38,251 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:36:38,254 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:36:38,254 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:36:41,894 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:36:41,897 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:36:41,901 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:36:41,901 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:36:52,760 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:36:52,763 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 16:36:52,766 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:36:52,767 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:37:29,415 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:37:29,416 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 16:37:29,417 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:37:29,417 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:38:04,771 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:38:04,772 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 16:38:04,774 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:38:04,775 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:39:01,273 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:39:01,274 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 16:39:01,277 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:39:01,278 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:39:39,301 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:39:39,302 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:39:39,304 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:39:39,305 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:46:33,555 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:46:33,557 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:46:33,560 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:46:33,560 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:46:40,554 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:46:40,556 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:46:40,558 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:46:40,559 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:46:52,108 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:46:52,109 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:46:52,111 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:46:52,111 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:46:55,099 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:46:55,100 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:46:55,102 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:46:55,103 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:48:19,569 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:48:19,571 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:48:19,572 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:48:19,572 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:48:49,405 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:48:49,407 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:48:49,408 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:48:49,409 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:48:54,100 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:48:54,101 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:48:54,103 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:48:54,103 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:49:05,927 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:49:05,928 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:49:05,930 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:49:05,931 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:49:07,425 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:49:07,426 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:49:07,427 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:49:07,427 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:49:39,799 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:49:39,800 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:49:39,801 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:49:39,802 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:50:55,828 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:50:55,829 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:50:55,831 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:50:55,831 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:50:57,952 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:50:57,954 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:50:57,956 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:50:57,957 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:51:52,976 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:51:52,978 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:51:52,980 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:51:52,980 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:51:54,163 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:51:54,164 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:51:54,165 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:51:54,166 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:52:33,034 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:52:33,036 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 16:52:33,038 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:52:33,038 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 16:54:01,826 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:54:01,827 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 16:54:01,828 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 16:54:01,829 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:00:54,244 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:00:54,246 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:00:54,248 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:00:54,249 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:01:00,304 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:01:00,306 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:01:00,308 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:01:00,309 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:02:59,593 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:02:59,595 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-26 17:02:59,597 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:02:59,598 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:47:34,096 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:47:34,099 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:47:34,102 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:47:34,103 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:47:36,940 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:47:36,942 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:47:36,944 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:47:36,945 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:47:39,205 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:47:39,206 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:47:39,209 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:47:39,210 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:47:42,818 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:47:42,820 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:47:42,822 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:47:42,822 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:47:45,102 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:47:45,104 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:47:45,108 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:47:45,109 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:47:47,663 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:47:47,665 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:47:47,668 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:47:47,669 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:47:49,742 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:47:49,745 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:47:49,748 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:47:49,749 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:55:35,451 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:55:35,452 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 17:55:35,454 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:55:35,455 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:56:08,474 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:56:08,477 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:56:08,481 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:56:08,482 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:56:13,063 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:56:13,065 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:56:13,067 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:56:13,067 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:57:01,944 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:57:01,945 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:57:01,947 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:57:01,947 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:57:06,797 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:57:06,799 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:57:06,801 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:57:06,802 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:57:10,958 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:57:10,959 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:57:10,961 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:57:10,962 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:57:42,739 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:57:42,741 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:57:42,743 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:57:42,744 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:58:18,116 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:58:18,119 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:58:18,121 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:58:18,122 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:58:24,633 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:58:24,635 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:58:24,637 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:58:24,638 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:58:28,320 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:58:28,322 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:58:28,324 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:58:28,324 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:58:39,458 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:58:39,460 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:58:39,461 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:58:39,462 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 17:58:56,318 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:58:56,319 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 17:58:56,320 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 17:58:56,320 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:01:06,783 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:01:06,786 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:01:06,788 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:01:06,788 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:01:09,711 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:01:09,713 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:01:09,715 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:01:09,716 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:01:34,260 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:01:34,262 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:01:34,265 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:01:34,266 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:02:01,589 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:02:01,591 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:02:01,593 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:02:01,593 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:02:15,738 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:02:15,741 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:02:15,744 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:02:15,745 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:02:26,895 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:02:26,896 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:02:26,898 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:02:26,898 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:02:35,870 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:02:35,874 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:02:35,876 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:02:35,877 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:04:02,534 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:04:02,535 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:04:02,537 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:04:02,537 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:04:22,682 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:04:22,683 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:04:22,685 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:04:22,686 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:04:43,265 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:04:43,267 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:04:43,270 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:04:43,271 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:04:44,452 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:04:44,454 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:04:44,456 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:04:44,456 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:04:45,779 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:04:45,781 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:04:45,782 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:04:45,783 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:04:46,956 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:04:46,957 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:04:46,959 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:04:46,959 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:04:55,251 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:04:55,254 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:04:55,257 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:04:55,257 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:05:02,229 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:02,230 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:05:02,233 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:02,233 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:05:11,195 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:11,197 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:05:11,199 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:11,199 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:05:19,913 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:19,914 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:05:19,916 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:19,916 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:05:30,345 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:30,347 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:05:30,348 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:30,349 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:05:34,354 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:34,356 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:05:34,358 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:34,358 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:05:38,871 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:38,873 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:05:38,875 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:38,876 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:05:42,984 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:42,985 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:05:42,988 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:42,988 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:05:47,819 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:47,821 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:05:47,822 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:47,823 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:05:51,463 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:51,464 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:05:51,465 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:51,465 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:05:56,791 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:56,792 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:05:56,794 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:05:56,795 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:06:03,153 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:06:03,155 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:06:03,157 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:06:03,157 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:06:06,474 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:06:06,475 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:06:06,476 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:06:06,477 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:06:08,933 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:06:08,935 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:06:08,936 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:06:08,936 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:06:15,047 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:06:15,049 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:06:15,051 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:06:15,051 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:06:19,963 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:06:19,964 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:06:19,965 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:06:19,966 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:06:31,998 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:06:32,000 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:06:32,001 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:06:32,001 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:06:39,934 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:06:39,936 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:06:39,938 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:06:39,940 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:26:50,139 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:26:50,143 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:26:50,146 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:26:50,147 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:26:56,276 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:26:56,277 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:26:56,279 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:26:56,280 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:27:25,469 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:27:25,471 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:27:25,473 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:27:25,474 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:27:27,097 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:27:27,099 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:27:27,100 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:27:27,100 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:27:33,266 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:27:33,268 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:27:33,270 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:27:33,271 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:27:38,444 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:27:38,449 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:27:38,452 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:27:38,452 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:27:42,455 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:27:42,457 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:27:42,458 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:27:42,459 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:27:59,208 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:27:59,209 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:27:59,211 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:27:59,211 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:28:11,972 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:28:11,973 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:28:11,975 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:28:11,976 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:28:37,142 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:28:37,144 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:28:37,145 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:28:37,146 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:28:57,150 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:28:57,152 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:28:57,154 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:28:57,155 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:29:00,304 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:29:00,305 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:29:00,306 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:29:00,307 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:29:02,823 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:29:02,824 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:29:02,825 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:29:02,826 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:29:09,145 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:29:09,146 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:29:09,147 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:29:09,148 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:29:12,349 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:29:12,351 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:29:12,357 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:29:12,357 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:30:04,967 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:30:04,969 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:30:04,971 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:30:04,971 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:30:45,164 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:30:45,165 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:30:45,167 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:30:45,167 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:30:50,770 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:30:50,771 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:30:50,772 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:30:50,772 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:31:38,793 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:31:38,794 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 18:31:38,796 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:31:38,797 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:31:52,851 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:31:52,852 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 18:31:52,855 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:31:52,855 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:32:09,222 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:32:09,224 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 18:32:09,227 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:32:09,228 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:33:23,225 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:33:23,226 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 18:33:23,230 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:33:23,231 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:33:51,381 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:33:51,383 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-04-26 18:33:51,386 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:33:51,386 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:36:07,227 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:36:07,229 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:36:07,231 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:36:07,232 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:36:18,809 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:36:18,810 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:36:18,812 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:36:18,812 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:36:32,097 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:36:32,098 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:36:32,100 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:36:32,101 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:37:30,878 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:37:30,879 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:37:30,880 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:37:30,881 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources
+2016-04-26 18:37:33,007 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:37:33,008 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-04-26 18:37:33,010 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 18:37:33,010 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\tomcat\webapps\Cibertec\ProyectoCibert5to\GDI\src\test\resources

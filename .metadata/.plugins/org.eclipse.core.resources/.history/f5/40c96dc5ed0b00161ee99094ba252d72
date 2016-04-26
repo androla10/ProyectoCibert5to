@@ -1,0 +1,5 @@
+package com.cibertec.interceptor;
+
+public interface UsuarioHabilitado {
+	public void setUsuario(Usuario usuario);
+}
