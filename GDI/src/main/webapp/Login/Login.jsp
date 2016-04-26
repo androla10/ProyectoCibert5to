@@ -24,7 +24,7 @@
 				<div class="container">
 					<p>Ingrese sus credenciales</p>
 					<hr>
-					<form action="Login" method="get">
+					<form action="Login" method="post">
 						<div class="form-group">
 							<label for="usuario"><span
 								class="glyphicon glyphicon-user"></span> Usuario</label> <input

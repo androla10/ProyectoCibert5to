@@ -23,6 +23,6 @@
 		</environment>
 	</environments>
 	<mappers>
-		<package name="com.cibertec.Mappers"/>
+		<mapper resource="com.cibertec.Mappers.UsuarioModelMapper.xml"/>
 	</mappers>
 </configuration>

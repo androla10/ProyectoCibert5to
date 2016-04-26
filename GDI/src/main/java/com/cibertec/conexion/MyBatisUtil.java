@@ -12,7 +12,7 @@ public class MyBatisUtil {
 
 	static {
 		try {
-			Reader rs = Resources.getResourceAsReader("src/main/resources/mybatis-config.xml");
+			Reader rs = Resources.getResourceAsReader("mybatis-config.xml");
 			FACTORY = new SqlSessionFactoryBuilder().build(rs,"development");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

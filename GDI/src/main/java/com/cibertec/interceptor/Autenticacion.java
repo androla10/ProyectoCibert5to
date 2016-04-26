@@ -24,14 +24,14 @@ public class Autenticacion implements Interceptor {
 	@Override
 	public String intercept(ActionInvocation arg0) throws Exception {
 		Map session = arg0.getInvocationContext().getSession();
-		UsuarioModel usuario = (UsuarioModel) session.get("usuario");
+		UsuarioModel usuario = (UsuarioModel) session.get("user");
 		if (usuario == null) {
 			return Action.LOGIN;
 		} else {
 			Action action = (Action) arg0.getAction();
-//			if (action instanceof UsuarioHabilitado) {
-//				((UsuarioHabilitado) action).setUsuario(usuario);
-//			}
+			if (action instanceof UsuarioHabilitado) {
+				((UsuarioHabilitado) action).setUsuario(usuario);
+			}
 			return arg0.invoke();
 		}
 	}

@@ -6,14 +6,19 @@ import org.apache.struts2.dispatcher.SessionMap;
 import org.apache.struts2.interceptor.SessionAware;
 
 import com.cibertec.Model.UsuarioModel;
+import com.cibertec.interceptor.UsuarioHabilitado;
+import com.opensymphony.xwork2.Action;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
-import com.opensymphony.xwork2.Preparable;
 
-public class LoginAction extends ActionSupport implements SessionAware, Preparable {
+public class LoginAction extends ActionSupport implements SessionAware {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private UsuarioModel usuario;
 	private String msjError;
-	Map<String, Object> session = ActionContext.getContext().getSession();
+	private Map session = ActionContext.getContext().getSession();
 
 	public UsuarioModel getUsuario() {
 		return usuario;
@@ -23,19 +28,32 @@ public class LoginAction extends ActionSupport implements SessionAware, Preparab
 		this.usuario = usuario;
 	}
 
-	public String login() {
-
-		if (usuario.getUsuario().equalsIgnoreCase("Admin") && usuario.getPassword().equalsIgnoreCase("123")) {
-			session.put("usuario", usuario);
+	public String validarSession() {
+		UsuarioModel usu = (UsuarioModel) session.get("user");
+		if (usu != null) {
 			return SUCCESS;
 		}
-		msjError = "Usuario Incorrecto";
 		return LOGIN;
 	}
 
+	public String login() {
+		UsuarioModel usu = (UsuarioModel) session.get("user");
+		if (usu != null) {
+			return SUCCESS;
+		} else if (usuario != null) {
+			if (usuario.getUsuario().equalsIgnoreCase("Admin") && usuario.getPassword().equalsIgnoreCase("123")) {
+				session.put("user", usuario);
+				return SUCCESS;
+			} else {
+				msjError = "Usuario Incorrecto";
+				return LOGIN;
+			}
+		} else {
+			return LOGIN;
+		}
+	}
+
 	public String outLogin() {
-		session.remove("usuario");
-		session.clear();
 		((SessionMap<String, Object>) session).invalidate();
 		return LOGIN;
 	}
@@ -54,12 +72,6 @@ public class LoginAction extends ActionSupport implements SessionAware, Preparab
 
 	public void setMsjError(String msjError) {
 		this.msjError = msjError;
-	}
-
-	@Override
-	public void prepare() throws Exception {
-		// UsuarioBean us = (UsuarioBean) session.get("usuario");
-
 	}
 
 }

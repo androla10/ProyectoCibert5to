@@ -1,9 +1,14 @@
 package com.cibertec.Actions;
 
 import com.cibertec.Model.UsuarioModel;
+import com.cibertec.interceptor.UsuarioHabilitado;
 import com.opensymphony.xwork2.ActionSupport;
 
-public class UsuarioAction extends ActionSupport{
+public class UsuarioAction extends ActionSupport implements UsuarioHabilitado{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private UsuarioModel usuario;
 
 	public UsuarioModel getUsuario() {
