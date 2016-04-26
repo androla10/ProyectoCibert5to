@@ -1,0 +1,42 @@
+/*TODOS los estilos del header/botonera del diseño.*/
+.navbar-fixed-bottom>.navbar-header>.navbar-brand {
+	float: left;
+	height: 30px;
+	padding: 5px 5px;
+	font-size: 14px;
+	line-height: 20px;
+	cursor: default;
+}
+
+.navbar-fixed-bottom {
+	min-height: 30px;
+}
+
+.navbar-fixed-top {
+	min-height: 50px;
+}
+
+.navbar-default .navbar-brand {
+	color: #505050;
+}
+.footer{
+	color:#fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #FFF;
+}
+
+.navcabecera {
+	background-image: -webkit-linear-gradient(top, #1572B7 0, #1572B7 100%);
+	background-image: -o-linear-gradient(top, #ccc 0, #1572B7 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#1572B7),
+		to(#ccc));
+	background-image: linear-gradient(to bottom, #1572B7 0, #1572B7 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1572B7',
+		endColorstr='#1572B7', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	border-radius: 0px;
+	color: #fff;
+}

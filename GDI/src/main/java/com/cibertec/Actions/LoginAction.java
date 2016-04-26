@@ -2,12 +2,15 @@ package com.cibertec.Actions;
 
 import java.util.Map;
 
+import org.apache.struts2.dispatcher.SessionMap;
 import org.apache.struts2.interceptor.SessionAware;
 
 import com.cibertec.Model.UsuarioModel;
 import com.opensymphony.xwork2.ActionContext;
+import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.Preparable;
 
-public class LoginAction implements SessionAware {
+public class LoginAction extends ActionSupport implements SessionAware, Preparable {
 	private UsuarioModel usuario;
 	private String msjError;
 	Map<String, Object> session = ActionContext.getContext().getSession();
@@ -21,26 +24,21 @@ public class LoginAction implements SessionAware {
 	}
 
 	public String login() {
-//		UsuarioBean us = (UsuarioBean) session.get("usuario");
-//		if (us != null) {
-//			if (us.getUsuario().equalsIgnoreCase("Admin") && us.getPassword().equalsIgnoreCase("123")) {
-//				return "ok";
-//			} else
-//				return "no";
-//		} else {
-			if (usuario.getUsuario().equalsIgnoreCase("Admin") && usuario.getPassword().equalsIgnoreCase("123")) {
-				session.put("usuario", usuario);
-				return "ok";
-			}
-			msjError = "Usuario Incorrecto";
-			return "no";
-//		}
+
+		if (usuario.getUsuario().equalsIgnoreCase("Admin") && usuario.getPassword().equalsIgnoreCase("123")) {
+			session.put("usuario", usuario);
+			return SUCCESS;
+		}
+		msjError = "Usuario Incorrecto";
+		return LOGIN;
 	}
 
-	// @Override
-	// public void setSession(Map<String, Object> arg0) {
-	// this.session = arg0;
-	// }
+	public String outLogin() {
+		session.remove("usuario");
+		session.clear();
+		((SessionMap<String, Object>) session).invalidate();
+		return LOGIN;
+	}
 
 	public Map getSession() {
 		return session;
@@ -56,6 +54,12 @@ public class LoginAction implements SessionAware {
 
 	public void setMsjError(String msjError) {
 		this.msjError = msjError;
+	}
+
+	@Override
+	public void prepare() throws Exception {
+		// UsuarioBean us = (UsuarioBean) session.get("usuario");
+
 	}
 
 }

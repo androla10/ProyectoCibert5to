@@ -1,0 +1,4 @@
+/*Colores de fondo e imagenes. En el caso de los background tambien sus repeticiones. Bordes de elementos, estilos de borde*/
+.mensajeError{
+	color: red;
+}

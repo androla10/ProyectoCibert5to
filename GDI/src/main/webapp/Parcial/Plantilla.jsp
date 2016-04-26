@@ -7,11 +7,12 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
 <link rel="stylesheet" href="../css/formValidation/formValidation.min.css">
 <link rel="stylesheet" href="../css/bootstrap/bootstrap-theme.min.css">
 <link rel="stylesheet" href="../css/font-awesome/font-awesome.min.css">
+<link rel="stylesheet" href="../css/animate/animate.css">
 <link rel="stylesheet" href="../css/estilos.css">
 <script src="../js/librerias/jquery-2.2.3.min.js.js"></script>
 <script src="../js/librerias/bootstrap.min.js"></script>

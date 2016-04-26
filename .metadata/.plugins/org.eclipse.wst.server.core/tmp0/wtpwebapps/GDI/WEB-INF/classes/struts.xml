@@ -26,11 +26,22 @@
 		<action name="FormularioPrincipal">
 			<result type="tiles">principal</result>
 		</action>
+		
+		
+		<action name="FormularioAdministrador">
+		    <result type="tiles">administrar</result>
+		</action>
+		
 
 		<action name="Login" class="com.cibertec.Actions.LoginAction"
 			method="login">
-			<result name="ok" type="tiles">principal</result>
-			<result name="no">Login.jsp</result>
+			<result name="success" type="tiles">principal</result>
+			<result name="login">Login.jsp</result>
+		</action>
+		
+		<action name="LoginOut" class="com.cibertec.Actions.LoginAction"
+			method="outLogin">
+			<result name="login">Login.jsp</result>
 		</action>
 
 	</package>

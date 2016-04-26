@@ -7,8 +7,12 @@
 				class="org.apache.struts2.views.tiles.TilesResult" />
 		</result-types>
 		
-		<action name="FormularioRegistro">
+		<action name="RegistroUsuario">
 		    <result type="tiles">registrarUsuario</result>
+		</action>
+		
+		<action name="Usuarios">
+		    <result type="tiles">Usuarios</result>
 		</action>
 		
 		
