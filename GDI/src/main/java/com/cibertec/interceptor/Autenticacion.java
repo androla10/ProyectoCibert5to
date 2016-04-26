@@ -2,7 +2,7 @@ package com.cibertec.interceptor;
 
 import java.util.Map;
 
-import com.cibertec.Bean.UsuarioBean;
+import com.cibertec.Model.UsuarioModel;
 import com.opensymphony.xwork2.Action;
 import com.opensymphony.xwork2.ActionInvocation;
 import com.opensymphony.xwork2.interceptor.Interceptor;
@@ -24,7 +24,7 @@ public class Autenticacion implements Interceptor {
 	@Override
 	public String intercept(ActionInvocation arg0) throws Exception {
 		Map session = arg0.getInvocationContext().getSession();
-		UsuarioBean usuario = (UsuarioBean) session.get("usuario");
+		UsuarioModel usuario = (UsuarioModel) session.get("usuario");
 		if (usuario == null) {
 			return Action.LOGIN;
 		} else {

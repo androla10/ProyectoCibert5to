@@ -4,19 +4,19 @@ import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
 
-import com.cibertec.Bean.UsuarioBean;
+import com.cibertec.Model.UsuarioModel;
 import com.opensymphony.xwork2.ActionContext;
 
 public class LoginAction implements SessionAware {
-	private UsuarioBean usuario;
+	private UsuarioModel usuario;
 	private String msjError;
 	Map<String, Object> session = ActionContext.getContext().getSession();
 
-	public UsuarioBean getUsuario() {
+	public UsuarioModel getUsuario() {
 		return usuario;
 	}
 
-	public void setUsuario(UsuarioBean usuario) {
+	public void setUsuario(UsuarioModel usuario) {
 		this.usuario = usuario;
 	}
 

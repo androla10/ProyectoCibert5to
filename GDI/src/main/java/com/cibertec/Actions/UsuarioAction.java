@@ -1,16 +1,16 @@
 package com.cibertec.Actions;
 
-import com.cibertec.Bean.UsuarioBean;
+import com.cibertec.Model.UsuarioModel;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class UsuarioAction extends ActionSupport{
-	private UsuarioBean usuario;
+	private UsuarioModel usuario;
 
-	public UsuarioBean getUsuario() {
+	public UsuarioModel getUsuario() {
 		return usuario;
 	}
 
-	public void setUsuario(UsuarioBean usuario) {
+	public void setUsuario(UsuarioModel usuario) {
 		this.usuario = usuario;
 	}
 	
