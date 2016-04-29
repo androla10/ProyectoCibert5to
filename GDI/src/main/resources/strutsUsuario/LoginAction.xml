@@ -19,7 +19,10 @@
 
 		<action name="LoginOut" class="com.cibertec.Actions.LoginAction"
 			method="outLogin">
-			<result name="login">Login.jsp</result>
+			<result name="login" type="redirectAction">
+				<param name="actionName">FormularioLogin</param>
+			</result>
+<!-- 			<result name="login">Login.jsp</result> -->
 		</action>
 
 		<action name="validarSession" class="com.cibertec.Actions.LoginAction"

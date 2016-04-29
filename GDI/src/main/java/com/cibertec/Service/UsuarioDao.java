@@ -30,9 +30,10 @@ public class UsuarioDao implements UsuarioModelMapper {
 		return null;
 	}
 
-	public List<UsuarioModel> Obtener() throws Exception {
-		// TODO Auto-generated method stub
-		return null;
+	public List<UsuarioModel> ObtenerListado() throws Exception {
+		SqlSession sq = MyBatisUtil.getConeccion().openSession();
+		return sq.getMapper(UsuarioModelMapper.class).ObtenerListado();
+
 	}
 
 	@Override

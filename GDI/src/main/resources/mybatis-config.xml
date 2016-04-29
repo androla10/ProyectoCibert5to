@@ -17,12 +17,12 @@
 				<property name="driver" value="${jdbc.driver}" />
 				<property name="url"
 					value="jdbc:sqlserver://${jdbc.host}:${jdbc.port};databaseName=${jdbc.databasename}" />
-				<property name="username" value="${jdbc.driver}" />
-				<property name="password" value="${jdbc.driver}" />
+				<property name="username" value="${jdbc.username}" />
+				<property name="password" value="${jdbc.password}" />
 			</dataSource>
 		</environment>
 	</environments>
 	<mappers>
-		<mapper resource="com.cibertec.Mappers.UsuarioModelMapper.xml"/>
+		<mapper resource="com/cibertec/Mappers/UsuarioModelMapper.xml"/>
 	</mappers>
 </configuration>

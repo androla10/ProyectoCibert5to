@@ -15,7 +15,7 @@ public interface UsuarioModelMapper {
 
 	public UsuarioModel Obtener(int idUsuario) throws Exception;
 
-	public List<UsuarioModel> Obtener() throws Exception;
+	public List<UsuarioModel> ObtenerListado() throws Exception;
 	
 	public UsuarioModel ValidarUsuario(@Param("usuario") String usuario,@Param("clave") String clave)throws Exception;
 }

@@ -25,7 +25,7 @@
 			<result type="tiles">registrarUsuario</result>
 		</action>
 
-		<action name="Usuarios">
+		<action name="Usuarios"  class="com.cibertec.Actions.UsuarioAction">
 			<result type="tiles">Usuarios</result>
 		</action>
 
