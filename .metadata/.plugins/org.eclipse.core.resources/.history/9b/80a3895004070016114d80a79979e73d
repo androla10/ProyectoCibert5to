@@ -1,6 +1,0 @@
-<div class="list-group">
-	<a href="#" class="list-group-item" ><i class="fa fa-home fa-ws" aria-hidden="true"></i>&nbsp; Inicio</a>
-	<a href="#" class="list-group-item" ><i class="fa fa-book fa-ws" aria-hidden="true"></i>&nbsp; Reportes</a>
-	<a href="#" class="list-group-item" ><i class="fa fa-pencil fa-ws" aria-hidden="true"></i>&nbsp; Registro</a>
-	<a href="#" class="list-group-item" ><i class="fa fa-config fa-ws" aria-hidden="true"></i>&nbsp; Configuración</a>
-</div>

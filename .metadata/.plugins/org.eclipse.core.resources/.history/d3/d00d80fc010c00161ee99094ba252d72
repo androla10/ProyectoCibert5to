@@ -1,6 +1,0 @@
-jdbc.driver = com.microsoft.sqlserver.jdbc.SQLServerDriver
-jdbc.host=localhost
-jdbc.port=1433
-jdbc.databasename=BASE
-jdbc.username = sa
-jdbc.password = 123
