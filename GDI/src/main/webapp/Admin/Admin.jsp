@@ -3,7 +3,7 @@
 	<h3><i class="fa fa-users" aria-hidden="true"></i> Administrar</h3>
 	<hr>
 	<br>
-	<div class="row animated fadeIn">
+	<div class="row animated zoomIn">
 		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 			<div class="thumbnail">
 				<img src="../img/user.png" alt="Imagen User">
