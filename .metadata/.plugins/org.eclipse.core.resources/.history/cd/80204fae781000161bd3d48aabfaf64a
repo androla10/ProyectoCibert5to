@@ -1,0 +1,18 @@
+package com.cibertec.Actions;
+
+import com.cibertec.Model.UsuarioModel;
+import com.cibertec.interceptor.UsuarioHabilitado;
+
+public class ValidadorAction extends ActionSupports implements UsuarioHabilitado {
+	
+	public String validarPermiso(){
+		
+		
+	}
+
+	@Override
+	public void setUsuario(UsuarioModel usuario) {
+		// TODO Auto-generated method stub
+		
+	};
+}

@@ -1,0 +1,5 @@
+package com.cibertec.constantes;
+
+public class Constantes {
+	public  final static  int formularioPrincipal = 1;
+}

@@ -1,0 +1,38 @@
+package com.cibertec.Actions;
+
+import com.cibertec.Model.UsuarioModel;
+import com.cibertec.constantes.Constantes;
+import com.cibertec.interceptor.UsuarioHabilitado;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class ValidadorAction extends ActionSupport implements UsuarioHabilitado {
+	private UsuarioModel usuario;
+
+	public UsuarioModel getUsuario() {
+		return usuario;
+	}
+
+	public String validarPermiso(int valor) {
+		if (usuario != null) {
+			// Administrador
+			if (usuario.getIdTipo() == 2) {
+				if (valor == Constantes.formularioAdministrador) {
+
+				}
+				if (valor == Constantes.formularioAdministrador) {
+
+				}
+				if (valor == Constantes.formularioAdministrador) {
+
+				}
+			} else {
+
+			}
+		}
+	}
+
+	@Override
+	public void setUsuario(UsuarioModel usuario) {
+		this.usuario = usuario;
+	};
+}

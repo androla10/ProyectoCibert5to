@@ -1,0 +1,9 @@
+package com.cibertec.Actions;
+
+public class ValidadorAction {
+	
+	public String validarPermiso(){
+		
+		
+	};
+}
