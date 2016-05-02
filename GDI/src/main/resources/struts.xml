@@ -50,5 +50,6 @@
 
 	</package>
 	<include file="LoginAction.xml"/>
-	<include file="strutsUsuario/UsuarioAction.xml" />
+	<include file="struts/UsuarioAction.xml" />
+	<include file="struts/SeguimientoAction.xml" />
 </struts>
