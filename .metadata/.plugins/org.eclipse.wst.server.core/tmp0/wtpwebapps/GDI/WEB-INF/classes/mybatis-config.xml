@@ -9,6 +9,7 @@
 	</settings>
 	<typeAliases>
 		<typeAlias type="com.cibertec.Model.UsuarioModel" alias="Usuario" />
+		<typeAlias type="com.cibertec.Model.SeguimientoModel" alias="Seguimiento" />
 	</typeAliases>
 	<environments default="development">
 		<environment id="development">
@@ -17,12 +18,12 @@
 				<property name="driver" value="${jdbc.driver}" />
 				<property name="url"
 					value="jdbc:sqlserver://${jdbc.host}:${jdbc.port};databaseName=${jdbc.databasename}" />
-				<property name="username" value="${jdbc.driver}" />
-				<property name="password" value="${jdbc.driver}" />
+				<property name="username" value="${jdbc.username}" />
+				<property name="password" value="${jdbc.password}" />
 			</dataSource>
 		</environment>
 	</environments>
 	<mappers>
-		<package name="com.cibertec.Mappers"/>
+		<mapper resource="com/cibertec/Mappers/UsuarioModelMapper.xml"/>
 	</mappers>
 </configuration>

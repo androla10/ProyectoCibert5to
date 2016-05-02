@@ -16,7 +16,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> Alex Urbina <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> <s:property value="#application.user.usuario" /><span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><s:a href="#"><i class="fa fa-wrench fa-ws"></i> Configuración</s:a></li>
             <li role="separator" class="divider"></li>

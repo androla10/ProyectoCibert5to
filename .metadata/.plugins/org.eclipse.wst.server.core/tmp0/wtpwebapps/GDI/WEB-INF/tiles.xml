@@ -21,4 +21,7 @@ Foundation//DTD Tiles Configuration 2.0//EN"
 	<definition name='Usuarios' extends='d_plantilla'>
 		<put-attribute name="body" value='/Usuario/Usuarios.jsp' />
 	</definition>
+	<definition name='Seguimiento' extends='d_plantilla'>
+		<put-attribute name="body" value='/Seguimiento/Seguimiento.jsp' />
+	</definition>
 </tiles-definitions>

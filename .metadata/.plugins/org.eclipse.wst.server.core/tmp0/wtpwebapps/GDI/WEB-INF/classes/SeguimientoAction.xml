@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd">
 <struts>
-	<package name="Usuario" namespace="/Usuario" extends="struts-default">
+	<package name="Seguimiento" namespace="/Seguimiento" extends="struts-default">
 		<result-types>
 			<result-type name="tiles"
 				class="org.apache.struts2.views.tiles.TilesResult" />
@@ -21,19 +21,18 @@
 			<result name="login" type="redirect">/Parcial/FormularioLogin.action</result>
 		</global-results>
 
-		<action name="RegistroUsuario">
-			<result type="tiles">registrarUsuario</result>
+		<action name="Seguimiento">
+			<result type="tiles">Seguimiento</result>
 		</action>
 
-		<action name="Usuarios"  class="com.cibertec.Actions.UsuarioAction" method="listarUsuario">
-			<result type="tiles" name="success">Usuarios</result>
-			<result type="tiles" name="error">principal</result>
-		</action>
+<!-- 		<action name="Usuarios"  class="com.cibertec.Actions.UsuarioAction"> -->
+<!-- 			<result type="tiles">Usuarios</result> -->
+<!-- 		</action> -->
 
-		<action name="Registrar" class="com.cibertec.Actions.UsuarioAction"
-			method="registrar">
-			<result name="success" type="tiles">registrarUsuario</result>
-			<result name="error">Login.jsp</result>
-		</action>
+<!-- 		<action name="Registrar" class="com.cibertec.Actions.UsuarioAction" -->
+<!-- 			method="registrar"> -->
+<!-- 			<result name="success" type="tiles">registrarUsuario</result> -->
+<!-- 			<result name="error">Login.jsp</result> -->
+<!-- 		</action> -->
 	</package>
 </struts>
