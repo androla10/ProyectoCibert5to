@@ -1,0 +1,40 @@
+
+<div class="container-fluid">
+	<h1 class="text-center">Registrar Incidencia</h1>
+	<br>
+	<div class="panel-primary">
+		<div class="panel-heading">
+			<i class="fa fa-user fa-1x"></i>&nbsp;Registrar Incidencia
+		</div>
+		<div class="panel-body">
+			<form action="" id="formRegistroIncidencia">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<div class="form-group">
+							<label for="tipoIncidencia">Tipo Incidencia</label> <select
+								class="form-control" name="incidencia.TipoIncidencia"
+								id="tipoIncidencia">
+								<option value="1">Hardware</option>
+								<option value="2">Software</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="descripcion">Descripción</label>
+							<textarea type="text" class="form-control"
+								name="usuario.apellido" id="descripcion" rows="8" cols="9"></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Registrar</button>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-sm-6 col-lg-6">
+						<div class="form-group">
+							<label for="archivo"><i class="fa fa-file-image-o fa-1x"></i>&nbsp;Agregar
+								Fotografía</label> <input type="file" name="incidencia.archivo"
+								id="archivo " />
+							<p class="help-block">Example block-level help text here.</p>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,46 @@
+package com.cibertec.Service;
+
+import java.util.List;
+
+import com.cibertec.InterfaceMapper.UsuarioModelMapper;
+import com.cibertec.Model.UsuarioModel;
+
+public class UsuarioDAO1 implements UsuarioModelMapper{
+
+	@Override
+	public int Registrar() throws Exception {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int Modificar() throws Exception {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int Eliminar() throws Exception {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public UsuarioModel Obtener(int idUsuario) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<UsuarioModel> ObtenerListado() throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UsuarioModel ValidarUsuario(String usuario, String clave) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

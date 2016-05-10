@@ -1,0 +1,90 @@
+<script type="text/javascript">
+	Dropzone.options.myAwesomeDropzone = { // The camelized version of the ID of the form element
+
+		// The configuration we've talked about above
+		autoProcessQueue : false,
+		uploadMultiple : true,
+		parallelUploads : 100,
+		maxFiles : 100,
+
+		// The setting up of the dropzone
+		init : function() {
+			var myDropzone = this;
+
+			// First change the button to actually tell Dropzone to process the queue.
+			this.element.querySelector("button[type=submit]").addEventListener(
+					"click", function(e) {
+						// Make sure that the form isn't actually being sent.
+						e.preventDefault();
+						e.stopPropagation();
+						myDropzone.processQueue();
+					});
+
+			// Listen to the sendingmultiple event. In this case, it's the sendingmultiple event instead
+			// of the sending event because uploadMultiple is set to true.
+			this.on("sendingmultiple", function() {
+				// Gets triggered when the form is actually being sent.
+				// Hide the success button or the complete form.
+			});
+			this.on("successmultiple", function(files, response) {
+				// Gets triggered when the files have successfully been sent.
+				// Redirect user or notify of success.
+			});
+			this.on("errormultiple", function(files, response) {
+				// Gets triggered when there was an error sending the files.
+				// Maybe show form again, and notify user of error
+			});
+		}
+
+	}
+</script>
+<div class="container-fluid">
+	<h1 class="text-center">Registrar Incidencia</h1>
+	<br>
+	<div class="panel-primary">
+		<div class="panel-heading">
+			<i class="fa fa-user fa-1x"></i>&nbsp;Registrar Incidencia
+		</div>
+		<div class="panel-body">
+			<form action="" id="formRegistroIncidencia">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<div class="form-group">
+							<label for="tipoIncidencia">Tipo Incidencia</label> <select
+								class="form-control" name="incidencia.TipoIncidencia"
+								id="tipoIncidencia">
+								<option value="1">Hardware</option>
+								<option value="2">Software</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="descripcion">Descripción</label>
+							<textarea type="text" class="form-control"
+								name="usuario.apellido" id="descripcion" rows="8" cols="9"></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Registrar</button>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-sm-6 col-lg-6">
+						<div class="form-group">
+							<label for="archivo"><i class="fa fa-file-image-o fa-1x"></i>&nbsp;Agregar
+								Fotografía</label> <input type="file" name="incidencia.archivo"
+								id="archivo " />
+							<p class="help-block">Example block-level help text here.</p>
+							<form id="my-awesome-dropzone" class="dropzone">
+								<div class="dropzone-previews"></div>
+								<!-- this is were the previews should be shown. -->
+
+								<!-- Now setup your input fields -->
+								<input type="email" name="username" /> <input type="password"
+									name="password" />
+
+								<button type="submit">Submit data and files!</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</form>
+
+		</div>
+	</div>
+</div>
