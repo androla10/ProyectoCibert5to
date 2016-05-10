@@ -1,3 +1,11 @@
+<%@ taglib prefix="s" uri="/struts-tags"%>
+<style>
+.detalle {
+	font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+}
+</style>
 <div class="container-fluid">
 	</hr>
 	<div class="panel-primary">
@@ -9,12 +17,41 @@
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 						<div class="form-group">
-							<label for="nombre">Nombre</label> <input type="text"
+							<label for="Nombre">Nombre</label> <input type="text"
 								class="form-control" name="usuario.nombre" id="Nombre" />
 						</div>
 						<div class="form-group">
 							<label for="Apellido">Apellido</label> <input type="text"
 								class="form-control" name="usuario.apellido" id="Apellido" />
+						</div>
+						<div class="form-group">
+							<label for="Dni">Número de DNI</label> <input type="text"
+								class="form-control" name="usuario.dni" id="Dni" />
+						</div>
+						<div class="form-group">
+							<label for="Genero">Genero</label> <select class="form-control"
+								name="usuario.genero" id="Genero">
+								<s:iterator value="listarComboGenero">
+									<option value=<s:property value="idGenero" />><s:property value="Genero" /></option>
+								</s:iterator>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label for="TipoUsuario">Tipo de Usuario</label> <select
+								class="form-control" name="usuario.tipoUsuario" id="TipoUsuario">
+								<s:iterator value="listarComboTipoUsuario">
+									<option value=<s:property value="idTipoUsuario" />><s:property value="TipoUsuario" /></option>
+								</s:iterator>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="Telefono">Telefono</label> <input type="text"
+								class="form-control" name="usuario.telefono" id="Telefono" />
+						</div>
+						<div class="form-group">
+							<label for="Celular">Celular</label> <input type="text"
+								class="form-control" name="usuario.celular" id="Celular" />
 						</div>
 						<div class="form-group">
 							<label for="Correo" class="control-label">Correo</label>
@@ -25,16 +62,17 @@
 						</div>
 						<button type="submit" class="btn btn-primary">Registrar</button>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-sm-6 col-lg-6">
-						<h4>Usuario</h4>
-						<p>Usuario encargado de ingresar las incidencias dependiendo de los perfiles por cada usuario
-						3: Tipo
-							<ol>
-								<li>Administrativo</li>
-								<li>Cliente</li>
-								<li>Supervisor</li>
-							</ol>
-						</p>
+					<div class="col-xs-12 col-sm-12 col-sm-6 col-lg-6 detalle">
+						<h4>Observación</h4>
+						<p>Existen 3 tipos de usuarios:</p>
+						<ol>
+							<li>Usuario Banco</li>
+							<li>Operativo</li>
+							<li>Supervisor</li>
+						</ol>
+						<p>El usuario banco : es el usuario que ingresará una
+							incidencia y podrá ver todas las incidencias emitidas por el a
+							través de un seguimiento.</p>
 					</div>
 				</div>
 			</form>

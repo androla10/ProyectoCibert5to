@@ -18,11 +18,12 @@
 		<default-interceptor-ref name="secureStack" />
 
 		<global-results>
-			<result name="login" type="redirect">/Parcial/FormularioLogin.action</result>
+			<result name="login" type="redirect">/Login/FormularioLogin.action</result>
 		</global-results>
 
-		<action name="RegistroUsuario">
-			<result type="tiles">registrarUsuario</result>
+		<action name="RegistroUsuario" class="com.cibertec.Actions.UsuarioAction" method="CargarRegistroUsuario">
+			<result name="success" type="tiles">registrarUsuario</result>
+			<result name="error" type="tiles">administrar</result>
 		</action>
 
 		<action name="Usuarios"  class="com.cibertec.Actions.UsuarioAction" method="listarUsuario">

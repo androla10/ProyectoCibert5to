@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cibertec.InterfaceMapper.TipoUsuarioModelMapper">
+	<resultMap type="Genero" id="rmListarGenero">
+		<id column="iGenero" property="idGenero" jdbcType="INTEGER" />
+		<result column="sDescripcion" property="Genero" jdbcType="VARCHAR" />
+	</resultMap>
+
+	<select id="listarCombo" resultMap="rmListarGenero"
+		statementType="CALLABLE">
+		EXEC SGI_WEB_R_LISTARGENERO
+	</select>
+
+</mapper>

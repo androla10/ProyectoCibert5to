@@ -1,6 +1,3 @@
-import com.cibertec.Model.UsuarioModel;
-import com.cibertec.Service.UsuarioDao;
-
 public class Pruebas {
 	public static void main(String[] args) {
 //		UsuarioDao dao = new UsuarioDao();

@@ -1,9 +1,0 @@
-import com.cibertec.Service.UsuarioDao;
-
-public class Pruebas {
-	public static void main(String[] args) {
-		UsuarioDao dao = new UsuarioDao();
-		UsuarioModel usuario = dao.ValidarUsuario("bvillarreal", "123");
-		System.out.println();
-	}
-}

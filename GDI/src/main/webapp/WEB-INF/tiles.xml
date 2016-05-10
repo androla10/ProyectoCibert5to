@@ -24,4 +24,10 @@ Foundation//DTD Tiles Configuration 2.0//EN"
 	<definition name='Seguimiento' extends='d_plantilla'>
 		<put-attribute name="body" value='/Seguimiento/Seguimiento.jsp' />
 	</definition>
+	<definition name='RegistrarIncidencia' extends='d_plantilla'>
+		<put-attribute name="body" value='/Incidencia/RegistrarIncidencia.jsp' />
+	</definition>
+	<definition name='ListarIncidencia' extends='d_plantilla'>
+		<put-attribute name="body" value='/Incidencia/ListarIncidencia.jsp' />
+	</definition>
 </tiles-definitions>

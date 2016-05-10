@@ -52,4 +52,5 @@
 	<include file="LoginAction.xml"/>
 	<include file="struts/UsuarioAction.xml" />
 	<include file="struts/SeguimientoAction.xml" />
+	<include file="struts/IncidenciaAction.xml" />
 </struts>

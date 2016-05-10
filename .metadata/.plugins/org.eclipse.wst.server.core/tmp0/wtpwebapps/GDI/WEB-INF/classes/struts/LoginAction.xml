@@ -13,7 +13,10 @@
 
 		<action name="Login" class="com.cibertec.Actions.LoginAction"
 			method="login">
-			<result name="success" type="tiles">principal</result>
+			<result name="1" type="tiles">administrar</result>
+			<result name="2" type="tiles">RegistrarIncidencia</result>
+			<result name="3" type="tiles">ListarIncidencia</result>
+<!-- 			<result name="4" type="tiles">ReporteIncidencia</result> -->
 			<result name="login">Login.jsp</result>
 		</action>
 
@@ -22,12 +25,14 @@
 			<result name="login" type="redirectAction">
 				<param name="actionName">FormularioLogin</param>
 			</result>
-<!-- 			<result name="login">Login.jsp</result> -->
+			<!-- <result name="login">Login.jsp</result> -->
 		</action>
 
 		<action name="validarSession" class="com.cibertec.Actions.LoginAction"
 			method="validarSession">
-			<result name="success" type="tiles">principal</result>
+			<result name="1" type="tiles">administrar</result>
+			<!-- <result name="1" type="tiles">RegistrarIncidencia</result> -->
+			<!-- <result name="3" type="tiles">ModificarIncidencia</result> -->
 			<result name="login">Login.jsp</result>
 		</action>
 

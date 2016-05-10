@@ -10,20 +10,5 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 	        <result column="iTipo" property="idTipo" jdbcType="INTEGER"/>
 	        <result column="iActivo" property="idActivo" jdbcType="INTEGER"/>
 	    </resultMap>
-	    
-<!-- 		<select id="Obtener" resultType="Usuario"> -->
-<!-- 				SELECT  -->
-<!-- 					usuario, -->
-<!-- 					clave as password -->
-<!-- 				FROM Usuario -->
-<!-- 				Where idUsuario = #{idUsuario}; -->
-<!-- 		</select> -->
-		
-		<select id="listar" resultMap="rmSeguimiento" statementType="CALLABLE" parameterType="int">
-		    EXEC SGI_WEB_R_VALIDARUSUARIO #{usuario, jdbcType=VARCHAR, mode=IN},#{clave, jdbcType=VARCHAR, mode=IN}
-		</select>
-		
-		<select id="ObtenerListado" resultMap="rmValidarUsuario" statementType="CALLABLE">
-			EXEC SGI_WEB_R_LISTARUSUARIO
-		</select>
+
 	</mapper>

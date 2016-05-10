@@ -2,19 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="validarSession" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="validarSession"/>
+			<item value="Login"/>
+			<item value="fillinactive"/>
 			<item value="This field is required."/>
 			<item value="This field"/>
 			<item value="This"/>
 			<item value="icon"/>
-			<item value="Login"/>
 			<item value="&#x09;&lt;dependency&gt; --&gt;"/>
-			<item value="&lt;!-- &#x09;&lt;context-param&gt; --&gt;"/>
 		</list>
 		<list key="replacehistory">
 		</list>

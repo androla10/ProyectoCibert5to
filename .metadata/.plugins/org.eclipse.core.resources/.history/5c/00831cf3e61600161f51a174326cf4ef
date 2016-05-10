@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<properties resource="jdbc.properties" />
+	<settings>
+		<setting name="defaultStatementTimeout" value="2"/>
+	</settings>
+	<typeAliases>
+		<typeAlias type="com.cibertec.Model.UsuarioModel" alias="Usuario" />
+		<typeAlias type="com.cibertec.Model.SeguimientoModel" alias="Seguimiento" />
+	</typeAliases>
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="${jdbc.driver}" />
+				<property name="url"
+					value="jdbc:sqlserver://${jdbc.host}:${jdbc.port};databaseName=${jdbc.databasename}" />
+				<property name="username" value="${jdbc.username}" />
+				<property name="password" value="${jdbc.password}" />
+			</dataSource>
+		</environment>
+	</environments>
+	<mappers>
+		<mapper resource="com/cibertec/Mappers/UsuarioModelMapper.xml"/>
+		<mapper resource="com/cibertec/Mappers/UsuarioModelMapper.xml"/>
+	</mappers>
+</configuration>

@@ -45,7 +45,7 @@
 		var fillinactivepaso="#96968F";
 		var inactivepaso="#fff";
 		var colorLetra = "#737167";
-		var iEstado = 4;
+		var iEstado = 2;
 		this.size = {
 			width : elemento.offsetWidth,
 			height : elemento.offsetHeight
