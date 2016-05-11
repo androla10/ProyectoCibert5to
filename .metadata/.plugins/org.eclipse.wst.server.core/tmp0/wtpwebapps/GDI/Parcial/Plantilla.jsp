@@ -13,15 +13,17 @@
 <link rel="stylesheet" href="../css/bootstrap/bootstrap-theme.min.css">
 <link rel="stylesheet" href="../css/font-awesome/font-awesome.min.css">
 <link rel="stylesheet" href="../css/animate/animate.css">
+<link rel="stylesheet" href="../css/input-bootstrap/fileinput.min.css">
 <link rel="stylesheet" href="../css/estilos.css">
 <script src="../js/librerias/jquery-2.2.3.min.js.js"></script>
 <script src="../js/librerias/bootstrap.min.js"></script>
 <script src="../js/librerias/detectMovil.js"></script>
 <script src="../js/librerias/formValidation/formValidation.min.js"></script>
 <script src="../js/librerias/formValidation/framework/bootstrap.min.js"></script>
-<script src="../js/librerias/dropzone.js"></script>
+<script src="../js/librerias/fileinput.min.js"></script>
+<script src="../js/librerias/fileinput_locale_es.js"></script>
 
-<script src="../js/librerias/require.js"></script>
+<%-- <script src="../js/librerias/require.js"></script> --%>
 <script src="../js/general.js"></script>
 <title>Sistema de Gestión de Incidencias</title>
 </head>
