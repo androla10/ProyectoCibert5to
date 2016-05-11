@@ -29,9 +29,20 @@
 			class="palabra">Seguimiento Incidencia</div>
 	</s:a>
 	<%
-		} 
-			/*Operador*/
-		else {
+		}
+	/*Operador*/
+		else if(usuario.getIdTipo() == 3){
+	%>
+	<s:a href="../Incidencia/ListarIncidencia"
+		class="list-group-item opcionesGenerales">
+		<i class="fa fa-list fa-ws" aria-hidden="true"></i>&nbsp; <div
+			class="palabra">Incidencias en Espera</div>
+	</s:a>
+	<%
+	
+	/*Supervisor*/
+		}
+		else{
 	%>
 	<s:a href="../Seguimiento/Seguimiento"
 		class="list-group-item opcionesGenerales">

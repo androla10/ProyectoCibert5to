@@ -26,5 +26,9 @@
 		<action name="RegistrarIncidencia">
 			<result type="tiles">RegistrarIncidencia</result>
 		</action>
+		
+		<action name="ListarIncidencia">
+			<result type="tiles">ListarIncidencia</result>
+		</action>
 	</package>
 </struts>

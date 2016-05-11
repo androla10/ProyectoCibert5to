@@ -13,8 +13,6 @@
 <fullyQualifiedTypeName name="com.cibertec.Actions.UsuarioAction"/>
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.Action"/>
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionContext"/>
-<fullyQualifiedTypeName name="com.cibertec.InterfaceMapper.UsuarioModelMapper"/>
-<fullyQualifiedTypeName name="com.cibertec.Service.UsuarioDao"/>
 <fullyQualifiedTypeName name="com.cibertec.Model.UsuarioModel"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Param"/>
 <fullyQualifiedTypeName name="com.cibertec.interceptor.UsuarioHabilitado"/>
@@ -31,4 +29,7 @@
 <fullyQualifiedTypeName name="com.cibertec.InterfaceMapper.GeneroModelMapper"/>
 <fullyQualifiedTypeName name="com.cibertec.Model.GeneroModel"/>
 <fullyQualifiedTypeName name="com.cibertec.Service.UsuarioDAO"/>
+<fullyQualifiedTypeName name="com.cibertec.InterfaceMapper.UsuarioModelMapper"/>
+<fullyQualifiedTypeName name="com.cibertec.Service.UsuarioDao"/>
+<fullyQualifiedTypeName name="com.cibertec.Service.UsuarioDAO1"/>
 </qualifiedTypeNameHistroy>
