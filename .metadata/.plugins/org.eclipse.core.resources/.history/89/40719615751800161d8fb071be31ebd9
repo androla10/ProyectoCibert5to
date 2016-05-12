@@ -1,0 +1,130 @@
+package com.cibertec.Model;
+
+import java.io.File;
+import java.sql.Date;
+
+public class IncidenciaModel {
+	private String descripcion;
+	private int idIncidencia;
+	private File foto;
+	private Date fechaCreacion;
+	private Date fechaObservacion;
+	private Date fechaEnProceso;
+	private Date fechaFinalizado;
+	private int idUsuario;
+	private String usuario;
+	private int idTipoIncidencia;
+	private String tipoIncidencia;
+	
+	private String userImageContentType;
+	private String userImageFileName;
+	
+	public int getIdTipoIncidencia() {
+		return idTipoIncidencia;
+	}
+
+	public void setIdTipoIncidencia(int idTipoIncidencia) {
+		this.idTipoIncidencia = idTipoIncidencia;
+	}
+
+	public String getTipoIncidencia() {
+		return tipoIncidencia;
+	}
+
+	public void setTipoIncidencia(String tipoIncidencia) {
+		this.tipoIncidencia = tipoIncidencia;
+	}
+
+	
+
+	public String getUserImageContentType() {
+		return userImageContentType;
+	}
+
+	public void setUserImageContentType(String userImageContentType) {
+		this.userImageContentType = userImageContentType;
+	}
+
+	public String getUserImageFileName() {
+		return userImageFileName;
+	}
+
+	public void setUserImageFileName(String userImageFileName) {
+		this.userImageFileName = userImageFileName;
+	}
+
+	public String getDescripcion() {
+		return descripcion;
+	}
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
+	public int getIdIncidencia() {
+		return idIncidencia;
+	}
+
+	public void setIdIncidencia(int idIncidencia) {
+		this.idIncidencia = idIncidencia;
+	}
+
+	
+
+	public File getFoto() {
+		return foto;
+	}
+
+	public void setFoto(File foto) {
+		this.foto = foto;
+	}
+
+	public Date getFechaCreacion() {
+		return fechaCreacion;
+	}
+
+	public void setFechaCreacion(Date fechaCreacion) {
+		this.fechaCreacion = fechaCreacion;
+	}
+
+	public Date getFechaObservacion() {
+		return fechaObservacion;
+	}
+
+	public void setFechaObservacion(Date fechaObservacion) {
+		this.fechaObservacion = fechaObservacion;
+	}
+
+	public Date getFechaEnProceso() {
+		return fechaEnProceso;
+	}
+
+	public void setFechaEnProceso(Date fechaEnProceso) {
+		this.fechaEnProceso = fechaEnProceso;
+	}
+
+	public Date getFechaFinalizado() {
+		return fechaFinalizado;
+	}
+
+	public void setFechaFinalizado(Date fechaFinalizado) {
+		this.fechaFinalizado = fechaFinalizado;
+	}
+
+	public int getIdUsuario() {
+		return idUsuario;
+	}
+
+	public void setIdUsuario(int idUsuario) {
+		this.idUsuario = idUsuario;
+	}
+
+	public String getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(String usuario) {
+		this.usuario = usuario;
+	}
+
+}

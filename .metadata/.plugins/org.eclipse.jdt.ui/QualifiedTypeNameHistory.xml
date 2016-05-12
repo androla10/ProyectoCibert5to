@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="org.omg.PortableInterceptor.SUCCESSFUL"/>
 <fullyQualifiedTypeName name="org.apache.struts2.interceptor.SessionAware"/>
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.interceptor.Interceptor"/>
@@ -16,7 +15,6 @@
 <fullyQualifiedTypeName name="com.cibertec.Model.UsuarioModel"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Param"/>
 <fullyQualifiedTypeName name="com.cibertec.interceptor.UsuarioHabilitado"/>
-<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
 <fullyQualifiedTypeName name="com.cibertec.constantes.Constantes"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.util.List"/>
@@ -32,4 +30,11 @@
 <fullyQualifiedTypeName name="com.cibertec.InterfaceMapper.UsuarioModelMapper"/>
 <fullyQualifiedTypeName name="com.cibertec.Service.UsuarioDao"/>
 <fullyQualifiedTypeName name="com.cibertec.Service.UsuarioDAO1"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+<fullyQualifiedTypeName name="org.apache.struts2.interceptor.ServletRequestAware"/>
+<fullyQualifiedTypeName name="com.cibertec.Model.IncidenciaModel"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,35 @@
+package com.cibertec.Actions;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.struts2.interceptor.ServletRequestAware;
+
+import com.cibertec.Model.IncidenciaModel;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class IncidenciaAction extends ActionSupport implements ServletRequestAware {
+
+	private IncidenciaModel incidencia;
+	private HttpServletRequest servletRequest;
+	
+	public String registrarIncidencia(){
+		
+	}
+	public IncidenciaModel getIncidencia() {
+		return incidencia;
+	}
+
+	public void setIncidencia(IncidenciaModel incidencia) {
+		this.incidencia = incidencia;
+	}
+
+	public HttpServletRequest getServletRequest() {
+		return servletRequest;
+	}
+
+	@Override
+	public void setServletRequest(HttpServletRequest servletRequest) {
+		this.servletRequest = servletRequest;
+	}
+
+}

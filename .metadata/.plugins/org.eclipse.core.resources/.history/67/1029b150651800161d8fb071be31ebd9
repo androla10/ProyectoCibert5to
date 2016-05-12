@@ -1,0 +1,17 @@
+package com.cibertec.Model;
+
+import java.io.File;
+import java.sql.Date;
+
+public class IncidenciaModel {
+	private String descripcion;
+	private int idIncidencia;
+	private File[] foto;
+	private Date fechaCreacion;
+	private Date fechaObservacion;
+	private Date fechaEnProceso;
+	private Date fechaFinalizado;
+	private int idUsuario;
+	private String usuario;
+	
+}

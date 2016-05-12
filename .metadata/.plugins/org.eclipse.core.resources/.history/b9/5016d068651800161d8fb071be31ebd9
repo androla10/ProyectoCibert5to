@@ -1,0 +1,9 @@
+package com.cibertec.Actions;
+
+import org.apache.struts2.interceptor.ServletRequestAware;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class IncidenciaAction extends ActionSupport implements ServletRequestAware{
+	
+}

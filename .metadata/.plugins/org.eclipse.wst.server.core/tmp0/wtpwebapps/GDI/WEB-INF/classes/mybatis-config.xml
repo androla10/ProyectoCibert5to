@@ -12,6 +12,7 @@
 		<typeAlias type="com.cibertec.Model.SeguimientoModel" alias="Seguimiento" />
 		<typeAlias type="com.cibertec.Model.TipoUsuarioModel" alias="TipoUsuario" />
 		<typeAlias type="com.cibertec.Model.GeneroModel" alias="Genero" />
+		<typeAlias type="com.cibertec.Model.IncidenciaModel" alias="Incidencia" />
 	</typeAliases>
 	<environments default="development">
 		<environment id="development">
@@ -30,5 +31,6 @@
 		<mapper resource="com/cibertec/Mappers/SeguimientoModelMapper.xml"/>
 		<mapper resource="com/cibertec/Mappers/TipoUsuarioModelMapper.xml"/>
 		<mapper resource="com/cibertec/Mappers/GeneroModelMapper.xml"/>
+		<mapper resource="com/cibertec/Mappers/IncidenciaModelMapper.xml"/>
 	</mappers>
 </configuration>
