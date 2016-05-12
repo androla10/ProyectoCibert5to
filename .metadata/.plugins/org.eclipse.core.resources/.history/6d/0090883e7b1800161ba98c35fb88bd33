@@ -1,0 +1,47 @@
+package com.cibertec.Actions;
+
+import java.io.File;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.struts2.interceptor.ServletRequestAware;
+
+import com.cibertec.Model.IncidenciaModel;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class IncidenciaAction extends ActionSupport implements ServletRequestAware {
+
+//	private IncidenciaModel incidencia;
+	private HttpServletRequest servletRequest;
+	private File file;
+	private String fileContentType;
+	private String fileFileName;
+	private String filesPath;
+	private ServletContext context;
+
+	public String registrar() {
+		System.out.println("File Name is:" + getFileFileName());
+		System.out.println("File ContentType is:" + getFileContentType());
+		System.out.println("Files Directory is:" + filesPath);
+		System.out.println("Sé registro la incidencia generada");
+		return SUCCESS;
+	}
+
+//	public IncidenciaModel getIncidencia() {
+//		return incidencia;
+//	}
+//
+//	public void setIncidencia(IncidenciaModel incidencia) {
+//		this.incidencia = incidencia;
+//	}
+
+	public HttpServletRequest getServletRequest() {
+		return servletRequest;
+	}
+
+	@Override
+	public void setServletRequest(HttpServletRequest servletRequest) {
+		this.servletRequest = servletRequest;
+	}
+
+}
