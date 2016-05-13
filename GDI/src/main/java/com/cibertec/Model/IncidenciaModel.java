@@ -1,12 +1,11 @@
 package com.cibertec.Model;
 
-import java.sql.Date;
-
-import com.cibertec.metodos.Metodos;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.sql.Date;
+
+import org.apache.commons.io.IOUtils;
 
 public class IncidenciaModel {
 	private String descripcion;
@@ -15,12 +14,22 @@ public class IncidenciaModel {
 	private Date fechaObservacion;
 	private Date fechaEnProceso;
 	private Date fechaFinalizado;
-	
-	/*Puede almacenar uno o mas fotos*/
+
+	/* Puede almacenar uno o mas fotos */
 	private File foto;
 	private int idUsuario;
 	private String usuario;
 
+	private byte[] fotobinary;
+
+	public byte[] getFotobinary() throws IOException {
+		FileInputStream file = new FileInputStream(getFoto());
+		return IOUtils.toByteArray(file);
+	}
+
+	public void setFotobinary(byte[] fotobinary) {
+		this.fotobinary = fotobinary;
+	}
 
 	private int idTipoIncidencia;
 	private String tipoIncidencia;

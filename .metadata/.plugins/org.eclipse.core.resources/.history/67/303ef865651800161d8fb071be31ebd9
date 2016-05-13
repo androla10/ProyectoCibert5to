@@ -1,7 +1,0 @@
-package com.cibertec.Actions;
-
-import com.opensymphony.xwork2.ActionSupport;
-
-public class IncidenciaAction extends ActionSupport{
-	
-}
