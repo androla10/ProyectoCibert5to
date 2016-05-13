@@ -11,7 +11,7 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 		<result column="iActivo" property="idActivo" jdbcType="INTEGER" />
 	</resultMap>
 	
-	<select id="RegistrarIncidencia"
+	<select id="RegistrarIncidencia" 
 		statementType="CALLABLE" parameterType="Incidencia">
 		EXEC SGI_WEB_C_INCIDENCIA #{descripcion, jdbcType=VARCHAR, mode=IN},#{idTipoIncidencia,jdbcType=INTEGER,mode=IN},#{fotobinary, jdbcType=VARBINARY,mode=IN},#{idUsuario,jdbcType=INTEGER, mode=IN}
 	</select>
