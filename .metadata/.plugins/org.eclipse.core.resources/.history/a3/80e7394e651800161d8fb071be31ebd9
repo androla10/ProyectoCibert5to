@@ -1,7 +1,0 @@
-package com.cibertec.Model;
-
-public class IncidenciaModel {
-	private String descripcion;
-	private int idIncidencia;
-	private File[] foto;
-}
