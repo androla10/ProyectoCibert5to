@@ -53,4 +53,5 @@
 	<include file="struts/UsuarioAction.xml" />
 	<include file="struts/SeguimientoAction.xml" />
 	<include file="struts/IncidenciaAction.xml" />
+	<include file="struts/SedeAction.xml" />
 </struts>

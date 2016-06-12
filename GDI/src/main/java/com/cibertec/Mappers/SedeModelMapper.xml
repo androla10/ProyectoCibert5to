@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cibertec.InterfaceMapper.SedeModelMapper">
+	<resultMap type="Sede" id="rmListarSede">
+		<id column="idSede" property="idSede" jdbcType="INTEGER" />
+		<result column="sDescripcion" property="sDescripcion" jdbcType="VARCHAR" />
+	</resultMap>
+
+	<select id="listarSedes" resultMap="rmListarSede"
+		statementType="CALLABLE">
+		{call SGI_WEB_R_LISTARSEDES()}
+	</select>
+</mapper>

@@ -13,7 +13,8 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 	
 	<select id="RegistrarIncidencia"
 		statementType="CALLABLE" parameterType="Incidencia">
-		EXEC SGI_WEB_C_INCIDENCIA #{descripcion, jdbcType=VARCHAR, mode=IN},#{idTipoIncidencia,jdbcType=INTEGER,mode=IN},#{fotobinary, jdbcType=VARBINARY,mode=IN},#{idUsuario,jdbcType=INTEGER, mode=IN}
+<!-- 		EXEC SGI_WEB_C_INCIDENCIA #{descripcion, jdbcType=VARCHAR, mode=IN},#{idTipoIncidencia,jdbcType=INTEGER,mode=IN},#{fotobinary, jdbcType=VARBINARY,mode=IN},#{idUsuario,jdbcType=INTEGER, mode=IN} -->
+<!-- 			{call SGI_WEB_C_INCIDENCIA(#{descripcion),#{idTipoIncidencia},#{fotobinary},#{idUsuario}} -->
 	</select>
 
 	<select id="ModificarIncidencia" resultMap="rmValidarIncidencia"

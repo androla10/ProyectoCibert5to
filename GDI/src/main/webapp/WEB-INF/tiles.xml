@@ -30,4 +30,13 @@ Foundation//DTD Tiles Configuration 2.0//EN"
 	<definition name='ListarIncidencia' extends='d_plantilla'>
 		<put-attribute name="body" value='/Incidencia/ListarIncidencia.jsp' />
 	</definition>
+	<definition name='Sede' extends='d_plantilla'>
+		<put-attribute name="body" value='/Sede/Sede.jsp' />
+	</definition>
+	<definition name='Geo' extends='d_plantilla'>
+		<put-attribute name="body" value='/Geo/Geo.jsp' />
+	</definition>
+	<definition name='Supervisar' extends='d_plantilla'>
+		<put-attribute name="body" value='/Supervisor/Supervisar.jsp' />
+	</definition>
 </tiles-definitions>

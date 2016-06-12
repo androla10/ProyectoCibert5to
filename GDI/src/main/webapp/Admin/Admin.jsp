@@ -37,8 +37,8 @@
 					<h3>Reportes</h3>
 					<div class="list-group">
 					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-list-alt fa-1x"></i> Incidencia</button>
-					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Usuario</button>
-					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Administrar Usuarios</button>
+					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Usuarios</button>
+					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Sedes</button>
 					</div>
 				</div>
 			</div>
@@ -56,5 +56,59 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="row animated zoomIn">
+		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+			<div class="thumbnail">
+				<img src="../img/user.png" alt="Imagen User">
+				<div class="caption">
+					<h3>Gestionar</h3>
+					<div class="list-group">
+					  <s:a type="button" class="list-group-item opcionesAdministrador" href="../Sede/Sede"><i class="fa fa-user fa-1x"></i> Gestionar Sede</s:a>
+					  <s:a type="button" class="list-group-item opcionesAdministrador" href="../Usuario/Usuarios"><i class="fa fa-cog fa-1x"></i> Gestionar Geo</s:a>
+<%-- 					  <s:a type="button" class="list-group-item opcionesAdministrador" href="../Usuario/Usuarios"><i class="fa fa-user fa-1x"></i> </s:a> --%>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- 		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"> -->
+<!-- 			<div class="thumbnail"> -->
+<!-- 				<img src="../img/incidencia.png" alt="..."> -->
+<!-- 				<div class="caption"> -->
+<!-- 					<h3>Geo</h3> -->
+<!-- 					<div class="list-group"> -->
+<!-- 					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Registrar</button> -->
+<!-- 					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Actualizar</button> -->
+<!-- 					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Inhabilitar</button> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
+<!-- 		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"> -->
+<!-- 			<div class="thumbnail"> -->
+<!-- 				<img src="../img/reporte.png" alt="..."> -->
+<!-- 				<div class="caption"> -->
+<!-- 					<h3>Reportes</h3> -->
+<!-- 					<div class="list-group"> -->
+<!-- 					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-list-alt fa-1x"></i> Incidencia</button> -->
+<!-- 					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Usuario</button> -->
+<!-- 					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Administrar Usuarios</button> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
+<!-- 		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"> -->
+<!-- 			<div class="thumbnail"> -->
+<!-- 				<img src="../img/configuracion.png" alt="..."> -->
+<!-- 				<div class="caption"> -->
+<!-- 					<h3>Configuracion</h3> -->
+<!-- 					<div class="list-group"> -->
+<!-- 					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Reportes</button> -->
+<!-- 					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Correos</button> -->
+<!-- 					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Administrar Usuarios</button> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
 	</div>
 </div>

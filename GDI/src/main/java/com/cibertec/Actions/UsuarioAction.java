@@ -20,6 +20,7 @@ public class UsuarioAction extends ActionSupport implements UsuarioHabilitado {
 	private List<UsuarioModel> lUsuario;
 	private List<TipoUsuarioModel> listarComboTipoUsuario;
 	private List<GeneroModel> listarComboGenero;
+	private UsuarioDAO dao = new UsuarioDAO();
 
 	public List<GeneroModel> getListarComboGenero() {
 		return listarComboGenero;
@@ -58,15 +59,35 @@ public class UsuarioAction extends ActionSupport implements UsuarioHabilitado {
 	}
 
 	public String registrar() {
-		if (usuario != null) {
-			return SUCCESS;
+		if (this.usuario != null) {
+			try {
+				int resultado = dao.Registrar(this.usuario);
+				if (resultado > -1) {
+					addActionMessage("Usuario Registrado");
+					return SUCCESS;
+				}
+				else if(resultado == -2){
+					addActionMessage("El dni que está ingresando ya esta siendo usado por un usuario");
+					return ERROR;
+				}else {
+					addActionMessage("Ha ocurrido un error al registrar el usuario");
+					return ERROR;
+				}
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				addActionMessage("Ha ocurrido un error al registrar el usuario");
+				return ERROR;
+			}
+		} else {
+			addActionMessage("Ha ocurrido un error al registrar el usuario");
+			return ERROR;
 		}
-		return ERROR;
 	}
 
 	public String listarUsuario() {
 		try {
-			lUsuario = new UsuarioDAO().ObtenerListado();
+			lUsuario = dao.ObtenerListado();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

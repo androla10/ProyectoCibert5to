@@ -28,10 +28,10 @@ public class Autenticacion implements Interceptor {
 		if (usuario == null) {
 			return Action.LOGIN;
 		} else {
-			Action action = (Action) arg0.getAction();
-			if (action instanceof UsuarioHabilitado) {
-				((UsuarioHabilitado) action).setUsuario(usuario);
-			}
+//			Action action = (Action) arg0.getAction();
+//			if (action instanceof UsuarioHabilitado) {
+//				((UsuarioHabilitado) action).setUsuario(usuario);
+//			}
 			return arg0.invoke();
 		}
 	}

@@ -12,6 +12,8 @@
 		<typeAlias type="com.cibertec.Model.SeguimientoModel" alias="Seguimiento" />
 		<typeAlias type="com.cibertec.Model.TipoUsuarioModel" alias="TipoUsuario" />
 		<typeAlias type="com.cibertec.Model.GeneroModel" alias="Genero" />
+		<typeAlias type="com.cibertec.Model.GeoModel" alias="Geo" />
+		<typeAlias type="com.cibertec.Model.SedeModel" alias="Sede" />
 		<typeAlias type="com.cibertec.Model.IncidenciaModel" alias="Incidencia" />
 	</typeAliases>
 	<environments default="development">
@@ -20,7 +22,7 @@
 			<dataSource type="POOLED">
 				<property name="driver" value="${jdbc.driver}" />
 				<property name="url"
-					value="jdbc:sqlserver://${jdbc.host}:${jdbc.port};databaseName=${jdbc.databasename}" />
+					value="jdbc:mysql://${jdbc.host}:${jdbc.port}/${jdbc.databasename}" />
 				<property name="username" value="${jdbc.username}" />
 				<property name="password" value="${jdbc.password}" />
 			</dataSource>
@@ -32,5 +34,6 @@
 		<mapper resource="com/cibertec/Mappers/TipoUsuarioModelMapper.xml"/>
 		<mapper resource="com/cibertec/Mappers/GeneroModelMapper.xml"/>
 		<mapper resource="com/cibertec/Mappers/IncidenciaModelMapper.xml"/>
+		<mapper resource="com/cibertec/Mappers/SedeModelMapper.xml"/>
 	</mappers>
 </configuration>

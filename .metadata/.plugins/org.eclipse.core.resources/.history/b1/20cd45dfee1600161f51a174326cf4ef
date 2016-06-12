@@ -1,9 +1,0 @@
-package com.cibertec.InterfaceMapper;
-
-import java.util.List;
-
-import com.cibertec.Model.TipoUsuarioModel;
-
-public interface GeneroModelMapper {
-	public List<TipoUsuarioModel> listarCombo() throws Exception;
-}

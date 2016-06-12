@@ -11,9 +11,9 @@ import com.cibertec.conexion.MyBatisUtil;
 public class UsuarioDAO implements UsuarioModelMapper{
 
 	@Override
-	public int Registrar() throws Exception {
-		// TODO Auto-generated method stub
-		return 0;
+	public int Registrar(UsuarioModel usuario) throws Exception {
+		SqlSession sq = MyBatisUtil.getConeccion().openSession();
+		return sq.getMapper(UsuarioModelMapper.class).Registrar(usuario);
 	}
 
 	@Override

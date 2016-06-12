@@ -15,8 +15,11 @@
 				<tr>
 					<th>Código</th>
 					<th>Usuario</th>
-					<th>Clave</th>
-					<th>iTipo</th>
+					<th>Password</th>
+					<th>Nombre</th>
+					<th>Apellidos</th>
+					<th>Genero</th>
+					<th>Tipo Usuario</th>
 					<!-- 					<th>Fecha de Registro</th> -->
 					<th>Estado</th>
 					<th></th>
@@ -28,7 +31,9 @@
 							<td><s:property value="idUsuario" /></td>
 							<td><s:property value="usuario" /></td>
 							<td><s:property value="password" /></td>
-							<td><s:property value="idTipo" /></td>
+							<td><s:property value="nombre" /></td>
+							<td><s:property value="apellido" /></td>
+							<td><s:property value="tipoUsuario" /></td>
 							<!-- 						<td>08/02/2016</td> -->
 							<td><s:property value="idActivo" /></td>
 							<td>b</td>
