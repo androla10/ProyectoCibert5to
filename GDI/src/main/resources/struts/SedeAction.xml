@@ -31,11 +31,6 @@
 			<result type="tiles" name="success">Sede</result>
 			<result type="tiles" name="error">principal</result>
 		</action>
-
-		<action name="Registrar" class="com.cibertec.Actions.UsuarioAction"
-			method="registrar">
-			<result name="success" type="redirect">RegistroUsuario</result>
-			<result name="error" type="redirect">RegistroUsuario</result>
-		</action>
+		
 	</package>
 </struts>

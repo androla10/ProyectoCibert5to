@@ -35,5 +35,6 @@
 		<mapper resource="com/cibertec/Mappers/GeneroModelMapper.xml"/>
 		<mapper resource="com/cibertec/Mappers/IncidenciaModelMapper.xml"/>
 		<mapper resource="com/cibertec/Mappers/SedeModelMapper.xml"/>
+		<mapper resource="com/cibertec/Mappers/GeoModelMapper.xml"/>
 	</mappers>
 </configuration>

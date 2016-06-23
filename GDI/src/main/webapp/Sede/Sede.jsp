@@ -1,3 +1,85 @@
+<script type="text/javascript">
+	$(document)
+			.ready(
+					function() {
+						$('#country').change(
+								function(event) {
+									var country = $("select#country").val();
+									$.getJSON('ajaxAction', {
+										countryName : country
+									}, function(jsonResponse) {
+										$('#ajaxResponse').text(
+												jsonResponse.dummyMsg);
+										var select = $('#states');
+										select.find('option').remove();
+										$.each(jsonResponse.stateMap, function(
+												key, value) {
+											$('<option>').val(key).text(value)
+													.appendTo(select);
+										});
+									});
+								});
+
+						var CargarProvincias = function() {
+							$.getJSON('../Geo/listarProvincia', function(json) {
+								console.log(json);
+								var selectProvincia = $('#Provincia');
+								selectProvincia.find('option').remove();
+								$.each(json.provinciaMap, function(key, value) {
+									$('<option>').val(key).text(value).appenTo(
+											selectProvincia);
+								});
+							});
+						};
+
+						$('#Provincia')
+								.change(
+										function() {
+											var position = document
+													.getElementById('Provincia').options.selectedIndex;
+											var idProvincia = document
+													.getElementById('Provincia').options[position].value;
+											CargarDepartamentos(idProvincia);
+										});
+
+						var CargarDepartamentos = function(idProvincia) {
+							$.getJSON('../Geo/listarDepartamento', {
+								idProvincia : idProvincia
+							}, function(json) {
+								// 						var selectProvincia = $('#Provincia');
+								// 						selectProvincia.find('option').remove();
+								// 						$.each(json.listarProvincias, function(key, value) {
+								// 							selectProvincia.append("<option value="+value.idGeo+">"+value.sDescripcion+"</option>");
+								// 						});
+								console.log(json);
+							});
+
+						};
+
+						var CargarProvincias = function() {
+							$
+									.getJSON(
+											'../Geo/listarProvincia',
+											function(json) {
+												console.log(json);
+												var selectProvincia = $('#Provincia');
+												selectProvincia.find('option')
+														.remove();
+												$
+														.each(
+																json.listarProvincias,
+																function(key,
+																		value) {
+																	selectProvincia
+																			.append("<option value="+value.idGeo+">"
+																					+ value.sDescripcion
+																					+ "</option>");
+																});
+											});
+						};
+						CargarProvincias();
+					});
+</script>
 <style>
 .contenedorTabla {
 	overflow-y: auto;
@@ -13,32 +95,20 @@
 	<hr>
 	<div class="row animated fadeIn">
 		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-			<div style="margin-bottom: 5px" class="btn-group" role="group"
-				aria-label="">
-				<s:a class="btn btn-link" href="../Usuario/RegistroUsuario">
-					<i class="fa fa-user-plus"></i> Agregar</s:a>
-			</div>
 			<s:form>
 				<div class="form-group">
 					<label for="Nombre">Nombre de Agencia</label> <input type="text"
-						class="form-control" name="usuario.nombre" id="Nombre" />
+						class="form-control" name="agencia.nombre" id="Nombre" />
 				</div>
 				<div class="form-group">
 					<label for="Nombre">Provincia</label> <select class="form-control"
-						name="usuario.idGenero" id="Genero">
-						<s:iterator value="listarComboGenero">
-							<option value=<s:property value="idGenero" />><s:property
-									value="Genero" /></option>
-						</s:iterator>
+						name="agencia.idProvincia" id="Provincia">
 					</select>
 				</div>
 				<div class="form-group">
 					<label for="Nombre">Departamento</label> <select
-						class="form-control" name="usuario.idGenero" id="Genero">
-						<s:iterator value="listarComboGenero">
-							<option value=<s:property value="idGenero" />><s:property
-									value="Genero" /></option>
-						</s:iterator>
+						class="form-control" name="agencia.idDepartamentos"
+						id="Departamento">
 					</select>
 				</div>
 				<div class="form-group">

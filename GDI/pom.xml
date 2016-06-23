@@ -23,11 +23,6 @@
 			<artifactId>mybatis</artifactId>
 			<version>3.3.0</version>
 		</dependency>
-<!-- 		<dependency> -->
-<!-- 			<groupId>com.microsoft.sqlserver</groupId> -->
-<!-- 			<artifactId>sqljdbc4</artifactId> -->
-<!-- 			<version>4.0</version> -->
-<!-- 		</dependency> -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -48,18 +43,23 @@
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-json-plugin</artifactId>
+			<version>2.3.15.1</version>
+		</dependency>
 
 	</dependencies>
 	<build>
-		<finalName>GVP</finalName>
+		<finalName>GDI</finalName>
 		<pluginManagement>
 			<plugins>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<configuration>
-						<source>1.8</source>
-						<target>1.8</target>
+						<source>1.7</source>
+						<target>1.7</target>
 					</configuration>
 				</plugin>
 			</plugins>
