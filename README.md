@@ -1,2 +1,2 @@
 # ProyectoCibert5to
-Gestión de Ventas de Productos
+Sistema de Gestión de Incidencias
