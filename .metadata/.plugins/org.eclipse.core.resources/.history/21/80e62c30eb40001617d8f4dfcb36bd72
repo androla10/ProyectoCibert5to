@@ -1,0 +1,34 @@
+package com.cibertec.Model;
+
+public class AreaModel {
+	private String sDescripcion;
+	private int iActivo;
+	private int idResidenciaArea;
+	
+	
+
+	public int getIdResidenciaArea() {
+		return idResidenciaArea;
+	}
+
+	public void setIdResidenciaArea(int idResidenciaArea) {
+		this.idResidenciaArea = idResidenciaArea;
+	}
+
+	public int getiActivo() {
+		return iActivo;
+	}
+
+	public void setiActivo(int iActivo) {
+		this.iActivo = iActivo;
+	}
+
+	public String getsDescripcion() {
+		return sDescripcion;
+	}
+
+	public void setsDescripcion(String sDescripcion) {
+		this.sDescripcion = sDescripcion;
+	}
+
+}

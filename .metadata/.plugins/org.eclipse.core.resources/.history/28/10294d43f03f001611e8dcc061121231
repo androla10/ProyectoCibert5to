@@ -1,0 +1,8 @@
+package com.cibertec.Mappers;
+
+public class Snippet {
+	public static void main(String[] args) {
+		SGI_WEB_R_LISTARRECIDENCIA
+	}
+}
+

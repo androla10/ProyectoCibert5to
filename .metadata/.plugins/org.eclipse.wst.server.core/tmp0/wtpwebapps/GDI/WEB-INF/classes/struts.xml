@@ -46,11 +46,14 @@
 		</action>
 		
 		<!-- 		end otra pagina -->
-		
+		<!-- Weadas -->
 
 	</package>
 	<include file="LoginAction.xml"/>
 	<include file="struts/UsuarioAction.xml" />
 	<include file="struts/SeguimientoAction.xml" />
 	<include file="struts/IncidenciaAction.xml" />
+	<include file="struts/SedeAction.xml" />
+	<include file="struts/GeoAction.xml" />
+	<include file="struts/AreaAction.xml" />
 </struts>

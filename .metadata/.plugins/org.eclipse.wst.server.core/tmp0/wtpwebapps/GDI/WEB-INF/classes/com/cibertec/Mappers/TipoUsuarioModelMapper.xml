@@ -10,7 +10,7 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 
 	<select id="listarCombo" resultMap="rmListarTipoUsuario"
 		statementType="CALLABLE">
-		EXEC SGI_WEB_R_LISTARTIPOUSUARIO
+		{call SGI_WEB_R_LISTARTIPOUSUARIO()}
 	</select>
 
 </mapper>

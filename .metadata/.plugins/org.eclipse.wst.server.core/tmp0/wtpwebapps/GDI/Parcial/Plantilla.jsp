@@ -24,7 +24,7 @@
 <script src="../js/librerias/fileinput_locale_es.js"></script>
 
 <%-- <script src="../js/librerias/require.js"></script> --%>
-<script src="../js/general.js"></script>
+<%-- <script src="../js/general.js"></script> --%>
 <title>Sistema de Gestión de Incidencias</title>
 </head>
 <body>

@@ -1,0 +1,153 @@
+$('#formRegistroUsuario')
+		.formValidation(
+				{
+					framework : 'bootstrap',
+					icon : {
+						valid : 'glyphicon glyphicon-ok',
+						invalid : 'glyphicon glyphicon-remove',
+						validating : 'glyphicon glyphicon-refresh'
+					},
+					fields : {
+						'usuario.nombre' : {
+							validators : {
+								notEmpty : {
+									message : 'El campo nombre es requerido'
+								},
+								stringLength : {
+									min : 2,
+									max : 35,
+									message : 'Solo puede aceptar nombres desde 2 a 30 caracteres'
+								},
+								regexp : {
+									regexp : /^[a-zA-Z\s]+$/,
+									message : 'El nombre solo debe contener letras'
+								}
+							}
+						},
+						'usuario.apellido' : {
+							validators : {
+								notEmpty : {
+									message : 'El campo apellido es requerido es requerido'
+								},
+								stringLength : {
+									min : 6,
+									max : 35,
+									message : 'Solo puede aceptar apellidos desde 6 a 30 caracteres'
+								},
+								regexp : {
+									regexp : /^[a-zA-Z\s]+$/,
+									message : 'El nombre solo debe contener letras'
+								}
+							}
+						},
+						'usuario.idGenero' : {
+							validators : {
+								notEmpty : {
+									message : 'El campo genero es requerido es requerido'
+								}
+							}
+						},
+						'usuario.dni' : {
+							validators : {
+								notEmpty : {
+									message : 'El campo DNI es requerido es requerido'
+								},
+								stringLength : {
+									min : 8,
+									max : 8,
+									message : 'El dni debe contener 8 caracteres'
+								},
+								regexp : {
+									regexp : /^[0-9]+$/,
+									message : 'El dni solo debe contener numeros'
+								}
+							}
+						},
+						'usuario.telefono' : {
+							validators : {
+								stringLength : {
+									min : 7,
+									max : 7,
+									message : 'El campo telefono debe contener 7 caracteres'
+								},
+								regexp : {
+									regexp : /^[0-9]+$/,
+									message : 'El campo telefono solo debe contener numeros'
+								}
+							}
+						},
+						'usuario.celular' : {
+							validators : {
+								stringLength : {
+									min : 9,
+									max : 9,
+									message : 'El campo celular debe contener 9 caracteres'
+								},
+								regexp : {
+									regexp : /^[0-9]+$/,
+									message : 'El campo celular solo debe contener numeros'
+								}
+							}
+						},
+						'usuario.correo' : {
+							validators : {
+								notEmpty : {
+									message : 'El campo email es requerido'
+								},
+								emailAddress : {
+									message : 'El correo es invalido'
+								}
+							}
+						},
+						'usuario.idTipo' : {
+							validators : {
+								notEmpty : {
+									message : 'Por favor seleccione tipo de usuario'
+								}
+							}
+						},
+						'usuario.matricula' : {
+							validators : {
+								notEmpty : {
+									message : 'El campo matricula es requerido'
+								},
+								stringLength : {
+									min : 6,
+									max : 35,
+									message : 'Solo puede aceptar apellidos desde 6 a 30 caracteres'
+								},
+								regexp : {
+									regexp : /^[a-zA-Z][0-9]{5}+$/,
+									message : 'La matricula debe comenzar con una letra y le sigue 5 numeros'
+								}
+							}
+						},
+						'usuario.anexo' : {
+							validators : {
+								stringLength : {
+									min : 4,
+									max : 10,
+									message : 'El campo anexo debe contener minimo 4 y maximo 10 caracteres.'
+								},
+								regexp : {
+									regexp : /^[0-9]+$/,
+									message : 'El campo celular solo debe contener numeros.'
+								}
+							}
+						},
+						'usuario.idResidencia' : {
+							validators : {
+								notEmpty : {
+									message : 'Por favor seleccione residencia.'
+								}
+							}
+						},
+						'usuario.idArea' : {
+							validators : {
+								notEmpty : {
+									message : 'Por favor seleccione el area a la que pertenece el usuario.'
+								}
+							}
+						}
+					}
+				});

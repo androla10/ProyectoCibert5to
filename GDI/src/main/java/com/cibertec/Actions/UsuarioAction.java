@@ -3,9 +3,11 @@ package com.cibertec.Actions;
 import java.util.List;
 
 import com.cibertec.Model.GeneroModel;
+import com.cibertec.Model.ResidenciaModel;
 import com.cibertec.Model.TipoUsuarioModel;
 import com.cibertec.Model.UsuarioModel;
 import com.cibertec.Service.GeneroDAO;
+import com.cibertec.Service.ResidenciaDAO;
 import com.cibertec.Service.TipoUsuarioDao;
 import com.cibertec.Service.UsuarioDAO;
 import com.cibertec.interceptor.UsuarioHabilitado;
@@ -20,7 +22,25 @@ public class UsuarioAction extends ActionSupport implements UsuarioHabilitado {
 	private List<UsuarioModel> lUsuario;
 	private List<TipoUsuarioModel> listarComboTipoUsuario;
 	private List<GeneroModel> listarComboGenero;
+	private List<ResidenciaModel> listarResidencia;
 	private UsuarioDAO dao = new UsuarioDAO();
+
+	
+	public List<ResidenciaModel> getListarResidencia() {
+		return listarResidencia;
+	}
+
+	public void setListarResidencia(List<ResidenciaModel> listarResidencia) {
+		this.listarResidencia = listarResidencia;
+	}
+
+	public UsuarioDAO getDao() {
+		return dao;
+	}
+
+	public void setDao(UsuarioDAO dao) {
+		this.dao = dao;
+	}
 
 	public List<GeneroModel> getListarComboGenero() {
 		return listarComboGenero;
@@ -103,6 +123,8 @@ public class UsuarioAction extends ActionSupport implements UsuarioHabilitado {
 		try {
 			listarComboTipoUsuario = new TipoUsuarioDao().listarCombo();
 			listarComboGenero = new GeneroDAO().listarCombo();
+			listarResidencia = new ResidenciaDAO().listarResidencia();
+			
 			if (listarComboTipoUsuario.size() != 0 && listarComboGenero.size() != 0) {
 				return SUCCESS;
 			} else {

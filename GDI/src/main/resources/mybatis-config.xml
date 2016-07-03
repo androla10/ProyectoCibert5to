@@ -13,7 +13,9 @@
 		<typeAlias type="com.cibertec.Model.TipoUsuarioModel" alias="TipoUsuario" />
 		<typeAlias type="com.cibertec.Model.GeneroModel" alias="Genero" />
 		<typeAlias type="com.cibertec.Model.GeoModel" alias="Geo" />
+		<typeAlias type="com.cibertec.Model.ResidenciaModel" alias="Residencia" />
 		<typeAlias type="com.cibertec.Model.SedeModel" alias="Sede" />
+		<typeAlias type="com.cibertec.Model.AreaModel" alias="Area" />
 		<typeAlias type="com.cibertec.Model.IncidenciaModel" alias="Incidencia" />
 	</typeAliases>
 	<environments default="development">
@@ -36,5 +38,7 @@
 		<mapper resource="com/cibertec/Mappers/IncidenciaModelMapper.xml"/>
 		<mapper resource="com/cibertec/Mappers/SedeModelMapper.xml"/>
 		<mapper resource="com/cibertec/Mappers/GeoModelMapper.xml"/>
+		<mapper resource="com/cibertec/Mappers/AreaModelMapper.xml"/>
+		<mapper resource="com/cibertec/Mappers/ResidenciaModelMapper.xml"/>
 	</mappers>
 </configuration>

@@ -1,0 +1,18 @@
+package com.cibertec.Model;
+
+public class AreaModel {
+	private int idArea;
+	private String sDescripcion;
+	private int iActivo;
+
+	public String getsDescripcion() {
+		return sDescripcion;
+	}
+	public void setsDescripcion(String sDescripcion) {
+		this.sDescripcion = sDescripcion;
+	}
+	
+	
+	
+	
+}

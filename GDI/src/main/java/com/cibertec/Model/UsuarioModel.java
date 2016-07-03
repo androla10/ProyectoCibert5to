@@ -12,6 +12,10 @@ public class UsuarioModel {
 	private int idTipo;
 	private int idActivo;
 	private int idPersona;
+	private int idResidencia;
+	private String residencia;
+	private String area;
+	private int idArea;
 	private String telefono;
 	private String celular;
 	private String correo;
@@ -19,6 +23,47 @@ public class UsuarioModel {
 	private String tipoUsuario;
 	private String estado;
 	private String genero;
+	private String anexo;
+
+	public String getAnexo() {
+		return anexo;
+	}
+
+	public void setAnexo(String anexo) {
+		this.anexo = anexo;
+	}
+
+	public int getIdResidencia() {
+		return idResidencia;
+	}
+
+	public void setIdResidencia(int idResidencia) {
+		this.idResidencia = idResidencia;
+	}
+
+	public String getResidencia() {
+		return residencia;
+	}
+
+	public void setResidencia(String residencia) {
+		this.residencia = residencia;
+	}
+
+	public String getArea() {
+		return area;
+	}
+
+	public void setArea(String area) {
+		this.area = area;
+	}
+
+	public int getIdArea() {
+		return idArea;
+	}
+
+	public void setIdArea(int idArea) {
+		this.idArea = idArea;
+	}
 
 	public String getTipoUsuario() {
 		return tipoUsuario;

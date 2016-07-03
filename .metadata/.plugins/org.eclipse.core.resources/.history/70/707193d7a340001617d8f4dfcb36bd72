@@ -1,0 +1,34 @@
+$(document)
+			.ready(
+					function() {
+						$('#Residencia')
+								.change(
+										function() {
+											var position = document
+													.getElementById('Residencia').options.selectedIndex;
+											var idResidencia = document
+													.getElementById('Residencia').options[position].value;
+											CargarAreas(idResidencia);
+										});
+
+						var CargarAreas = function(idResidencia) {
+							$.getJSON('../Area/listarAreas',
+									function(json) {
+								// 						var selectProvincia = $('#Provincia');
+								// 						selectProvincia.find('option').remove();
+								// 						$.each(json.listarProvincias, function(key, value) {
+								// 							selectProvincia.append("<option value="+value.idGeo+">"+value.sDescripcion+"</option>");
+								// 						});
+								console.log(json);
+							});
+						};
+						
+						var CargarAreas2 = function(idResidencia){
+							$.ajax({
+								  dataType: "json",
+								  url: '../Area/listarAreas',
+								  data: data,
+								  success: success
+								});
+						}
+					});

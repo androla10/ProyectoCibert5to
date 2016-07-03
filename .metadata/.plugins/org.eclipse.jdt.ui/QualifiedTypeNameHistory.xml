@@ -12,7 +12,6 @@
 <fullyQualifiedTypeName name="com.cibertec.Actions.UsuarioAction"/>
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.Action"/>
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionContext"/>
-<fullyQualifiedTypeName name="org.apache.ibatis.annotations.Param"/>
 <fullyQualifiedTypeName name="com.cibertec.constantes.Constantes"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.cibertec.Model.TipoUsuarioModel"/>
@@ -39,11 +38,18 @@
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
-<fullyQualifiedTypeName name="com.cibertec.conexion.MyBatisUtil"/>
 <fullyQualifiedTypeName name="com.cibertec.InterfaceMapper.IncidenciaModelMapper"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="com.cibertec.Service.IncidenciaDAO"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="com.cibertec.metodos.Metodos"/>
+<fullyQualifiedTypeName name="com.cibertec.InterfaceMapper.ResidenciaModelMapper"/>
+<fullyQualifiedTypeName name="com.cibertec.Model.ResidenciaModel"/>
+<fullyQualifiedTypeName name="com.cibertec.Service.ResidenciaDAO"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.annotations.Param"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+<fullyQualifiedTypeName name="com.cibertec.conexion.MyBatisUtil"/>
+<fullyQualifiedTypeName name="com.cibertec.InterfaceMapper.AreaModelMapper"/>
+<fullyQualifiedTypeName name="com.cibertec.Model.AreaModel"/>
+<fullyQualifiedTypeName name="com.cibertec.Service.AreaDAO"/>
 </qualifiedTypeNameHistroy>

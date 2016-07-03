@@ -34,6 +34,6 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 	<select id="Registrar" statementType="CALLABLE" parameterType="Usuario"
 		resultType="INTEGER">
 		{call
-		SGI_WEB_C_REGISTRARUSUARIO(#{nombre,jdbcType=VARCHAR,mode=IN},#{apellido,jdbcType=VARCHAR,mode=IN},#{matricula,jdbcType=VARCHAR,mode=IN},#{dni,jdbcType=VARCHAR,mode=IN},#{idGenero,jdbcType=INTEGER,mode=IN},#{idTipo,jdbcType=INTEGER,mode=IN},#{telefono,jdbcType=VARCHAR,mode=IN},#{celular,jdbcType=VARCHAR,mode=IN},#{correo,jdbcType=VARCHAR,mode=IN})}
+		SGI_WEB_C_REGISTRARUSUARIO(#{nombre,jdbcType=VARCHAR,mode=IN},#{apellido,jdbcType=VARCHAR,mode=IN},#{matricula,jdbcType=VARCHAR,mode=IN},#{dni,jdbcType=VARCHAR,mode=IN},#{idGenero,jdbcType=INTEGER,mode=IN},#{idTipo,jdbcType=INTEGER,mode=IN},#{telefono,jdbcType=VARCHAR,mode=IN},#{celular,jdbcType=VARCHAR,mode=IN},#{correo,jdbcType=VARCHAR,mode=IN},#{anexo,jdbcType=VARCHAR,mode=IN},#{idArea,jdbcType=INTEGER,mode=IN})}
 	</select>
 </mapper>

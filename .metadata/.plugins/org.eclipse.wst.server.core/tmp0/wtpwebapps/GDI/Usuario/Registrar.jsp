@@ -7,21 +7,22 @@
 }
 </style>
 <div class="container-fluid">
-	</hr>
+	<hr>
 	<div class="panel-primary">
 		<div class="panel-heading">
 			<i class="fa fa-user fa-1x"></i>&nbsp;Registrar Usuario
 		</div>
 		<div class="panel-body">
-			<form action="" id="formRegistroUsuario">
+			<s:form action="Registrar" namespace="Usuario"
+				id="formRegistroUsuario">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 						<div class="form-group">
-							<label for="Nombre">Nombre</label> <input type="text"
+							<label for="Nombre">Nombres</label> <input type="text"
 								class="form-control" name="usuario.nombre" id="Nombre" />
 						</div>
 						<div class="form-group">
-							<label for="Apellido">Apellido</label> <input type="text"
+							<label for="Apellido">Apellidos</label> <input type="text"
 								class="form-control" name="usuario.apellido" id="Apellido" />
 						</div>
 						<div class="form-group">
@@ -29,21 +30,36 @@
 								class="form-control" name="usuario.dni" id="Dni" />
 						</div>
 						<div class="form-group">
+							<label for="Correo" class="control-label">Correo</label>
+							<div class="input-group">
+								<span class="input-group-addon">@</span> <input type="email"
+									class="form-control" name="usuario.correo" id="Correo" />
+							</div>
+						</div>
+						<div class="form-group">
 							<label for="Genero">Genero</label> <select class="form-control"
-								name="usuario.genero" id="Genero">
+								name="usuario.idGenero" id="Genero">
 								<s:iterator value="listarComboGenero">
-									<option value=<s:property value="idGenero" />><s:property value="Genero" /></option>
+									<option value=<s:property value="idGenero" />><s:property
+											value="Genero" /></option>
 								</s:iterator>
 							</select>
 						</div>
 
 						<div class="form-group">
 							<label for="TipoUsuario">Tipo de Usuario</label> <select
-								class="form-control" name="usuario.tipoUsuario" id="TipoUsuario">
+								class="form-control" name="usuario.idTipo" id="TipoUsuario">
 								<s:iterator value="listarComboTipoUsuario">
-									<option value=<s:property value="idTipoUsuario" />><s:property value="TipoUsuario" /></option>
+									<option value=<s:property value="idTipoUsuario" />><s:property
+											value="TipoUsuario" /></option>
 								</s:iterator>
 							</select>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-sm-6 col-lg-6 detalle">
+						<div class="form-group">
+							<label for="Dni">Matrícula</label> <input type="text"
+								class="form-control" name="usuario.matricula" id="Dni" />
 						</div>
 						<div class="form-group">
 							<label for="Telefono">Telefono</label> <input type="text"
@@ -54,28 +70,33 @@
 								class="form-control" name="usuario.celular" id="Celular" />
 						</div>
 						<div class="form-group">
-							<label for="Correo" class="control-label">Correo</label>
-							<div class="input-group">
-								<span class="input-group-addon">@</span> <input type="email"
-									class="form-control" name="usuario.correo" id="Correo" />
-							</div>
+							<label for="Celular">Anexo</label> <input type="text"
+								class="form-control" name="usuario.anexo" id="Celular" />
 						</div>
+						<div class="form-group">
+							<label for="Residencia">Residencia</label> <select  
+								class="form-control" name="usuario.idResidencia" id="Residencia">
+								<s:iterator value="listarResidencia">
+									<option value=<s:property value="idResidencia" />><s:property
+											value="sDescripcion" /></option>
+								</s:iterator>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="Area">Área</label> <select
+								class="form-control" name="usuario.idArea" id="Area">
+							</select>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-sm-12 col-lg-12">
 						<button type="submit" class="btn btn-primary">Registrar</button>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-sm-6 col-lg-6 detalle">
-						<h4>Observación</h4>
-						<p>Existen 3 tipos de usuarios:</p>
-						<ol>
-							<li>Usuario Banco</li>
-							<li>Operativo</li>
-							<li>Supervisor</li>
-						</ol>
-						<p>El usuario banco : es el usuario que ingresará una
-							incidencia y podrá ver todas las incidencias emitidas por el a
-							través de un seguimiento.</p>
-					</div>
 				</div>
-			</form>
+			</s:form>
+			<small class="mensajeError animated bounceInLeft"><s:actionmessage /></small>
+
 		</div>
 	</div>
 </div>
+<script type="text/javascript" src="../js/Usuario/query.js"></script>
+<script type="text/javascript" src="../js/Usuario/validator.js"></script>

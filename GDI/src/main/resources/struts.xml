@@ -55,4 +55,5 @@
 	<include file="struts/IncidenciaAction.xml" />
 	<include file="struts/SedeAction.xml" />
 	<include file="struts/GeoAction.xml" />
+	<include file="struts/AreaAction.xml" />
 </struts>

@@ -1,0 +1,53 @@
+package com.cibertec.Actions;
+
+import java.util.List;
+
+import com.cibertec.Model.GeoModel;
+import com.cibertec.Model.SedeModel;
+import com.cibertec.Model.UsuarioModel;
+import com.cibertec.Service.GeoDAO;
+import com.cibertec.interceptor.UsuarioHabilitado;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class AreaAction extends ActionSupport implements UsuarioHabilitado {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private SedeModel sede;
+	private GeoDAO dao = new GeoDAO();
+	private int idResidencia;
+
+
+
+
+
+
+	public GeoDAO getDao() {
+		return dao;
+	}
+
+	public void setDao(GeoDAO dao) {
+		this.dao = dao;
+	}
+
+	public SedeModel getSede() {
+		return sede;
+	}
+
+	public void setSede(SedeModel sede) {
+		this.sede = sede;
+	}
+
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+
+
+	@Override
+	public void setUsuario(UsuarioModel usuario) {
+
+	}
+
+}

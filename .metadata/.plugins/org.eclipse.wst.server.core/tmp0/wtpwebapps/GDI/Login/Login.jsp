@@ -17,7 +17,7 @@
 <body class="container-fluid">
 	<h2 class="text-center">Bienvenido al sistema de Gestión De
 		Incidencias</h2>
-	</br>
+	<br>
 	<div class="row">
 		<div class="col-sm-4 col-sm-offset-4">
 			<div class="jumbotron frmLogin">
@@ -43,11 +43,6 @@
 							value="msjError" /></small>
 				</div>
 			</div>
-			<%-- 				<s:form action="Login"> --%>
-			<%-- 					<s:textfield name="usuario.usuario"/> --%>
-			<%-- 					<s:password name="usuario.password" /> --%>
-			<%-- 					<s:submit value="Ingresar" /> --%>
-			<%-- 				</s:form> --%>
 		</div>
 	</div>
 </body>

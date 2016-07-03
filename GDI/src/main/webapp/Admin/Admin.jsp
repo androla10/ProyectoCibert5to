@@ -11,7 +11,7 @@
 					<h3>Usuarios</h3>
 					<div class="list-group">
 					  <s:a type="button" class="list-group-item opcionesAdministrador" href="../Usuario/Usuarios"><i class="fa fa-user fa-1x"></i> Administrar</s:a>
-					  D<s:a type="button" class="list-group-item opcionesAdministrador" href="../Usuario/Usuarios"><i class="fa fa-cog fa-1x"></i> Configurar</s:a>
+					  <s:a type="button" class="list-group-item opcionesAdministrador" href="../Usuario/Usuarios"><i class="fa fa-cog fa-1x"></i> Configurar</s:a>
 					  <s:a type="button" class="list-group-item opcionesAdministrador" href="../Usuario/Usuarios"><i class="fa fa-user fa-1x"></i> Administrar Usuarios</s:a>
 					</div>
 				</div>
