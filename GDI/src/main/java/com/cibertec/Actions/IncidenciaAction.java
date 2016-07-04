@@ -1,22 +1,26 @@
 package com.cibertec.Actions;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.sql.SQLException;
 
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
 
-import org.apache.struts2.interceptor.ServletRequestAware;
 import org.apache.struts2.util.ServletContextAware;
 
 import com.cibertec.Model.IncidenciaModel;
+import com.cibertec.Model.PrioridadModel;
+import com.cibertec.Model.TipoIncidenciaModel;
+import com.cibertec.Model.UrgenciaModel;
 import com.cibertec.Model.UsuarioModel;
 import com.cibertec.Service.IncidenciaDAO;
+import com.cibertec.Service.PrioridadDAO;
+import com.cibertec.Service.TipoIncidenciaDAO;
+import com.cibertec.Service.UrgenciaDAO;
+import com.cibertec.constantes.Constantes;
 import com.cibertec.interceptor.UsuarioHabilitado;
-import com.cibertec.metodos.Metodos;
+import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
+import java.util.*;
 
 public class IncidenciaAction extends ActionSupport implements ServletContextAware, UsuarioHabilitado {
 
@@ -32,6 +36,36 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 	private ServletContext context;
 	private UsuarioModel usuario;
 	private int codigoAutogenerado;
+	private List<UrgenciaModel> listarUrgencia;
+	private List<PrioridadModel> listarPrioridad;
+	private List<TipoIncidenciaModel> listarTipoIncidencia;
+	private Map session = ActionContext.getContext().getSession();
+	private Map aplication = ActionContext.getContext().getApplication();
+	IncidenciaDAO dao = new IncidenciaDAO();
+
+	public List<UrgenciaModel> getListarUrgencia() {
+		return listarUrgencia;
+	}
+
+	public void setListarUrgencia(List<UrgenciaModel> listarUrgencia) {
+		this.listarUrgencia = listarUrgencia;
+	}
+
+	public List<PrioridadModel> getListarPrioridad() {
+		return listarPrioridad;
+	}
+
+	public void setListarPrioridad(List<PrioridadModel> listarPrioridad) {
+		this.listarPrioridad = listarPrioridad;
+	}
+
+	public IncidenciaDAO getDao() {
+		return dao;
+	}
+
+	public void setDao(IncidenciaDAO dao) {
+		this.dao = dao;
+	}
 
 	public int getCodigoAutogenerado() {
 		return codigoAutogenerado;
@@ -65,30 +99,70 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 		this.incidencia = incidencia;
 	}
 
+	public List<TipoIncidenciaModel> getListarTipoIncidencia() {
+		return listarTipoIncidencia;
+	}
+
+	public void setListarTipoIncidencia(List<TipoIncidenciaModel> listarTipoIncidencia) {
+		this.listarTipoIncidencia = listarTipoIncidencia;
+	}
+
 	public String registrar() {
 
-		IncidenciaDAO dao = new IncidenciaDAO();
 		System.out.println("File Name is:" + incidencia.getFotoContentType());
 		System.out.println("File ContentType is:" + incidencia.getFotoFileName());
 		System.out.println("Files Directory is:" + filesPath);
 		System.out.println("Sé registro la incidencia generada");
+
+		UsuarioModel usu = (UsuarioModel) session.get("user");
+
+		this.incidencia.setIdUsuario(usu.getIdUsuario());
 		try {
-			// Metodos.guardarArchivo(incidencia.getFoto(),
-			// incidencia.getFotoFileName(),
-			// context.getRealPath("") + File.separator + filesPath);
-			int resultado = dao.RegistrarIncidencia(getIncidencia());
-			if (resultado == -1) {
+			this.incidencia.setFotobinary(Constantes.getBytesFromFile(this.incidencia.getFoto()));
+			int resultado = new IncidenciaDAO().RegistrarIncidencia(this.incidencia);
+			if (resultado != -1) {
 				setCodigoAutogenerado(resultado);
-				return INPUT;
+				return SUCCESS;
+			} else {
+				return ERROR;
 			}
-			else{
-				setCodigoAutogenerado(resultado);
-			}
-		} catch (SQLException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
-			return INPUT;
 		}
-		return SUCCESS;
+
+		// Metodos.guardarArchivo(incidencia.getFoto(),
+		// incidencia.getFotoFileName(),
+		// context.getRealPath("") + File.separator + filesPath);
+		// int resultado = dao.RegistrarIncidencia(getIncidencia());
+		// if (resultado == -1) {
+		// setCodigoAutogenerado(resultado);
+		// return INPUT;
+		// } else {
+		// setCodigoAutogenerado(resultado);
+		// }
+
+		return ERROR;
+	}
+
+	public String cargarFormularioRegistrarIncidencia() {
+		try {
+			this.listarTipoIncidencia = new TipoIncidenciaDAO().listarTipoIncidencia();
+			this.listarPrioridad = new PrioridadDAO().listarPrioridad();
+			this.listarUrgencia = new UrgenciaDAO().listarUrgencia();
+
+			if (listarPrioridad != null && listarUrgencia != null && listarTipoIncidencia != null) {
+				for (PrioridadModel prioridadModel : listarPrioridad) {
+					System.out.println(prioridadModel.getsDescripcion());
+				}
+				return SUCCESS;
+			} else
+				return LOGIN;
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return LOGIN;
+
 	}
 
 	public HttpServletRequest getServletRequest() {

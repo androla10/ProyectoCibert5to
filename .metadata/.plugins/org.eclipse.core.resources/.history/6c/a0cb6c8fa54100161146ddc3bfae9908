@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cibertec.InterfaceMapper.PrioridadModelMapper">
+	<resultMap type="Prioridad" id="rmListarPrioridad">
+		<id column="id" property="idPrioridad" jdbcType="INTEGER" />
+		<result column="sDescripcion" property="sDescripcion" jdbcType="VARCHAR" />
+	</resultMap>
+	
+	<select id="listarAreas" resultMap="rmListarAreas"
+		statementType="CALLABLE">
+		{call SGI_WEB_R_LISTARAREAS()}
+	</select>
+	
+	<select id="listarAreasxResidencia" resultMap="rmListarAreas"
+		statementType="CALLABLE" parameterType="INTEGER">
+		{call SGI_WEB_R_LISTARAREASXRESIDENCIA(#{idResidencia})}
+	</select>
+	
+</mapper>

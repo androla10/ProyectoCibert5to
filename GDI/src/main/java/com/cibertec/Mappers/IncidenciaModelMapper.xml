@@ -11,10 +11,20 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 		<result column="iActivo" property="idActivo" jdbcType="INTEGER" />
 	</resultMap>
 	
+	<resultMap type="Incidencia" id="rmListarIncidencia">
+		<id column="idIncidencia" property="idIncidencia" jdbcType="INTEGER" />
+		<result column="sNombreCompleto" property="sNombreCompleto" jdbcType="VARCHAR" />
+		<result column="sTipoIncidencia" property="sTipoIncidencia" jdbcType="VARCHAR" />
+		<result column="Estado" property="sEstado" jdbcType="VARCHAR" />
+		<result column="FechaCreacion" property="fechaCreacion" jdbcType="DATETIME" />
+		<result column="FechaAsignacion" property="fechaAsignacion" jdbcType="DATETIME" />
+		<result column="Titulo" property="titulo" jdbcType="VARCHAR" />
+	</resultMap>
+	
+	
 	<select id="RegistrarIncidencia"
-		statementType="CALLABLE" parameterType="Incidencia">
-<!-- 		EXEC SGI_WEB_C_INCIDENCIA #{descripcion, jdbcType=VARCHAR, mode=IN},#{idTipoIncidencia,jdbcType=INTEGER,mode=IN},#{fotobinary, jdbcType=VARBINARY,mode=IN},#{idUsuario,jdbcType=INTEGER, mode=IN} -->
-<!-- 			{call SGI_WEB_C_INCIDENCIA(#{descripcion),#{idTipoIncidencia},#{fotobinary},#{idUsuario}} -->
+		statementType="CALLABLE" parameterType="Incidencia" resultType="INTEGER">
+			{call SGI_WEB_C_INCIDENCIA(#{titulo, jdbcType=VARCHAR, mode=IN},#{descripcion, jdbcType=VARCHAR, mode=IN},#{idTipoIncidencia,jdbcType=INTEGER,mode=IN},#{idTipoPrioridad,jdbcType=INTEGER,mode=IN},#{idTipoUrgencia,jdbcType=INTEGER,mode=IN},#{fotobinary, jdbcType=BLOB,mode=IN},#{idUsuario,jdbcType=INTEGER, mode=IN})}
 	</select>
 
 	<select id="ModificarIncidencia" resultMap="rmValidarIncidencia"
@@ -26,6 +36,12 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 		statementType="CALLABLE">
 		<!-- Listar Incidencia -->
 	</select>
+	
+	<select id="ListarIncidenciasAsignadas" resultMap="rmListarIncidencia"
+		statementType="CALLABLE">
+		{call SGI_WEB_R_LISTARINCIDENCIASASIGNADAS()}
+	</select>
+	
 
 	<select id="EliminarIncidencia" resultMap="rmValidarIncidencia"
 		statementType="CALLABLE">

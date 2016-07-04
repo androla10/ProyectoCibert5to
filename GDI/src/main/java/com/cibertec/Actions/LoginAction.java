@@ -1,11 +1,21 @@
 package com.cibertec.Actions;
 
+import java.sql.SQLException;
+import java.util.List;
 import java.util.Map;
 
 import org.apache.struts2.dispatcher.SessionMap;
 import org.apache.struts2.interceptor.SessionAware;
 
+import com.cibertec.Model.IncidenciaModel;
+import com.cibertec.Model.PrioridadModel;
+import com.cibertec.Model.TipoIncidenciaModel;
+import com.cibertec.Model.UrgenciaModel;
 import com.cibertec.Model.UsuarioModel;
+import com.cibertec.Service.IncidenciaDAO;
+import com.cibertec.Service.PrioridadDAO;
+import com.cibertec.Service.TipoIncidenciaDAO;
+import com.cibertec.Service.UrgenciaDAO;
 import com.cibertec.Service.UsuarioDAO;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
@@ -19,6 +29,54 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	private String msjError;
 	private Map session = ActionContext.getContext().getSession();
 	private Map aplication = ActionContext.getContext().getApplication();
+	private List<UrgenciaModel> listarUrgencia;
+	private List<PrioridadModel> listarPrioridad;
+	private List<TipoIncidenciaModel> listarTipoIncidencia;
+	private List<IncidenciaModel> listaIncidenciaAsignadas;
+
+	public List<IncidenciaModel> getListaIncidenciaAsignadas() {
+		return listaIncidenciaAsignadas;
+	}
+
+	public void setListaIncidenciaAsignadas(List<IncidenciaModel> listaIncidenciaAsignadas) {
+		this.listaIncidenciaAsignadas = listaIncidenciaAsignadas;
+	}
+
+	public Map getAplication() {
+		return aplication;
+	}
+
+	public void setAplication(Map aplication) {
+		this.aplication = aplication;
+	}
+
+	public List<UrgenciaModel> getListarUrgencia() {
+		return listarUrgencia;
+	}
+
+	public void setListarUrgencia(List<UrgenciaModel> listarUrgencia) {
+		this.listarUrgencia = listarUrgencia;
+	}
+
+	public List<PrioridadModel> getListarPrioridad() {
+		return listarPrioridad;
+	}
+
+	public void setListarPrioridad(List<PrioridadModel> listarPrioridad) {
+		this.listarPrioridad = listarPrioridad;
+	}
+
+	public List<TipoIncidenciaModel> getListarTipoIncidencia() {
+		return listarTipoIncidencia;
+	}
+
+	public void setListarTipoIncidencia(List<TipoIncidenciaModel> listarTipoIncidencia) {
+		this.listarTipoIncidencia = listarTipoIncidencia;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
 
 	public UsuarioModel getUsuario() {
 		return usuario;
@@ -46,6 +104,11 @@ public class LoginAction extends ActionSupport implements SessionAware {
 				if (usu != null) {
 					session.put("user", usu);
 					aplication.put("user", usu);
+					if (usu.getIdTipo() == 2) {
+						CargarComboRegistrar();
+					} else if (usu.getIdTipo() == 3) {
+						CargarIncidenciasAsignadas(usu.getIdUsuario());
+					}
 					return String.valueOf(usu.getIdTipo());
 				} else {
 					msjError = "Usuario Incorrecto";
@@ -58,6 +121,26 @@ public class LoginAction extends ActionSupport implements SessionAware {
 
 		} else {
 			return LOGIN;
+		}
+	}
+
+	public void CargarIncidenciasAsignadas(int idUsuario) {
+		try {
+			this.listaIncidenciaAsignadas = new IncidenciaDAO().ListarIncidenciasAsignadas(idUsuario);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	public void CargarComboRegistrar() {
+		try {
+			this.listarTipoIncidencia = new TipoIncidenciaDAO().listarTipoIncidencia();
+			this.listarPrioridad = new PrioridadDAO().listarPrioridad();
+			this.listarUrgencia = new UrgenciaDAO().listarUrgencia();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
 

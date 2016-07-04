@@ -14,28 +14,94 @@ public class IncidenciaModel {
 	private Date fechaObservacion;
 	private Date fechaEnProceso;
 	private Date fechaFinalizado;
+	private Date fechaAsignacion;
+	
+	public Date getFechaAsignacion() {
+		return fechaAsignacion;
+	}
+
+	public void setFechaAsignacion(Date fechaAsignacion) {
+		this.fechaAsignacion = fechaAsignacion;
+	}
+
+	private int idTipoUrgencia;
+	private int idTipoPrioridad;
+	private String titulo;
+
+	/* Campos para listar incidencias */
+	private String sEstado;
+	private String sTipoIncidencia;
+	private String sNombreCompleto;
 
 	/* Puede almacenar uno o mas fotos */
-	private File foto;
+
+	public String getsEstado() {
+		return sEstado;
+	}
+
+	public void setsEstado(String sEstado) {
+		this.sEstado = sEstado;
+	}
+
+	public String getsTipoIncidencia() {
+		return sTipoIncidencia;
+	}
+
+	public void setsTipoIncidencia(String sTipoIncidencia) {
+		this.sTipoIncidencia = sTipoIncidencia;
+	}
+
+	public String getsNombreCompleto() {
+		return sNombreCompleto;
+	}
+
+	public void setsNombreCompleto(String sNombreCompleto) {
+		this.sNombreCompleto = sNombreCompleto;
+	}
+
 	private int idUsuario;
 	private String usuario;
 
 	private byte[] fotobinary;
 
+	private int idTipoIncidencia;
+	private String tipoIncidencia;
+
+	private File foto;
+	private String fotoContentType;
+	private String fotoFileName;
+
 	public byte[] getFotobinary() throws IOException {
-		FileInputStream file = new FileInputStream(getFoto());
-		return IOUtils.toByteArray(file);
+		return this.fotobinary;
 	}
 
 	public void setFotobinary(byte[] fotobinary) {
 		this.fotobinary = fotobinary;
 	}
 
-	private int idTipoIncidencia;
-	private String tipoIncidencia;
+	public int getIdTipoUrgencia() {
+		return idTipoUrgencia;
+	}
 
-	private String fotoContentType;
-	private String fotoFileName;
+	public void setIdTipoUrgencia(int idTipoUrgencia) {
+		this.idTipoUrgencia = idTipoUrgencia;
+	}
+
+	public int getIdTipoPrioridad() {
+		return idTipoPrioridad;
+	}
+
+	public void setIdTipoPrioridad(int idTipoPrioridad) {
+		this.idTipoPrioridad = idTipoPrioridad;
+	}
+
+	public String getTitulo() {
+		return titulo;
+	}
+
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
 
 	public File getFoto() {
 		return foto;

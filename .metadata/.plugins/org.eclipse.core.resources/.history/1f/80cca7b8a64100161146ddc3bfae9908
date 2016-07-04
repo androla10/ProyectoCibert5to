@@ -1,0 +1,24 @@
+package com.cibertec.Service;
+
+import java.util.List;
+
+import org.apache.ibatis.session.SqlSession;
+
+import com.cibertec.InterfaceMapper.AreaModelMapper;
+import com.cibertec.InterfaceMapper.GeoModelMapper;
+import com.cibertec.InterfaceMapper.PrioridadModelMapper;
+import com.cibertec.InterfaceMapper.UrgenciaModelMapper;
+import com.cibertec.Model.AreaModel;
+import com.cibertec.Model.GeoModel;
+import com.cibertec.Model.UrgenciaModel;
+import com.cibertec.conexion.MyBatisUtil;
+
+public class UrgenciaDAO implements UrgenciaModelMapper {
+
+	@Override
+	public List<UrgenciaModel> listarUrgencia() throws Exception {
+		return MyBatisUtil.getConeccion().openSession().getMapper(UrgenciaModelMapper.class).listarUrgencia();
+	}
+	
+
+}

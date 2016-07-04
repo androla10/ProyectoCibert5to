@@ -14,5 +14,7 @@ public interface IncidenciaModelMapper {
 	public List<IncidenciaModel> ListarIncidencia() throws SQLException;
 
 	public int EliminarIncidencia(int codigoIncidencia) throws SQLException;
-
+	
+	public List<IncidenciaModel> ListarIncidenciasAsignadas(int idUsuario) throws SQLException;
+	
 }

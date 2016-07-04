@@ -31,11 +31,34 @@
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 						<div class="form-group">
 							<label for="tipoIncidencia">Tipo Incidencia</label> <select
-								class="form-control" name="incidencia.idTipoIncidencia"
-								id="tipoIncidencia">
-								<option value="1">Hardware</option>
-								<option value="2">Software</option>
+								class="form-control" name="incidencia.idTipoIncidencia" id="tipoIncidencia">
+								<s:iterator value="listarTipoIncidencia">
+									<option value=<s:property value="idTipoIncidencia" />><s:property
+											value="sDescripcion" /></option>
+								</s:iterator>
 							</select>
+						</div>
+						<div class="form-group">
+							<label for="TipoPrioridad">Prioridad</label> <select
+								class="form-control" name="incidencia.idTipoPrioridad" id="TipoPrioridad">
+								<s:iterator value="listarPrioridad">
+									<option value=<s:property value="idPrioridad" />><s:property
+											value="sDescripcion" /></option>
+								</s:iterator>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="TipoUrgencia">Urgencia</label> <select
+								class="form-control" name="incidencia.idTipoUrgencia" id="TipoUrgencia">
+								<s:iterator value="listarUrgencia">
+									<option value=<s:property value="idUrgencia" />><s:property
+											value="sDescripcion" /></option>
+								</s:iterator>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="Titulo">Titulo</label> 
+							<input type="text" class="form-control" name="incidencia.titulo" id="Titulo">
 						</div>
 						<div class="form-group">
 							<label for="descripcion">Descripción</label>

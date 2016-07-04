@@ -1,0 +1,16 @@
+package com.cibertec.Model;
+
+public class UrgenciaModel {
+	private int idUrgencia;
+	private String sDescripcion;
+
+	
+
+	public String getsDescripcion() {
+		return sDescripcion;
+	}
+
+	public void setsDescripcion(String sDescripcion) {
+		this.sDescripcion = sDescripcion;
+	}
+}

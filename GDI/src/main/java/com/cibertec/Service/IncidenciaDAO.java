@@ -38,4 +38,10 @@ public class IncidenciaDAO implements IncidenciaModelMapper {
 		return 0;
 	}
 
+	@Override
+	public List<IncidenciaModel> ListarIncidenciasAsignadas(int idUsuario) throws SQLException {
+		return MyBatisUtil.getConeccion().openSession().getMapper(IncidenciaModelMapper.class)
+				.ListarIncidenciasAsignadas(idUsuario);
+	}
+
 }

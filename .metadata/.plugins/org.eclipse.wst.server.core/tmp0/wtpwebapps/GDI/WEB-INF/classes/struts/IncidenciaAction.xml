@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd">
 <struts>
-    <constant name="struts.multipart.maxSize" value="104857600" />
+	<constant name="struts.multipart.maxSize" value="104857600" />
 	<package name="Incidencia" namespace="/Incidencia" extends="struts-default">
 		<result-types>
 			<result-type name="tiles"
@@ -24,8 +24,9 @@
 		</global-results>
 
 
-		<action name="RegistrarIncidencia">
-			<result type="tiles">RegistrarIncidencia</result>
+		<action name="RegistrarIncidencia" class="com.cibertec.Actions.IncidenciaAction"
+			method="cargarFormularioRegistrarIncidencia">
+			<result name="success" type="tiles">RegistrarIncidencia</result>
 		</action>
 
 		<action name="ListarIncidencia">
@@ -49,7 +50,7 @@
 			<param name="filesPath">uploads</param>
 			<result name="success" type="redirect">/Incidencia/RegistrarIncidencia.action
 			</result>
-			<result name="input">../Login/Login.jsp</result>
+			<result name="error" type="redirect"></result>
 
 			<interceptor-ref name="defaultStack">
 				<param name="fileUpload.maximumSize">2097152</param>
