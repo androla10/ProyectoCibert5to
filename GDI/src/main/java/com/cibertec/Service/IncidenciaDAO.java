@@ -6,6 +6,7 @@ import java.util.List;
 import org.apache.ibatis.session.SqlSession;
 
 import com.cibertec.InterfaceMapper.IncidenciaModelMapper;
+import com.cibertec.Model.AtencionIncidenciaModel;
 import com.cibertec.Model.IncidenciaModel;
 import com.cibertec.conexion.MyBatisUtil;
 
@@ -42,6 +43,18 @@ public class IncidenciaDAO implements IncidenciaModelMapper {
 	public List<IncidenciaModel> ListarIncidenciasAsignadas(int idUsuario) throws SQLException {
 		return MyBatisUtil.getConeccion().openSession().getMapper(IncidenciaModelMapper.class)
 				.ListarIncidenciasAsignadas(idUsuario);
+	}
+
+	@Override
+	public AtencionIncidenciaModel atencionIncidencia(int idIncidencia) throws SQLException {
+		return MyBatisUtil.getConeccion().openSession().getMapper(IncidenciaModelMapper.class)
+				.atencionIncidencia(idIncidencia);
+	}
+
+	@Override
+	public AtencionIncidenciaModel comenzarAtencionIncidencia(int idIncidencia) throws SQLException {
+		return MyBatisUtil.getConeccion().openSession().getMapper(IncidenciaModelMapper.class)
+				.comenzarAtencionIncidencia(idIncidencia);
 	}
 
 }

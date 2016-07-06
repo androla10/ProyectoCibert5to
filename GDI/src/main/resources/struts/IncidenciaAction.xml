@@ -6,6 +6,7 @@
 		<result-types>
 			<result-type name="tiles"
 				class="org.apache.struts2.views.tiles.TilesResult" />
+			<result-type name="json" class="org.apache.struts2.json.JSONResult" />
 		</result-types>
 
 		<interceptors>
@@ -15,6 +16,8 @@
 				<interceptor-ref name="iterceptorAtuenticacion" />
 				<interceptor-ref name="defaultStack" />
 			</interceptor-stack>
+			<interceptor name="json"
+				class="org.apache.struts2.json.JSONInterceptor" />
 		</interceptors>
 		<default-interceptor-ref name="secureStack" />
 
@@ -29,23 +32,26 @@
 			<result name="success" type="tiles">RegistrarIncidencia</result>
 		</action>
 
-		<action name="ListarIncidencia">
-			<result type="tiles">ListarIncidencia</result>
+		<action name="ListarIncidencia" class="com.cibertec.Actions.IncidenciaAction"
+			method="cargarFormularioListarIncidencia">
+			<result name="success" type="tiles">ListarIncidencia</result>
+		</action>
+
+		<action name="AtencionIncidencia" class="com.cibertec.Actions.IncidenciaAction"
+			method="cargarFormularioAtencionIncidencia">
+			<result name="success" type="tiles">AtencionIncidencia</result>
+		</action>
+
+		<action name="comenzarAtencionIncidencia" class="com.cibertec.Actions.IncidenciaAction"
+			method="comenzarAtencionIncidencia">
+			<result type="json">
+				<param name="excludeNullProperties">true</param>
+				<param name="noCache">true</param>
+			</result>
 		</action>
 
 		<action name="RegIncidencia" class="com.cibertec.Actions.IncidenciaAction"
 			method="registrar">
-			<!-- <interceptor-ref name="fileUpload"> -->
-			<!-- <param name="maximumSize">2097152</param> -->
-			<!-- <param name="allowedTypes"> -->
-			<!-- image/png,image/jpeg,image/pjpeg -->
-			<!-- </param> -->
-			<!-- </interceptor-ref> -->
-			<!-- <interceptor-ref name="defaultStack"></interceptor-ref> -->
-			<!-- <result name="success" type="redirect">/RegistrarIncidencia.action -->
-			<!-- </result> -->
-			<!-- <result name="ERROR">/Login/Login.jsp</result> -->
-			<!-- <result name="input">/Login/Login.jsp</result> -->
 
 			<param name="filesPath">uploads</param>
 			<result name="success" type="redirect">/Incidencia/RegistrarIncidencia.action

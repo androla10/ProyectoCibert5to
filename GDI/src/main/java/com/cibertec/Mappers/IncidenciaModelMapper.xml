@@ -16,9 +16,25 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 		<result column="sNombreCompleto" property="sNombreCompleto" jdbcType="VARCHAR" />
 		<result column="sTipoIncidencia" property="sTipoIncidencia" jdbcType="VARCHAR" />
 		<result column="Estado" property="sEstado" jdbcType="VARCHAR" />
-		<result column="FechaCreacion" property="fechaCreacion" jdbcType="DATETIME" />
-		<result column="FechaAsignacion" property="fechaAsignacion" jdbcType="DATETIME" />
+		<result column="FechaCreacion" property="fechaCreacion" jdbcType="DATE" />
+		<result column="FechaAsignacion" property="fechaAsignacion" jdbcType="DATE" />
 		<result column="Titulo" property="titulo" jdbcType="VARCHAR" />
+	</resultMap>
+	
+	<resultMap type="AtencionIncidencia" id="rmAtencionIncidencia">
+		<id column="idIncidencia" property="idIncidencia" jdbcType="INTEGER" />
+		<result column="titulo" property="titulo" jdbcType="VARCHAR" />
+		<result column="sTipoIncidencia" property="sTipoIncidencia" jdbcType="VARCHAR" />
+		<result column="sDescripcion" property="sDescripcion" jdbcType="VARCHAR" />
+		<result column="sEstado" property="sEstado" jdbcType="VARCHAR" />
+		<result column="idEstado" property="idEstado" jdbcType="INTEGER" />
+		<result column="fotobynari" property="fotobynari" jdbcType="BLOB" />
+		<result column="Usuario" property="usuario" jdbcType="VARCHAR" />
+		<result column="Nombre" property="nombre" jdbcType="VARCHAR" />
+		<result column="Apellido" property="apellido" jdbcType="VARCHAR" />
+		<result column="Matricula" property="matricula" jdbcType="VARCHAR" />
+		<result column="Anexo" property="anexo" jdbcType="VARCHAR" />
+		<result column="Telefono" property="telefono" jdbcType="VARCHAR" />
 	</resultMap>
 	
 	
@@ -38,9 +54,21 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 	</select>
 	
 	<select id="ListarIncidenciasAsignadas" resultMap="rmListarIncidencia"
-		statementType="CALLABLE">
-		{call SGI_WEB_R_LISTARINCIDENCIASASIGNADAS()}
+		statementType="CALLABLE" parameterType="int">
+		{call SGI_WEB_R_LISTARINCIDENCIASASIGNADAS(#{idUsuario})}
 	</select>
+	
+	<select id="atencionIncidencia" resultMap="rmAtencionIncidencia"
+		statementType="CALLABLE" parameterType="int">
+		{call SGI_WEB_R_ATENCIONINCIDENCIA(#{idIncidencia})}
+	</select>
+	
+	<select id="comenzarAtencionIncidencia" resultMap="rmAtencionIncidencia"
+		statementType="CALLABLE" parameterType="int">
+		{call SGI_WEB_U_COMENZARATENCIONINCIDENCIA(#{idIncidencia})}
+	</select>
+	
+	
 	
 
 	<select id="EliminarIncidencia" resultMap="rmValidarIncidencia"

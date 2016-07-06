@@ -1,3 +1,4 @@
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <div class="container-fluid">
 	<h1 class="text-center">Incidencias Reportadas</h1>
 	<br>
@@ -7,20 +8,46 @@
 		</div>
 		<div class="panel-body">
 			<table class="table table-striped table-hover table-bordered">
+			</table>
+			<table class="table table-hover table-striped">
 				<tr>
 					<th>Código de Incidencia</th>
-					<th>Fecha Creación</th>
+					<th>Usuario Creador</th>
 					<th>Tipo de Incidencia</th>
 					<th>Estado</th>
-					<th>Usuario Creador</th>
+					<th>Fecha Creación</th>
+					<th>Fecha Asignación</th>
+					<th>Titulo</th>
 				</tr>
-				<tr>
-					<td>1000</td>
-					<td>11/05/2016</td>
-					<td>Hardware</td>
-					<td>Creado</td>
-					<td>Alex Villarreal</td>
 				</tr>
+				<s:if test="!listaIncidenciaAsignadas.isEmpty">
+					<s:iterator value="listaIncidenciaAsignadas">
+						<tr>
+							<s:url action="../Incidencia/AtencionIncidencia" var="urlt">
+								<s:param name="idIncidencia" value="%{idIncidencia}"/>
+							</s:url>
+							<td><s:a href="%{urlt}"><s:property value="idIncidencia" /></s:a></td>
+							<td><s:property value="sNombreCompleto" /></td>
+							<td><s:property value="sTipoIncidencia" /></td>
+							<td><s:property value="sEstado" /></td>
+							<td><s:property value="fechaCreacion" /></td>
+							<td><s:property value="fechaAsignacion" /></td>
+							<td><s:property value="titulo" /></td>
+						</tr>
+					</s:iterator>
+				</s:if>
+				<s:else>
+<!-- 					<tr> -->
+<!-- 						<td>1001</td> -->
+<!-- 						<td>zvillarreal</td> -->
+<!-- 						<td>Zeler Benji</td> -->
+<!-- 						<td>Villarreal Marcelo</td> -->
+<!-- 						<td>08/02/2016</td> -->
+<!-- 						<td>Activado</td> -->
+<!-- 						<td>b</td> -->
+<!-- 						<td>b</td> -->
+<!-- 					</tr> -->
+				</s:else>
 			</table>
 		</div>
 	</div>

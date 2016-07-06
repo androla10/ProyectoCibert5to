@@ -21,4 +21,10 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 		{call SGI_WEB_R_LISTARAREASXRESIDENCIA(#{idResidencia})}
 	</select>
 	
+	<select id="listarAreaSucursal" resultMap="rmListarAreas"
+		statementType="CALLABLE">
+		{call SGI_WEB_R_LISTARAREASSUCURSAL()}
+	</select>
+	
+	
 </mapper>

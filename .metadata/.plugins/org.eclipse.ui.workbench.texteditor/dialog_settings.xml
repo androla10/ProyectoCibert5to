@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="matricula" key="selection"/>
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="&lt;s:url action=&quot;AtencionIncidencia&quot; var=&quot;urlt&quot;&gt;"/>
+			<item value="ListarIncidenciasAsignadas"/>
+			<item value="idPrioridad"/>
 			<item value="matricula"/>
 			<item value="listarAreasxResidencia"/>
 			<item value="$.getJSON(&quot;../Area/listarAreaxResidencia&quot;, {"/>
 			<item value="registrar"/>
 			<item value="var CargarProvincias = function() {"/>
-			<item value="Arras"/>
-			<item value="Arratr"/>
-			<item value="Arratre"/>
 		</list>
 		<list key="replacehistory">
 		</list>

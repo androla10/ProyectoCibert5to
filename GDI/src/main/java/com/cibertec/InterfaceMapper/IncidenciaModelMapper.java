@@ -2,8 +2,11 @@ package com.cibertec.InterfaceMapper;
 
 import java.sql.SQLException;
 
+import com.cibertec.Model.AtencionIncidenciaModel;
 import com.cibertec.Model.IncidenciaModel;
 import java.util.*;
+
+import org.apache.ibatis.annotations.Param;
 
 public interface IncidenciaModelMapper {
 
@@ -14,7 +17,12 @@ public interface IncidenciaModelMapper {
 	public List<IncidenciaModel> ListarIncidencia() throws SQLException;
 
 	public int EliminarIncidencia(int codigoIncidencia) throws SQLException;
-	
-	public List<IncidenciaModel> ListarIncidenciasAsignadas(int idUsuario) throws SQLException;
-	
+
+	public List<IncidenciaModel> ListarIncidenciasAsignadas(@Param("idUsuario") int idUsuario) throws SQLException;
+
+	public AtencionIncidenciaModel atencionIncidencia(@Param("idIncidencia") int idIncidencia) throws SQLException;
+
+	public AtencionIncidenciaModel comenzarAtencionIncidencia(@Param("idIncidenica") int idIncidencia)
+			throws SQLException;
+
 }

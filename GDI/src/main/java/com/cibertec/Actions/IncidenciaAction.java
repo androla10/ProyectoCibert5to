@@ -1,12 +1,14 @@
 package com.cibertec.Actions;
 
-import java.sql.SQLException;
+import java.util.List;
+import java.util.Map;
 
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.struts2.util.ServletContextAware;
 
+import com.cibertec.Model.AtencionIncidenciaModel;
 import com.cibertec.Model.IncidenciaModel;
 import com.cibertec.Model.PrioridadModel;
 import com.cibertec.Model.TipoIncidenciaModel;
@@ -20,7 +22,6 @@ import com.cibertec.constantes.Constantes;
 import com.cibertec.interceptor.UsuarioHabilitado;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
-import java.util.*;
 
 public class IncidenciaAction extends ActionSupport implements ServletContextAware, UsuarioHabilitado {
 
@@ -42,6 +43,49 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 	private Map session = ActionContext.getContext().getSession();
 	private Map aplication = ActionContext.getContext().getApplication();
 	IncidenciaDAO dao = new IncidenciaDAO();
+	private List<IncidenciaModel> listaIncidenciaAsignadas;
+	private int idIncidencia;
+	private AtencionIncidenciaModel atencion = null;
+
+	public AtencionIncidenciaModel getAtencion() {
+		return atencion;
+	}
+
+	public void setAtencion(AtencionIncidenciaModel atencion) {
+		this.atencion = atencion;
+	}
+
+	public int getIdIncidencia() {
+		return idIncidencia;
+	}
+
+	public void setIdIncidencia(int idIncidencia) {
+		this.idIncidencia = idIncidencia;
+	}
+
+	public Map getSession() {
+		return session;
+	}
+
+	public void setSession(Map session) {
+		this.session = session;
+	}
+
+	public Map getAplication() {
+		return aplication;
+	}
+
+	public void setAplication(Map aplication) {
+		this.aplication = aplication;
+	}
+
+	public List<IncidenciaModel> getListaIncidenciaAsignadas() {
+		return listaIncidenciaAsignadas;
+	}
+
+	public void setListaIncidenciaAsignadas(List<IncidenciaModel> listaIncidenciaAsignadas) {
+		this.listaIncidenciaAsignadas = listaIncidenciaAsignadas;
+	}
 
 	public List<UrgenciaModel> getListarUrgencia() {
 		return listarUrgencia;
@@ -129,7 +173,6 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
 		// Metodos.guardarArchivo(incidencia.getFoto(),
 		// incidencia.getFotoFileName(),
 		// context.getRealPath("") + File.separator + filesPath);
@@ -162,6 +205,46 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 			e.printStackTrace();
 		}
 		return LOGIN;
+
+	}
+
+	public String cargarFormularioListarIncidencia() {
+		try {
+			UsuarioModel usu = (UsuarioModel) session.get("user");
+			this.listaIncidenciaAsignadas = new IncidenciaDAO().ListarIncidenciasAsignadas(usu.getIdUsuario());
+			if (listaIncidenciaAsignadas != null) {
+				return SUCCESS;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return LOGIN;
+	}
+
+	public String cargarFormularioAtencionIncidencia() {
+		try {
+			this.atencion = new IncidenciaDAO().atencionIncidencia(this.idIncidencia);
+			if (this.atencion != null) {
+				return SUCCESS;
+			} else
+				return LOGIN;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return LOGIN;
+	}
+
+	public String comenzarAtencionIncidencia() {
+		try {
+			this.atencion = new IncidenciaDAO().atencionIncidencia(this.idIncidencia);
+			if (this.atencion != null) {
+				return SUCCESS;
+			} else {
+				return NONE;
+			}
+		} catch (Exception e) {
+			return LOGIN;
+		}
 
 	}
 

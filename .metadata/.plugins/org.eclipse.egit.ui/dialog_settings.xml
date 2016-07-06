@@ -2,11 +2,13 @@
 <section name="Workbench">
 	<item value="true" key="CommitDialog.showUntracked"/>
 	<list key="CommitDialog.authorValues">
+		<item value="Benji &lt;Benji@Benji-PC&gt;"/>
 		<item value="Benji &lt;Benji@192.168.1.39&gt;"/>
 		<item value="Benji Villarreal &lt;Benji Villarreal@Benji-PC&gt;"/>
 		<item value="Benji Villarreal &lt;benji_zeler@hotmail.com&gt;"/>
 	</list>
 	<list key="CommitDialog.committerValues">
+		<item value="Benji &lt;Benji@Benji-PC&gt;"/>
 		<item value="Benji &lt;Benji@192.168.1.39&gt;"/>
 		<item value="Benji Villarreal &lt;Benji Villarreal@Benji-PC&gt;"/>
 		<item value="Benji Villarreal &lt;benji_zeler@hotmail.com&gt;"/>

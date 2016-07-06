@@ -14,8 +14,8 @@
 		<action name="Login" class="com.cibertec.Actions.LoginAction"
 			method="login">
 			<result name="1" type="tiles">administrar</result>
-			<result name="2" type="tiles">RegistrarIncidencia</result>
-			<result name="3" type="tiles">ListarIncidencia</result>
+			<result name="2" type="redirect">/Incidencia/RegistrarIncidencia</result>
+			<result name="3" type="redirect">/Incidencia/ListarIncidencia</result>
 <!-- 			<result name="4" type="tiles">ReporteIncidencia</result> -->
 			<result name="login">Login.jsp</result>
 		</action>

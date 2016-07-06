@@ -10,4 +10,5 @@ import com.cibertec.Model.GeoModel;
 public interface AreaModelMapper {
 	public List<AreaModel> listarAreas() throws Exception;
 	public List<AreaModel> listarAreasxResidencia(@Param("idResidencia") int idResidencia) throws Exception;
+	public List<AreaModel> listarAreaSucursal()throws Exception;
 }

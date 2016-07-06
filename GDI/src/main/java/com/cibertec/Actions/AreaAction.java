@@ -11,14 +11,13 @@ import com.cibertec.Service.GeoDAO;
 import com.cibertec.interceptor.UsuarioHabilitado;
 import com.opensymphony.xwork2.ActionSupport;
 
-public class AreaAction extends ActionSupport{
+public class AreaAction extends ActionSupport {
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 	private int idResidencia;
 	private List<AreaModel> listarArea = null;
-	
 
 	public List<AreaModel> getListarArea() {
 		return listarArea;
@@ -40,43 +39,61 @@ public class AreaAction extends ActionSupport{
 		this.idResidencia = idResidencia;
 	}
 
-	public String listarAreasxResidencia(){
+	public String listarAreasxResidencia() {
 		try {
 			this.listarArea = new AreaDAO().listarAreasxResidencia(this.idResidencia);
-			
+
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		if(listarArea != null){
-			if(listarArea.size() >= 0){
+		if (listarArea != null) {
+			if (listarArea.size() >= 0) {
 				return SUCCESS;
-			}else{
+			} else {
 				return NONE;
 			}
-		}
-		else{
+		} else {
 			return NONE;
 		}
 	}
-	public String listarAreas(){
+
+	public String listarAreas() {
 		try {
 			this.listarArea = new AreaDAO().listarAreas();
+			if (listarArea != null) {
+				if (listarArea.size() >= 0) {
+					return SUCCESS;
+				} else {
+					return NONE;
+				}
+			} else {
+				return NONE;
+			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		if(listarArea != null){
-			if(listarArea.size() >= 0){
-				return SUCCESS;
-			}else{
+		return NONE;
+	}
+
+	public String listarAreaSucursal() {
+		try {
+			this.listarArea = new AreaDAO().listarAreaSucursal();
+			if (listarArea != null) {
+				if (listarArea.size() >= 0) {
+					return SUCCESS;
+				} else {
+					return NONE;
+				}
+			} else {
 				return NONE;
 			}
+
+		} catch (Exception e) {
+
 		}
-		else{
-			return NONE;
-		}
+		return NONE;
 	}
-	
 
 }

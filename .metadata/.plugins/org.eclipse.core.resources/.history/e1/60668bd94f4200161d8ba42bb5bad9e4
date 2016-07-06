@@ -1,0 +1,117 @@
+<%@ taglib prefix="s" uri="/struts-tags"%>
+<script type="text/javascript">
+	$('#file-es').fileinput({
+		language : 'es',
+		uploadUrl : '#',
+		allowedFileExtensions : [ 'jpg', 'png', 'gif' ],
+	});
+
+	$(document).ready(function() {
+		$("#input-2").fileinput({
+			showUpload : false,
+			maxFileCount : 10,
+			mainClass : "input-group-lg"
+		});
+
+	});
+</script>
+<link rel="stylesheet"
+	href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
+<div class="container-fluid">
+	<h1 class="text-center">Atención de Incidencia</h1>
+	<br>
+	<div class="panel-primary">
+		<div class="panel-heading">
+			<i class="fa fa-user fa-1x"></i>&nbsp;Atención de Incidencia
+		</div>
+		<div class="panel-body">
+			<form action="../Incidencia/RegIncidencia"
+				id="formRegistroIncidencia" enctype="multipart/form-data"
+				method="POST">
+				<div class="row">
+					<div class="col-sm-12 col-sm-offset-0 col-md-2 col-md-offset-5">
+						<button type="submit" class="btn btn-info">
+							<i class="fa fa-user fa-1x"></i>&nbsp;Derivar
+						</button>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<div class="form-group">
+							<label for="codIncidencia">Código de Incidencia</label> <input
+								type="text" class="form-control" name="atencion.idIncidencia"
+								id="codIncidencia" disabled="disabled">
+						</div>
+						<div class="form-group">
+							<label for="Titulo">Titulo</label> <input type="text"
+								class="form-control" name="atencion.titulo" id="Titulo"
+								disabled="disabled">
+						</div>
+						<div class="form-group">
+							<label for="TipoIncidencia">Tipo Incidencia</label> <select
+								class="form-control"
+								id="TipoIncidencia" disabled="disabled">
+								<option value="1" selected="selected" /><s:property
+										value="atencion.sTipoIncidencia" /></option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="descripcion">Descripción</label>
+							<textarea class="form-control" name="atencion.sDescripcion"
+								id="descripcion" rows="8" cols="9" disabled="disabled"></textarea>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<div class="row">
+							<div class="col-sm-12 col-sm-offset-0 col-md-2 col-md-offset-5">
+								<button type="submit" class="btn btn-success">
+									<i class="fa fa-user fa-1x"></i>&nbsp;Comenzar
+								</button>
+							</div>
+						</div>
+						<br>
+						<div class="form-group">
+							<label for="Usuario">Usuario</label> <input type="text"
+								class="form-control" name="atencion.usuario" id="Usuario"
+								disabled="disabled">
+						</div>
+						<div class="form-group">
+							<label for="Nombre">Nombres</label> <input type="text"
+								class="form-control" name="incidencia.titulo" id="Nombre"
+								disabled="disabled">
+						</div>
+
+						<div class="form-group">
+							<label for="Apellido">Apellidos</label> <input type="text"
+								class="form-control" name="incidencia.titulo" id="Apellido"
+								disabled="disabled">
+						</div>
+						<div class="form-group">
+							<label for="Matricula">Matricula</label> <input type="text"
+								class="form-control" name="incidencia.titulo" id="Matricula"
+								disabled="disabled">
+						</div>
+						<div class="form-group">
+							<label for="Anexo">Anexo</label> <input type="text"
+								class="form-control" name="incidencia.titulo" id="Anexo"
+								disabled="disabled">
+						</div>
+						<div class="form-group">
+							<label for="Telefono">Telefono</label> <input type="text"
+								class="form-control" name="incidencia.titulo" id="Telefono"
+								disabled="disabled">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-sm-offset-0 col-md-2 col-md-offset-5">
+						<button type="submit" class="btn btn-danger">
+							<i class="fa fa-user fa-1x"></i>&nbsp;Terminar
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
