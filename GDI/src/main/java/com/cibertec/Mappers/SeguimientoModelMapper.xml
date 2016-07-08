@@ -10,5 +10,4 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 	        <result column="iTipo" property="idTipo" jdbcType="INTEGER"/>
 	        <result column="iActivo" property="idActivo" jdbcType="INTEGER"/>
 	    </resultMap>
-
 	</mapper>

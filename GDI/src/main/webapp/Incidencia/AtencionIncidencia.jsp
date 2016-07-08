@@ -1,6 +1,8 @@
 <%@ taglib prefix="s" uri="/struts-tags"%>
 <script type="text/javascript" src="../js/Incidencia/query.js"></script>
 <div class="container-fluid">
+	
+	<input type="hidden" id="idIncidencia" value=<s:property value="atencion.idIncidencia"/>>
 	<!-- Modal -->
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	  <div class="modal-dialog" role="document">
@@ -9,41 +11,32 @@
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 	        <h4 class="modal-title" id="myModalLabel">Derivación</h4>
 	      </div>
-	      <div class="modal-body">
-	      		<div class="row">
-	      			<div class="col-sm-6 col-sm-offset-3">
-			      		<form action="">
-			      			<div class="form-group">
-								<label for="Area">Área</label>
-								<select class="form-control" name="derivacion.idArea" id="Area">
-									<optgroup label="Sucursal Lima Centro">
-										<option>Tecnología</option>
-										<option>Helpdesk</option>
-									</optgroup>
-									<optgroup label="Sucursal Ate Provincia">
-										<option>Riesgo</option>
-										<option>Helpdesk</option>
-									</optgroup>
-								</select>
-							</div>
-			        		<div class="form-group">
-								<label for="Operacion">Operación</label>
-								<select class="form-control" name="derivacion.idOperacion" id="Operacion"></select>
-							</div>
-			        		<div class="form-group">
-			      				<label id="Descripcion">Descripción</label>
-			        			<textarea rows="4" cols="4" id="Descripcion" class="form-control" name="derivacion.descripcion"></textarea>
-			        		</div>
-			      		</form>
+	      	<form action="DerivarIncidencia">
+		      <div class="modal-body">
+		      		<div class="row">
+		      			<div class="col-sm-6 col-sm-offset-3">
+				      			<input type="hidden" name="incidencia.idIncidencia" value=<s:property value="atencion.idIncidencia"/>>
+				      			<div class="form-group">
+									<label for="Area">Área</label>
+									<select class="form-control" id="areaderivar">
+									</select>
+								</div>
+				        		<div class="form-group">
+									<label for="Operacion">Operativo</label>
+									<select class="form-control" name="incidencia.idUsuario" id="Operativoderivar"></select>
+								</div>
+				        		<div class="form-group">
+				      				<label id="Descripcion">Descripción</label>
+				        			<textarea rows="4" cols="4" id="Descripcion" class="form-control" name="incidencia.descripcion"></textarea>
+				        		</div>
+			      		</div>
 		      		</div>
-	      		</div>
-	      		
-	        	
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-	        <button type="button" class="btn btn-primary">Derivar</button>
-	      </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+		        <button type="submit" class="btn btn-primary">Derivar</button>
+		      </div>
+	      </form>
 	    </div>
 	  </div>
 	</div>
@@ -156,6 +149,13 @@
 								value='<s:property value="atencion.telefono"/>' id="Telefono"
 								disabled="disabled">
 						</div>
+						
+<%-- 						<s:if test="listaSeguimientos != empty"> --%>
+						
+<%-- 						</s:if> --%>
+<%-- 						<s:else> --%>
+<!-- 							<h1>Hola</h1> -->
+<%-- 						</s:else> --%>
 					</div>
 				</div>
 

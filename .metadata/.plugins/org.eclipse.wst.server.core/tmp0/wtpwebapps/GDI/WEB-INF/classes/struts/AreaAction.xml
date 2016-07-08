@@ -41,7 +41,7 @@
 				<param name="noCache">true</param>
 			</result>
 		</action>
-
+	
 		<action name="listarAreaSucursal" class="com.cibertec.Actions.AreaAction"
 			method="listarAreaSucursal">
 			<result type="json">

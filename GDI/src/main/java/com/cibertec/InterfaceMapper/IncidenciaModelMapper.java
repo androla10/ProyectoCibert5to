@@ -25,4 +25,8 @@ public interface IncidenciaModelMapper {
 	public AtencionIncidenciaModel comenzarAtencionIncidencia(@Param("idIncidenica") int idIncidencia)
 			throws SQLException;
 
+	public int derivarIncidencia(IncidenciaModel incidencia) throws Exception;
+	
+	public AtencionIncidenciaModel atencionIncidencia1(@Param("idIncidencia") int idIncidencia) throws SQLException;
+
 }

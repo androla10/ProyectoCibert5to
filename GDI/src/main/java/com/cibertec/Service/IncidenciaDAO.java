@@ -50,11 +50,23 @@ public class IncidenciaDAO implements IncidenciaModelMapper {
 		return MyBatisUtil.getConeccion().openSession().getMapper(IncidenciaModelMapper.class)
 				.atencionIncidencia(idIncidencia);
 	}
+	
+	@Override
+	public AtencionIncidenciaModel atencionIncidencia1(int idIncidencia) throws SQLException {
+		return MyBatisUtil.getConeccion().openSession().getMapper(IncidenciaModelMapper.class)
+				.atencionIncidencia1(idIncidencia);
+	}
 
 	@Override
 	public AtencionIncidenciaModel comenzarAtencionIncidencia(int idIncidencia) throws SQLException {
 		return MyBatisUtil.getConeccion().openSession().getMapper(IncidenciaModelMapper.class)
 				.comenzarAtencionIncidencia(idIncidencia);
+	}
+
+	@Override
+	public int derivarIncidencia(IncidenciaModel incidencia) throws Exception {
+		return MyBatisUtil.getConeccion().openSession().getMapper(IncidenciaModelMapper.class)
+				.derivarIncidencia(incidencia);
 	}
 
 }

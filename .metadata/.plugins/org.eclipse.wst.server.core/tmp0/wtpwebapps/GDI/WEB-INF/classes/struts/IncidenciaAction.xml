@@ -63,6 +63,9 @@
 				<param name="fileUpload.allowedTypes">image/jpeg,image/png,image/jpg,image/pjpeg</param>
 			</interceptor-ref>
 		</action>
-
+		
+		<action name="DerivarIncidencia" class="com.cibertec.Actions.IncidenciaAction" method="DerivarIncidencia">
+			<result type="redirect">ListarIncidencia</result>
+		</action>
 	</package>
 </struts>

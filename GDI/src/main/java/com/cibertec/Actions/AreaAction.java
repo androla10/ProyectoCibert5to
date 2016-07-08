@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.cibertec.Model.AreaModel;
 import com.cibertec.Model.GeoModel;
+import com.cibertec.Model.ResidenciaAreaModel;
 import com.cibertec.Model.SedeModel;
 import com.cibertec.Model.UsuarioModel;
 import com.cibertec.Service.AreaDAO;
@@ -18,6 +19,15 @@ public class AreaAction extends ActionSupport {
 	private static final long serialVersionUID = 1L;
 	private int idResidencia;
 	private List<AreaModel> listarArea = null;
+	private List<ResidenciaAreaModel> listarResidenciaDet = null;
+
+	public List<ResidenciaAreaModel> getListarResidenciaDet() {
+		return listarResidenciaDet;
+	}
+
+	public void setListarResidenciaDet(List<ResidenciaAreaModel> listarResidenciaDet) {
+		this.listarResidenciaDet = listarResidenciaDet;
+	}
 
 	public List<AreaModel> getListarArea() {
 		return listarArea;
@@ -79,9 +89,9 @@ public class AreaAction extends ActionSupport {
 
 	public String listarAreaSucursal() {
 		try {
-			this.listarArea = new AreaDAO().listarAreaSucursal();
-			if (listarArea != null) {
-				if (listarArea.size() >= 0) {
+			this.listarResidenciaDet = new AreaDAO().listarAreaSucursal();
+			if (listarResidenciaDet != null) {
+				if (listarResidenciaDet.size() >= 0) {
 					return SUCCESS;
 				} else {
 					return NONE;

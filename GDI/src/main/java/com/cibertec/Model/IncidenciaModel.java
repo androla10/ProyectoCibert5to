@@ -1,11 +1,9 @@
 package com.cibertec.Model;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.sql.Date;
-
-import org.apache.commons.io.IOUtils;
+import java.util.List;
 
 public class IncidenciaModel {
 	private String descripcion;
@@ -15,7 +13,16 @@ public class IncidenciaModel {
 	private Date fechaEnProceso;
 	private Date fechaFinalizado;
 	private Date fechaAsignacion;
-	
+	private List<SeguimientoModel> listaSeguimientos;
+
+	public List<SeguimientoModel> getListaComentarios() {
+		return listaSeguimientos;
+	}
+
+	public void setListaComentarios(List<SeguimientoModel> listaComentarios) {
+		this.listaSeguimientos = listaComentarios;
+	}
+
 	public Date getFechaAsignacion() {
 		return fechaAsignacion;
 	}

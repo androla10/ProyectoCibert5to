@@ -23,9 +23,17 @@ public class UsuarioAction extends ActionSupport implements UsuarioHabilitado {
 	private List<TipoUsuarioModel> listarComboTipoUsuario;
 	private List<GeneroModel> listarComboGenero;
 	private List<ResidenciaModel> listarResidencia;
+	private int idResidenciaArea;
 	private UsuarioDAO dao = new UsuarioDAO();
 
-	
+	public int getIdResidenciaArea() {
+		return idResidenciaArea;
+	}
+
+	public void setIdResidenciaArea(int idResidenciaArea) {
+		this.idResidenciaArea = idResidenciaArea;
+	}
+
 	public List<ResidenciaModel> getListarResidencia() {
 		return listarResidencia;
 	}
@@ -85,11 +93,10 @@ public class UsuarioAction extends ActionSupport implements UsuarioHabilitado {
 				if (resultado > -1) {
 					addActionMessage("Usuario Registrado");
 					return SUCCESS;
-				}
-				else if(resultado == -2){
+				} else if (resultado == -2) {
 					addActionMessage("El dni que está ingresando ya esta siendo usado por un usuario");
 					return ERROR;
-				}else {
+				} else {
 					addActionMessage("Ha ocurrido un error al registrar el usuario");
 					return ERROR;
 				}
@@ -124,7 +131,7 @@ public class UsuarioAction extends ActionSupport implements UsuarioHabilitado {
 			listarComboTipoUsuario = new TipoUsuarioDao().listarCombo();
 			listarComboGenero = new GeneroDAO().listarCombo();
 			listarResidencia = new ResidenciaDAO().listarResidencia();
-			
+
 			if (listarComboTipoUsuario.size() != 0 && listarComboGenero.size() != 0) {
 				return SUCCESS;
 			} else {
@@ -132,6 +139,20 @@ public class UsuarioAction extends ActionSupport implements UsuarioHabilitado {
 			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return ERROR;
+		}
+	}
+
+	public String ObtenerUsuarioOperativoxArea() {
+		try {
+			this.lUsuario = new UsuarioDAO().ObtenerUsuarioOperativoxArea(this.idResidenciaArea);
+			if (lUsuario != null) {
+				return SUCCESS;
+			} else {
+				return ERROR;
+			}
+		} catch (Exception e) {
 			e.printStackTrace();
 			return ERROR;
 		}

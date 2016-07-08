@@ -5,6 +5,7 @@
 		<result-types>
 			<result-type name="tiles"
 				class="org.apache.struts2.views.tiles.TilesResult" />
+			<result-type name="json" class="org.apache.struts2.json.JSONResult" />
 		</result-types>
 
 		<interceptors>
@@ -15,19 +16,22 @@
 				<interceptor-ref name="defaultStack" />
 			</interceptor-stack>
 		</interceptors>
-		
+
 		<default-interceptor-ref name="secureStack" />
 
 		<global-results>
-			<result name="login" type="redirect">/Login/FormularioLogin.action</result>
+			<result name="login" type="redirect">/Login/FormularioLogin.action
+			</result>
 		</global-results>
 
-		<action name="RegistroUsuario" class="com.cibertec.Actions.UsuarioAction" method="CargarRegistroUsuario">
+		<action name="RegistroUsuario" class="com.cibertec.Actions.UsuarioAction"
+			method="CargarRegistroUsuario">
 			<result name="success" type="tiles">registrarUsuario</result>
 			<result name="error" type="tiles">administrar</result>
 		</action>
 
-		<action name="Usuarios"  class="com.cibertec.Actions.UsuarioAction" method="listarUsuario">
+		<action name="Usuarios" class="com.cibertec.Actions.UsuarioAction"
+			method="listarUsuario">
 			<result type="tiles" name="success">Usuarios</result>
 			<result type="tiles" name="error">principal</result>
 		</action>
@@ -36,6 +40,14 @@
 			method="registrar">
 			<result name="success" type="redirect">RegistroUsuario</result>
 			<result name="error" type="redirect">RegistroUsuario</result>
+		</action>
+
+		<action name="ObtenerUsuarioOperativoxArea" class="com.cibertec.Actions.UsuarioAction"
+			method="ObtenerUsuarioOperativoxArea">
+			<result type="json">
+				<param name="excludeNullProperties">true</param>
+				<param name="noCache">true</param>
+			</result>
 		</action>
 	</package>
 </struts>

@@ -8,6 +8,8 @@ import com.cibertec.InterfaceMapper.AreaModelMapper;
 import com.cibertec.InterfaceMapper.GeoModelMapper;
 import com.cibertec.Model.AreaModel;
 import com.cibertec.Model.GeoModel;
+import com.cibertec.Model.ResidenciaAreaModel;
+import com.cibertec.Model.ResidenciaModel;
 import com.cibertec.conexion.MyBatisUtil;
 
 public class AreaDAO implements AreaModelMapper {
@@ -22,6 +24,12 @@ public class AreaDAO implements AreaModelMapper {
 	public List<AreaModel> listarAreasxResidencia(int idResidencia) throws Exception {
 		SqlSession sq = MyBatisUtil.getConeccion().openSession();
 		return sq.getMapper(AreaModelMapper.class).listarAreasxResidencia(idResidencia);
+	}
+
+	@Override
+	public List<ResidenciaAreaModel> listarAreaSucursal() throws Exception {
+		SqlSession sq = MyBatisUtil.getConeccion().openSession();
+		return sq.getMapper(AreaModelMapper.class).listarAreaSucursal();
 	}
 
 	

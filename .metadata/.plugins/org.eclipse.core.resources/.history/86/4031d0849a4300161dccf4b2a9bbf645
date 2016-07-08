@@ -1,0 +1,55 @@
+$(document).ready(function() {
+	function comenzar(idIncidencia) {
+		var url = "../Area/comenzarAtencionIncidencia"
+		var data = {
+			idIncidencia : idIncidencia
+		};
+
+		$.getJSON(url, data).done(function(json) {
+			console.log(json.listarResidenciaDet);
+			console.log()
+		}).fail(function(jqxhr, textStatus, error) {
+			var err = textStatus + ", " + error;
+			console.log("Request Failed: " + err);
+		});
+	};
+	
+	$("#derivar").click(function(){
+			var url = "../Area/listarAreaSucursal"
+			var data = {
+// idIncidencia : idIncidencia
+			};
+
+			$.getJSON(url, data).done(function(json) {
+				console.log(json.listarResidenciaDet);
+				
+				// var selectArea = $('#Area');
+				// selectArea.find('option').remove();
+				// $.each(json.listarArea, function(key,
+				// value) {
+				// selectArea.append("<option
+				// value="+value.idResidenciaArea+">"+value.sDescripcion+"</option>");
+				// });
+				var selectAreaADerivar = $('#areaderivar');
+				selectAreaADerivar.find('optgroup').remove();
+				selectAreaADerivar.find('option').remove();
+				$.each(json.listarResidenciaDet,function(key,value){
+					selectAreaADerivar.append("<optgroup label="+value.residencia+">");
+					 $.each(value.listaDetalle,function(key1,value1){
+						 selectAreaADerivar.append("<option value="+value1.idResidenciaArea+">"+value1.sDescripcion+"</option");
+							 });
+					 seselectAreaADerivarlectArea.append("</optgroup>");		 
+				});
+				
+// console.log();
+			}).fail(function(jqxhr, textStatus, error) {
+				var err = textStatus + ", " + error;
+				console.log("Request Failed: " + err);
+			});
+	});
+
+});
+
+// var comenzar=function(idIncidencia){
+// alert(idIncidencia);
+// }

@@ -37,6 +37,27 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 		<result column="Telefono" property="telefono" jdbcType="VARCHAR" />
 	</resultMap>
 	
+<!-- 	<resultMap id="rmAtencionIncidenciaWithSeguimiento" type="Incidencia"> -->
+<!-- 		<id column="idIncidencia" property="idIncidencia" jdbcType="INTEGER" /> -->
+<!-- 		<result column="titulo" property="titulo" jdbcType="VARCHAR" /> -->
+<!-- 		<result column="sTipoIncidencia" property="sTipoIncidencia" jdbcType="VARCHAR" /> -->
+<!-- 		<result column="sDescripcion" property="sDescripcion" jdbcType="VARCHAR" /> -->
+<!-- 		<result column="sEstado" property="sEstado" jdbcType="VARCHAR" /> -->
+<!-- 		<result column="idEstado" property="idEstado" jdbcType="INTEGER" /> -->
+<!-- 		<result column="fotobynari" property="fotobynari" jdbcType="BLOB" /> -->
+<!-- 		<result column="Usuario" property="usuario" jdbcType="VARCHAR" /> -->
+<!-- 		<result column="Nombre" property="nombre" jdbcType="VARCHAR" /> -->
+<!-- 		<result column="Apellido" property="apellido" jdbcType="VARCHAR" /> -->
+<!-- 		<result column="Matricula" property="matricula" jdbcType="VARCHAR" /> -->
+<!-- 		<result column="Anexo" property="anexo" jdbcType="VARCHAR" /> -->
+<!-- 		<result column="Telefono" property="telefono" jdbcType="VARCHAR" /> -->
+<!-- 		<collection property="listaSeguimientos" ofType="Seguimiento"> -->
+<!-- 	        <result column="sUsuario" property="sUsuario" jdbcType="VARCHAR"/> -->
+<!-- 	        <result column="sSeguimiento" property="descripcion" jdbcType="VARCHAR"/> -->
+<!-- 	        <result column="dFecha" property="fecha" jdbcType="DATE"/> -->
+<!-- 		</collection> -->
+<!-- 	</resultMap> -->
+	
 	
 	<select id="RegistrarIncidencia"
 		statementType="CALLABLE" parameterType="Incidencia" resultType="INTEGER">
@@ -63,11 +84,20 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 		{call SGI_WEB_R_ATENCIONINCIDENCIA(#{idIncidencia})}
 	</select>
 	
+	<select id="atencionIncidencia1" resultMap="rmAtencionIncidencia"
+		statementType="CALLABLE" parameterType="int">
+		{call SGI_WEB_R_ATENCIONINCIDENCIA(#{idIncidencia})}
+	</select>
+	
 	<select id="comenzarAtencionIncidencia" resultMap="rmAtencionIncidencia"
 		statementType="CALLABLE" parameterType="int">
 		{call SGI_WEB_U_COMENZARATENCIONINCIDENCIA(#{idIncidencia})}
 	</select>
 	
+	<select id="derivarIncidencia" resultType="INTEGER"
+		statementType="CALLABLE" parameterType="Incidencia">
+		{call SGI_WEB_U_DERIVARINCIDENCIA(#{idIncidencia, jdbcType=INTEGER, mode=IN},#{idUsuario, jdbcType=INTEGER, mode=IN},#{descripcion, jdbcType=VARCHAR, mode=IN})}
+	</select>
 	
 	
 

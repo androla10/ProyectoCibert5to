@@ -19,4 +19,7 @@ public interface UsuarioModelMapper {
 	public List<UsuarioModel> ObtenerListado() throws Exception;
 	
 	public UsuarioModel ValidarUsuario(@Param("usuario") String usuario,@Param("clave") String clave)throws Exception;
+	
+	public List<UsuarioModel> ObtenerUsuarioOperativoxArea(@Param("idResidenciaArea") int idResidenciaArea)throws Exception;
+	
 }

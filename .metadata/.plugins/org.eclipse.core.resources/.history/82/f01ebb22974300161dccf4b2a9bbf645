@@ -1,0 +1,43 @@
+package com.cibertec.Model;
+import java.util.*;
+public class ResidenciaAreaModel {
+	private int idResidencia;
+	private String Residencia;
+	private int idresidencia_area;
+	private String area;
+	private List<AreaModel> listaDetalle;
+	
+	public List<AreaModel> getListaDetalle() {
+		return listaDetalle;
+	}
+	public void setListaDetalle(List<AreaModel> listaDetalle) {
+		this.listaDetalle = listaDetalle;
+	}
+	public int getIdResidencia() {
+		return idResidencia;
+	}
+	public void setIdResidencia(int idResidencia) {
+		this.idResidencia = idResidencia;
+	}
+	public String getResidencia() {
+		return Residencia;
+	}
+	public void setResidencia(String residencia) {
+		Residencia = residencia;
+	}
+	public int getIdresidencia_area() {
+		return idresidencia_area;
+	}
+	public void setIdresidencia_area(int idresidencia_area) {
+		this.idresidencia_area = idresidencia_area;
+	}
+	public String getArea() {
+		return area;
+	}
+	public void setArea(String area) {
+		this.area = area;
+	}
+	
+	
+	
+}

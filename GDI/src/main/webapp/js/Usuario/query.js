@@ -6,6 +6,7 @@ $(document)
 										var idResidencia = document.getElementById('Residencia').options[position].value;
 										CargarAreas(idResidencia);
 									});
+					
 
 					var CargarAreas = function(idResidencia) {
 						var url = "../Area/listarAreaxResidencia"

@@ -245,7 +245,19 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 		} catch (Exception e) {
 			return LOGIN;
 		}
-
+	}
+	public String DerivarIncidencia(){
+		try {
+			int resultado = new IncidenciaDAO().derivarIncidencia(this.incidencia);
+			if (resultado != -1) {
+				return SUCCESS;
+			} else {
+				return NONE;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			return LOGIN;
+		}
 	}
 
 	public HttpServletRequest getServletRequest() {

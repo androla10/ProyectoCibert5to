@@ -8,7 +8,7 @@ import com.cibertec.InterfaceMapper.UsuarioModelMapper;
 import com.cibertec.Model.UsuarioModel;
 import com.cibertec.conexion.MyBatisUtil;
 
-public class UsuarioDAO implements UsuarioModelMapper{
+public class UsuarioDAO implements UsuarioModelMapper {
 
 	@Override
 	public int Registrar(UsuarioModel usuario) throws Exception {
@@ -45,6 +45,12 @@ public class UsuarioDAO implements UsuarioModelMapper{
 		SqlSession sq = MyBatisUtil.getConeccion().openSession();
 		UsuarioModel usu = sq.getMapper(UsuarioModelMapper.class).ValidarUsuario(usuario, clave);
 		return usu;
+	}
+
+	@Override
+	public List<UsuarioModel> ObtenerUsuarioOperativoxArea(int idResidenciaArea) throws Exception {
+		SqlSession sq = MyBatisUtil.getConeccion().openSession();
+		return sq.getMapper(UsuarioModelMapper.class).ObtenerUsuarioOperativoxArea(idResidenciaArea);
 	}
 
 }
