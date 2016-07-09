@@ -1,6 +1,6 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <div class="container-fluid">
-	<h1 class="text-center">Incidencias Reportadas</h1>
+	<h1 class="text-center">Incidencias Asignadas</h1>
 	<br>
 	<div class="panel-primary">
 		<div class="panel-heading">

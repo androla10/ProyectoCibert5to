@@ -1,0 +1,38 @@
+$('#file-es').fileinput({
+		language : 'es',
+		uploadUrl : '#',
+		allowedFileExtensions : [ 'jpg', 'png', 'gif' ],
+	});
+
+	$(document).ready(function() {
+		
+		
+		$("#input-2").fileinput({
+			showUpload : false,
+			maxFileCount : 10,
+			mainClass : "input-group-lg"
+		});
+		
+		function mostrarCodigo(){
+			var codigo = $("#codigoAutogenerado").val();
+			console.log(codigo);
+			if(codigo == 0){
+				$("#alertarcodigo").hide();	
+			}
+			else{
+				
+				$("#alertarcodigo").show();
+				setTimeout($("#alertarcodigo").hide(),5000);
+			}
+				
+		};
+		
+		mostrarCodigo();
+// 		function esconderCodigo(){
+// 			$("#alertarcodigo").hide(function(){
+				
+// 			});
+// 		}
+		
+		
+	});

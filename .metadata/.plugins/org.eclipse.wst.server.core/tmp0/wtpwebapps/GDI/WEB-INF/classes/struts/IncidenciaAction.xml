@@ -44,9 +44,9 @@
 
 		<action name="comenzarAtencionIncidencia" class="com.cibertec.Actions.IncidenciaAction"
 			method="comenzarAtencionIncidencia">
-			<result type="json">
-				<param name="excludeNullProperties">true</param>
-				<param name="noCache">true</param>
+			<result name="success" type="redirectAction">
+				<param name="actionName">AtencionIncidencia</param>
+				<param name="idIncidencia">${idIncidencia}</param>
 			</result>
 		</action>
 
@@ -54,10 +54,10 @@
 			method="registrar">
 
 			<param name="filesPath">uploads</param>
-			<result name="success" type="redirect">/Incidencia/RegistrarIncidencia.action
+			<result name="success" type="redirectAction">
+					<param name="actionName">RegistrarIncidencia</param>
+					<param name="codigoAutogenerado">${codigoAutogenerado}</param>
 			</result>
-			<result name="error" type="redirect"></result>
-
 			<interceptor-ref name="defaultStack">
 				<param name="fileUpload.maximumSize">2097152</param>
 				<param name="fileUpload.allowedTypes">image/jpeg,image/png,image/jpg,image/pjpeg</param>
@@ -66,6 +66,18 @@
 		
 		<action name="DerivarIncidencia" class="com.cibertec.Actions.IncidenciaAction" method="DerivarIncidencia">
 			<result type="redirect">ListarIncidencia</result>
+		</action>
+		
+		<action name="TerminarIncidencia" class="com.cibertec.Actions.IncidenciaAction" method="TerminarIncidencia">
+			<result name="success" type="redirectAction">
+				<param name="actionName">ListarIncidencia</param>
+			</result>
+		</action>
+		<action name="AgregarComentario" class="com.cibertec.Actions.IncidenciaAction" method="AgregarComentario">
+			<result name="success" type="redirectAction">
+				<param name="actionName">AtencionIncidencia</param>
+				<param name="idIncidencia">${seguimiento.idIncidencia}</param>
+			</result>
 		</action>
 	</package>
 </struts>
