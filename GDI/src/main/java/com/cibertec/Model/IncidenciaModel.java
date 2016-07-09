@@ -13,14 +13,14 @@ public class IncidenciaModel {
 	private Date fechaEnProceso;
 	private Date fechaFinalizado;
 	private Date fechaAsignacion;
-	private List<SeguimientoModel> listaSeguimientos;
+	private int idResultadoFinalizado;
 
-	public List<SeguimientoModel> getListaComentarios() {
-		return listaSeguimientos;
+	public int getIdResultadoFinalizado() {
+		return idResultadoFinalizado;
 	}
 
-	public void setListaComentarios(List<SeguimientoModel> listaComentarios) {
-		this.listaSeguimientos = listaComentarios;
+	public void setIdResultadoFinalizado(int idResultadoFinalizado) {
+		this.idResultadoFinalizado = idResultadoFinalizado;
 	}
 
 	public Date getFechaAsignacion() {

@@ -1,23 +1,8 @@
 <%@ taglib prefix="s" uri="/struts-tags"%>
-<script type="text/javascript">
-	$('#file-es').fileinput({
-		language : 'es',
-		uploadUrl : '#',
-		allowedFileExtensions : [ 'jpg', 'png', 'gif' ],
-	});
-
-	$(document).ready(function() {
-		$("#input-2").fileinput({
-			showUpload : false,
-			maxFileCount : 10,
-			mainClass : "input-group-lg"
-		});
-
-	});
-</script>
-<link rel="stylesheet"
-	href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
+<!-- <link rel="stylesheet" -->
+<!-- 	href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css"> -->
 <div class="container-fluid">
+	<input type="hidden" id="codigoAutogenerado" value=<s:property value="codigoAutogenerado"/>>
 	<h1 class="text-center">Registrar Incidencia</h1>
 	<br>
 	<div class="panel-primary">
@@ -26,12 +11,14 @@
 		</div>
 		<div class="panel-body">
 			<form action="../Incidencia/RegIncidencia"
-				id="formRegistroIncidencia" enctype="multipart/form-data" method="POST">
+				id="formRegistroIncidencia2" enctype="multipart/form-data"
+				method="POST">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 						<div class="form-group">
 							<label for="tipoIncidencia">Tipo Incidencia</label> <select
-								class="form-control" name="incidencia.idTipoIncidencia" id="tipoIncidencia">
+								class="form-control" name="incidencia.idTipoIncidencia"
+								id="tipoIncidencia">
 								<s:iterator value="listarTipoIncidencia">
 									<option value=<s:property value="idTipoIncidencia" />><s:property
 											value="sDescripcion" /></option>
@@ -40,7 +27,8 @@
 						</div>
 						<div class="form-group">
 							<label for="TipoPrioridad">Prioridad</label> <select
-								class="form-control" name="incidencia.idTipoPrioridad" id="TipoPrioridad">
+								class="form-control" name="incidencia.idTipoPrioridad"
+								id="TipoPrioridad">
 								<s:iterator value="listarPrioridad">
 									<option value=<s:property value="idPrioridad" />><s:property
 											value="sDescripcion" /></option>
@@ -49,7 +37,8 @@
 						</div>
 						<div class="form-group">
 							<label for="TipoUrgencia">Urgencia</label> <select
-								class="form-control" name="incidencia.idTipoUrgencia" id="TipoUrgencia">
+								class="form-control" name="incidencia.idTipoUrgencia"
+								id="TipoUrgencia">
 								<s:iterator value="listarUrgencia">
 									<option value=<s:property value="idUrgencia" />><s:property
 											value="sDescripcion" /></option>
@@ -57,13 +46,13 @@
 							</select>
 						</div>
 						<div class="form-group">
-							<label for="Titulo">Titulo</label> 
-							<input type="text" class="form-control" name="incidencia.titulo" id="Titulo">
+							<label for="Titulo">Titulo</label> <input type="text"
+								class="form-control" name="incidencia.titulo" id="Titulo">
 						</div>
 						<div class="form-group">
 							<label for="descripcion">Descripción</label>
-							<textarea class="form-control"
-								name="incidencia.descripcion" id="descripcion" rows="8" cols="9"></textarea>
+							<textarea class="form-control" name="incidencia.descripcion"
+								id="descripcion" rows="8" cols="9"></textarea>
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -78,6 +67,12 @@
 							</div>
 							<br />
 						</div>
+						<div class="alert alert-success animated" id="alertarcodigo" role="alert">
+							<p>
+								Su Incidencia ha sido registrada con el código :
+								<s:property value="codigoAutogenerado" />
+							</p>
+						</div>
 					</div>
 				</div>
 				<div class="row">
@@ -91,3 +86,5 @@
 		</div>
 	</div>
 </div>
+<script type="text/javascript" src="../js/Incidencia/queryregistrar.js"></script>
+<script type="text/javascript" src="../js/Incidencia/validator.js"></script>

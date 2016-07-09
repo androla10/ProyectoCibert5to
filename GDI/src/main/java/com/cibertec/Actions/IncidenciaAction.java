@@ -11,6 +11,7 @@ import org.apache.struts2.util.ServletContextAware;
 import com.cibertec.Model.AtencionIncidenciaModel;
 import com.cibertec.Model.IncidenciaModel;
 import com.cibertec.Model.PrioridadModel;
+import com.cibertec.Model.SeguimientoModel;
 import com.cibertec.Model.TipoIncidenciaModel;
 import com.cibertec.Model.UrgenciaModel;
 import com.cibertec.Model.UsuarioModel;
@@ -45,6 +46,17 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 	IncidenciaDAO dao = new IncidenciaDAO();
 	private List<IncidenciaModel> listaIncidenciaAsignadas;
 	private int idIncidencia;
+	private int idResultadoFinalizado;
+	private SeguimientoModel seguimiento;
+
+	public SeguimientoModel getSeguimiento() {
+		return seguimiento;
+	}
+
+	public void setSeguimiento(SeguimientoModel seguimiento) {
+		this.seguimiento = seguimiento;
+	}
+
 	private AtencionIncidenciaModel atencion = null;
 
 	public AtencionIncidenciaModel getAtencion() {
@@ -111,14 +123,6 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 		this.dao = dao;
 	}
 
-	public int getCodigoAutogenerado() {
-		return codigoAutogenerado;
-	}
-
-	public void setCodigoAutogenerado(int codigoAutogenerado) {
-		this.codigoAutogenerado = codigoAutogenerado;
-	}
-
 	public void setServletRequest(HttpServletRequest servletRequest) {
 		this.servletRequest = servletRequest;
 	}
@@ -151,6 +155,22 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 		this.listarTipoIncidencia = listarTipoIncidencia;
 	}
 
+	public int getCodigoAutogenerado() {
+		return codigoAutogenerado;
+	}
+
+	public void setCodigoAutogenerado(int codigoAutogenerado) {
+		this.codigoAutogenerado = codigoAutogenerado;
+	}
+
+	public int getIdResultadoFinalizado() {
+		return idResultadoFinalizado;
+	}
+
+	public void setIdResultadoFinalizado(int idResultadoFinalizado) {
+		this.idResultadoFinalizado = idResultadoFinalizado;
+	}
+
 	public String registrar() {
 
 		System.out.println("File Name is:" + incidencia.getFotoContentType());
@@ -165,25 +185,14 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 			this.incidencia.setFotobinary(Constantes.getBytesFromFile(this.incidencia.getFoto()));
 			int resultado = new IncidenciaDAO().RegistrarIncidencia(this.incidencia);
 			if (resultado != -1) {
-				setCodigoAutogenerado(resultado);
+				this.codigoAutogenerado = resultado;
 				return SUCCESS;
 			} else {
-				return ERROR;
+				return LOGIN;
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		// Metodos.guardarArchivo(incidencia.getFoto(),
-		// incidencia.getFotoFileName(),
-		// context.getRealPath("") + File.separator + filesPath);
-		// int resultado = dao.RegistrarIncidencia(getIncidencia());
-		// if (resultado == -1) {
-		// setCodigoAutogenerado(resultado);
-		// return INPUT;
-		// } else {
-		// setCodigoAutogenerado(resultado);
-		// }
-
 		return ERROR;
 	}
 
@@ -236,19 +245,49 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 
 	public String comenzarAtencionIncidencia() {
 		try {
-			this.atencion = new IncidenciaDAO().atencionIncidencia(this.idIncidencia);
-			if (this.atencion != null) {
+			int resultado = new IncidenciaDAO().comenzarAtencionIncidencia(this.idIncidencia);
+			if (resultado != -1) {
 				return SUCCESS;
 			} else {
 				return NONE;
 			}
 		} catch (Exception e) {
+			e.printStackTrace();
 			return LOGIN;
 		}
 	}
-	public String DerivarIncidencia(){
+
+	public String DerivarIncidencia() {
 		try {
 			int resultado = new IncidenciaDAO().derivarIncidencia(this.incidencia);
+			if (resultado != -1) {
+				return SUCCESS;
+			} else {
+				return NONE;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			return LOGIN;
+		}
+	}
+
+	public String TerminarIncidencia() {
+		try {
+			int resultado = new IncidenciaDAO().terminarIncidencia(this.incidencia);
+			if (resultado != -1) {
+				return SUCCESS;
+			} else {
+				return NONE;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			return LOGIN;
+		}
+	}
+
+	public String AgregarComentario() {
+		try {
+			int resultado = new IncidenciaDAO().AgregarComentario(this.seguimiento);
 			if (resultado != -1) {
 				return SUCCESS;
 			} else {

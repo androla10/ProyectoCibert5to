@@ -1,8 +1,6 @@
 <%@ taglib prefix="s" uri="/struts-tags"%>
-<script type="text/javascript" src="../js/Incidencia/query.js"></script>
 <div class="container-fluid">
 	
-	<input type="hidden" id="idIncidencia" value=<s:property value="atencion.idIncidencia"/>>
 	<!-- Modal -->
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	  <div class="modal-dialog" role="document">
@@ -11,19 +9,22 @@
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 	        <h4 class="modal-title" id="myModalLabel">Derivación</h4>
 	      </div>
-	      	<form action="DerivarIncidencia">
+	      	<form action="DerivarIncidencia" id="formDerivacion">
 		      <div class="modal-body">
 		      		<div class="row">
 		      			<div class="col-sm-6 col-sm-offset-3">
 				      			<input type="hidden" name="incidencia.idIncidencia" value=<s:property value="atencion.idIncidencia"/>>
 				      			<div class="form-group">
 									<label for="Area">Área</label>
-									<select class="form-control" id="areaderivar">
+									<select class="form-control select2-select" id="areaderivar" name="incidencia.idArea">
+<!-- 										<option selected="selected" value="-1">Seleccione Tipo</option> -->
 									</select>
 								</div>
 				        		<div class="form-group">
 									<label for="Operacion">Operativo</label>
-									<select class="form-control" name="incidencia.idUsuario" id="Operativoderivar"></select>
+									<select class="form-control select2-select" name="incidencia.idUsuario" id="Operativoderivar">
+<!-- 										<option selected="selected" value="-1">Seleccione Tipo</option> -->
+									</select>
 								</div>
 				        		<div class="form-group">
 				      				<label id="Descripcion">Descripción</label>
@@ -60,9 +61,6 @@
 			</div>
 		</div>
 		<div class="panel-body">
-			<form action="../Incidencia/RegIncidencia"
-				id="formRegistroIncidencia" enctype="multipart/form-data"
-				method="POST">
 				<div class="row">
 					<div class="col-sm-12 col-sm-offset-0 col-md-2 col-md-offset-5">
 						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal" id="derivar">
@@ -103,12 +101,13 @@
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 						<div class="row">
 							<div class="col-sm-12 col-sm-offset-0 col-md-2 col-md-offset-5">
-								<button type="button" class="btn btn-success" id="comenzar"
-									<s:if test="atencion.idEstado == 3">disabled="disabled"</s:if>
-									<s:else></s:else>
-									onclick="comenzar(<s:property value="atencion.idIncidencia" />)">
-									<i class="fa fa-user fa-1x"></i>&nbsp;Comenzar
-								</button>
+								<form action="../Incidencia/comenzarAtencionIncidencia" method="POST">
+									<input type="hidden" id="idIncidencia" name="idIncidencia" value=<s:property value="atencion.idIncidencia"/>>
+									<button type="submit" class="btn btn-success" id="comenzar"
+										<s:if test="atencion.idEstado == 3">disabled="disabled"</s:if>>
+										<i class="fa fa-user fa-1x"></i>&nbsp;Comenzar
+									</button>
+								</form>
 							</div>
 						</div>
 						<br>
@@ -150,56 +149,66 @@
 								disabled="disabled">
 						</div>
 						
-<%-- 						<s:if test="listaSeguimientos != empty"> --%>
-						
-<%-- 						</s:if> --%>
-<%-- 						<s:else> --%>
-<!-- 							<h1>Hola</h1> -->
-<%-- 						</s:else> --%>
+						<s:if test="!atencion.listaSeguimientos.isEmpty">
+							<br>
+							<h3>Seguimiento</h3>
+							<hr>
+							<br>
+							<s:iterator value="atencion.listaSeguimientos">
+								<div class="panel <s:if test="idTipoSeguimiento == 1">panel-primary</s:if><s:else>panel-success</s:else>">
+								  	<div class="panel-heading"><s:property value="sTipoSeguimiento"/></div>
+								 <div class="panel-body">
+								    	<s:property value="descripcion"/>
+								    	
+								  </div>
+								</div>						
+							</s:iterator>
+							<div class="form-group">
+								<form action="../Incidencia/AgregarComentario">
+									<label for="descripcion">Agregar comentario:</label>
+									<input type="hidden" value=<s:property value="atencion.idIncidencia"/> name="seguimiento.idIncidencia">
+									<textarea class="form-control" name="seguimiento.descripcion" id="descripcion" rows="4" cols="4" <s:if test="atencion.idEstado == 1 || atencion.idEstado == 2">
+							disabled="disabled"
+								</s:if>></textarea>
+									<br>
+									<button class="btn btn-info" type="submit" <s:if test="atencion.idEstado == 1 || atencion.idEstado == 2">
+							disabled="disabled"
+								</s:if>>Agregar</button>
+								</form>
+							</div>
+						</s:if>
 					</div>
 				</div>
-
-				<div class="row">
-					<div class="col-sm-12 col-sm-offset-0 col-md-2 col-md-offset-5">
-						<button type="button" class="btn btn-danger"
-							<s:if test="atencion.idEstado == 1 || atencion.idEstado == 2">
-						disabled="disabled"
-							</s:if>
-							<s:else></s:else>>
-							<i class="fa fa-user fa-1x"></i>&nbsp;Terminar
-						</button>
+				<form action="../Incidencia/TerminarIncidencia">
+					<input type="hidden" name="incidencia.idIncidencia" value=<s:property value="atencion.idIncidencia"/>>
+					<div class="row">
+						<div class="col-sm-12 col-md-3">
+							<div class="form-group">
+								<label id="idResultadoFinalizado">
+									Resultado de Incidencia
+								</label>
+								<select class="form-control" name="incidencia.idResultadoFinalizado" <s:if test="atencion.idEstado == 1 || atencion.idEstado == 2">
+							disabled="disabled"
+								</s:if>>
+									<option value="1" selected="selected">Incidencia resuelta</option>
+									<option value="0">Incidencia no resuelta</option>
+								</select>
+							</div>
+						</div>
 					</div>
-				</div>
-			</form>
+					<div class="row">
+						<div class="col-sm-12 col-sm-offset-0 col-md-2 col-md-offset-5">
+							<button type="submit" class="btn btn-danger"
+								<s:if test="atencion.idEstado == 1 || atencion.idEstado == 2">
+							disabled="disabled"
+								</s:if>>
+								<i class="fa fa-user fa-1x"></i>&nbsp;Terminar
+							</button>
+						</div>
+					</div>
+				</form>
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
-$(document).ready(function() {
-	$('#comenzar').click(function(){
-		var idIncidencia = 
-		comenzar()
-	});
-function comenzar(idIncidencia) {
-	var url = "../Incidencia/comenzarAtencionIncidencia"
-	var data = {
-		idIncidencia : idIncidencia
-	};
-
-	$.getJSON(url, data).done(function(json) {
-		// var selectArea = $('#Area');
-		// selectArea.find('option').remove();
-		// $.each(json.listarArea, function(key,
-		// value) {
-		// selectArea.append("<option
-		// value="+value.idResidenciaArea+">"+value.sDescripcion+"</option>");
-		// });
-		console.log()
-	}).fail(function(jqxhr, textStatus, error) {
-		var err = textStatus + ", " + error;
-		console.log("Request Failed: " + err);
-	});
-};
-
-});
-</script>
+<script type="text/javascript" src="../js/Derivacion/validator.js"></script>
+<script type="text/javascript" src="../js/Incidencia/query.js"></script>

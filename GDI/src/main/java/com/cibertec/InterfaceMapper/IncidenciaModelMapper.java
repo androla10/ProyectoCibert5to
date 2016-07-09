@@ -4,6 +4,8 @@ import java.sql.SQLException;
 
 import com.cibertec.Model.AtencionIncidenciaModel;
 import com.cibertec.Model.IncidenciaModel;
+import com.cibertec.Model.SeguimientoModel;
+
 import java.util.*;
 
 import org.apache.ibatis.annotations.Param;
@@ -22,11 +24,14 @@ public interface IncidenciaModelMapper {
 
 	public AtencionIncidenciaModel atencionIncidencia(@Param("idIncidencia") int idIncidencia) throws SQLException;
 
-	public AtencionIncidenciaModel comenzarAtencionIncidencia(@Param("idIncidenica") int idIncidencia)
+	public int comenzarAtencionIncidencia(@Param("idIncidencia") int idIncidencia)
 			throws SQLException;
 
 	public int derivarIncidencia(IncidenciaModel incidencia) throws Exception;
 	
-	public AtencionIncidenciaModel atencionIncidencia1(@Param("idIncidencia") int idIncidencia) throws SQLException;
+	public int terminarIncidencia(IncidenciaModel incidencia) throws SQLException;
+	
+	public int AgregarComentario(SeguimientoModel comentario) throws SQLException;
+	
 
 }

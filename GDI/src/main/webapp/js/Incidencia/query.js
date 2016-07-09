@@ -1,6 +1,7 @@
 $(document).ready(function() {
-	function comenzar(idIncidencia) {
-		var url = "../Area/comenzarAtencionIncidencia"
+	function comenzar() {
+		var idIncidencia = $("#idIncidencia").val();
+		var url = "../Incidencia/comenzarAtencionIncidencia"
 		var data = {
 			idIncidencia : idIncidencia
 		};

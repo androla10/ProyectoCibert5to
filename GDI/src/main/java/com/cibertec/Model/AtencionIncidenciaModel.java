@@ -1,5 +1,7 @@
 package com.cibertec.Model;
 
+import java.util.List;
+
 public class AtencionIncidenciaModel {
 	private int idIncidencia;
 	private String titulo;
@@ -14,7 +16,15 @@ public class AtencionIncidenciaModel {
 	private String telefono;
 	private String sEstado;
 	private int idEstado;
-	
+	private List<SeguimientoModel> listaSeguimientos;
+
+	public List<SeguimientoModel> getListaSeguimientos() {
+		return listaSeguimientos;
+	}
+
+	public void setListaSeguimientos(List<SeguimientoModel> listaSeguimientos) {
+		this.listaSeguimientos = listaSeguimientos;
+	}
 
 	public String getsEstado() {
 		return sEstado;

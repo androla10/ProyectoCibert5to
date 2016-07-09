@@ -8,6 +8,7 @@ import org.apache.ibatis.session.SqlSession;
 import com.cibertec.InterfaceMapper.IncidenciaModelMapper;
 import com.cibertec.Model.AtencionIncidenciaModel;
 import com.cibertec.Model.IncidenciaModel;
+import com.cibertec.Model.SeguimientoModel;
 import com.cibertec.conexion.MyBatisUtil;
 
 public class IncidenciaDAO implements IncidenciaModelMapper {
@@ -50,15 +51,9 @@ public class IncidenciaDAO implements IncidenciaModelMapper {
 		return MyBatisUtil.getConeccion().openSession().getMapper(IncidenciaModelMapper.class)
 				.atencionIncidencia(idIncidencia);
 	}
-	
-	@Override
-	public AtencionIncidenciaModel atencionIncidencia1(int idIncidencia) throws SQLException {
-		return MyBatisUtil.getConeccion().openSession().getMapper(IncidenciaModelMapper.class)
-				.atencionIncidencia1(idIncidencia);
-	}
 
 	@Override
-	public AtencionIncidenciaModel comenzarAtencionIncidencia(int idIncidencia) throws SQLException {
+	public int comenzarAtencionIncidencia(int idIncidencia) throws SQLException {
 		return MyBatisUtil.getConeccion().openSession().getMapper(IncidenciaModelMapper.class)
 				.comenzarAtencionIncidencia(idIncidencia);
 	}
@@ -67,6 +62,18 @@ public class IncidenciaDAO implements IncidenciaModelMapper {
 	public int derivarIncidencia(IncidenciaModel incidencia) throws Exception {
 		return MyBatisUtil.getConeccion().openSession().getMapper(IncidenciaModelMapper.class)
 				.derivarIncidencia(incidencia);
+	}
+
+	@Override
+	public int terminarIncidencia(IncidenciaModel incidencia) throws SQLException {
+		return MyBatisUtil.getConeccion().openSession().getMapper(IncidenciaModelMapper.class)
+				.terminarIncidencia(incidencia);
+	}
+
+	@Override
+	public int AgregarComentario(SeguimientoModel comentario) throws SQLException {
+		return MyBatisUtil.getConeccion().openSession().getMapper(IncidenciaModelMapper.class)
+				.AgregarComentario(comentario);
 	}
 
 }

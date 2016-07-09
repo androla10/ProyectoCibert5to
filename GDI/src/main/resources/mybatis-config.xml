@@ -21,6 +21,7 @@
 		<typeAlias type="com.cibertec.Model.TipoIncidenciaModel" alias="TipoIncidencia" />
 		<typeAlias type="com.cibertec.Model.AtencionIncidenciaModel" alias="AtencionIncidencia" />
 		<typeAlias type="com.cibertec.Model.ResidenciaAreaModel" alias="ResidenciaArea" />
+		<typeAlias type="com.cibertec.Model.SeguimientoModel" alias="Seguimiento" />
 		<typeAlias type="com.cibertec.Model.IncidenciaModel" alias="Incidencia" />
 	</typeAliases>
 	<environments default="development">
