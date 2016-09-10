@@ -104,11 +104,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 				if (usu != null) {
 					session.put("user", usu);
 					aplication.put("user", usu);
-					if (usu.getIdTipo() == 2) {
-						CargarComboRegistrar();
-					} else if (usu.getIdTipo() == 3) {
-						CargarIncidenciasAsignadas(usu.getIdUsuario());
-					}
 					return String.valueOf(usu.getIdTipo());
 				} else {
 					msjError = "Usuario Incorrecto";

@@ -33,5 +33,6 @@ public interface IncidenciaModelMapper {
 	
 	public int AgregarComentario(SeguimientoModel comentario) throws SQLException;
 	
+	public List<IncidenciaModel> cargarFormularioIncidenciaReportadas() throws SQLException;
 
 }

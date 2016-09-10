@@ -65,7 +65,12 @@
 		</action>
 		
 		<action name="DerivarIncidencia" class="com.cibertec.Actions.IncidenciaAction" method="DerivarIncidencia">
-			<result type="redirect">ListarIncidencia</result>
+			<result name="success" type="redirect">ListarIncidencia</result>
+			<result name="-2" type="redirectAction">
+				<param name="actionName">AtencionIncidencia</param>
+				<param name="idIncidencia">${incidencia.idIncidencia}</param>
+				<param name="ResultadoDerivar">1</param>
+			</result>
 		</action>
 		
 		<action name="TerminarIncidencia" class="com.cibertec.Actions.IncidenciaAction" method="TerminarIncidencia">
@@ -79,5 +84,19 @@
 				<param name="idIncidencia">${seguimiento.idIncidencia}</param>
 			</result>
 		</action>
+		
+		<action name="IncidenciasReportadasSup" class="com.cibertec.Actions.IncidenciaAction" method="cargarFormularioIncidenciaReportadas">
+			<result type="tiles" name="success">Supervisar</result>
+		</action>
+		
+		<action name="ConsultaIncidencia" class="com.cibertec.Actions.IncidenciaAction">
+			<result type="tiles">ConsultarIncidencia</result>
+		</action>
+		
+		<action name="ConsultaIncidenciaPorCodigo" class="com.cibertec.Actions.IncidenciaAction" method="cargarFormularioAtencionIncidencia">
+			<result type="tiles">ConsultarIncidencia</result>
+		</action>
+		
+		
 	</package>
 </struts>

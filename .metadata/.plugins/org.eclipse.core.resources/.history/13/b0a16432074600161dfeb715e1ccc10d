@@ -1,0 +1,230 @@
+package com.cibertec.Model;
+
+import java.io.File;
+import java.io.IOException;
+import java.sql.Date;
+import java.util.List;
+
+public class IncidenciaModel {
+	private String descripcion;
+	private int idIncidencia;
+	private Date fechaCreacion;
+	private Date fechaObservacion;
+	private Date fechaEnProceso;
+	private Date fechaFinalizado;
+	private Date fechaAsignacion;
+	private int idResultadoFinalizado;
+	private List<SeguimientoModel> listaSeguimiento;
+	private int idEstado;
+	
+	
+
+	public int getIdEstado() {
+		return idEstado;
+	}
+
+	public void setIdEstado(int idEstado) {
+		this.idEstado = idEstado;
+	}
+
+	public List<SeguimientoModel> getListaSeguimiento() {
+		return listaSeguimiento;
+	}
+
+	public void setListaSeguimiento(List<SeguimientoModel> listaSeguimiento) {
+		this.listaSeguimiento = listaSeguimiento;
+	}
+
+	public int getIdResultadoFinalizado() {
+		return idResultadoFinalizado;
+	}
+
+	public void setIdResultadoFinalizado(int idResultadoFinalizado) {
+		this.idResultadoFinalizado = idResultadoFinalizado;
+	}
+
+	public Date getFechaAsignacion() {
+		return fechaAsignacion;
+	}
+
+	public void setFechaAsignacion(Date fechaAsignacion) {
+		this.fechaAsignacion = fechaAsignacion;
+	}
+
+	private int idTipoUrgencia;
+	private int idTipoPrioridad;
+	private String titulo;
+
+	/* Campos para listar incidencias */
+	private String sEstado;
+	private String sTipoIncidencia;
+	private String sNombreCompleto;
+
+	/* Puede almacenar uno o mas fotos */
+
+	public String getsEstado() {
+		return sEstado;
+	}
+
+	public void setsEstado(String sEstado) {
+		this.sEstado = sEstado;
+	}
+
+	public String getsTipoIncidencia() {
+		return sTipoIncidencia;
+	}
+
+	public void setsTipoIncidencia(String sTipoIncidencia) {
+		this.sTipoIncidencia = sTipoIncidencia;
+	}
+
+	public String getsNombreCompleto() {
+		return sNombreCompleto;
+	}
+
+	public void setsNombreCompleto(String sNombreCompleto) {
+		this.sNombreCompleto = sNombreCompleto;
+	}
+
+	private int idUsuario;
+	private String usuario;
+
+	private byte[] fotobinary;
+
+	private int idTipoIncidencia;
+	private String tipoIncidencia;
+
+	private File[] foto;
+	private String[] fotoContentType;
+	private String[] fotoFileName;
+
+	public byte[] getFotobinary() throws IOException {
+		return this.fotobinary;
+	}
+
+	public void setFotobinary(byte[] fotobinary) {
+		this.fotobinary = fotobinary;
+	}
+
+	public int getIdTipoUrgencia() {
+		return idTipoUrgencia;
+	}
+
+	public void setIdTipoUrgencia(int idTipoUrgencia) {
+		this.idTipoUrgencia = idTipoUrgencia;
+	}
+
+	public int getIdTipoPrioridad() {
+		return idTipoPrioridad;
+	}
+
+	public void setIdTipoPrioridad(int idTipoPrioridad) {
+		this.idTipoPrioridad = idTipoPrioridad;
+	}
+
+	public String getTitulo() {
+		return titulo;
+	}
+
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+
+
+	public File[] getFoto() {
+		return foto;
+	}
+
+	public void setFoto(File[] foto) {
+		this.foto = foto;
+	}
+
+	public void setFotoContentType(String[] fotoContentType) {
+		this.fotoContentType = fotoContentType;
+	}
+
+	public void setFotoFileName(String[] fotoFileName) {
+		this.fotoFileName = fotoFileName;
+	}
+
+	public int getIdTipoIncidencia() {
+		return idTipoIncidencia;
+	}
+
+	public void setIdTipoIncidencia(int idTipoIncidencia) {
+		this.idTipoIncidencia = idTipoIncidencia;
+	}
+
+	public String getTipoIncidencia() {
+		return tipoIncidencia;
+	}
+
+	public void setTipoIncidencia(String tipoIncidencia) {
+		this.tipoIncidencia = tipoIncidencia;
+	}
+
+	public String getDescripcion() {
+		return descripcion;
+	}
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
+	public int getIdIncidencia() {
+		return idIncidencia;
+	}
+
+	public void setIdIncidencia(int idIncidencia) {
+		this.idIncidencia = idIncidencia;
+	}
+
+	public Date getFechaCreacion() {
+		return fechaCreacion;
+	}
+
+	public void setFechaCreacion(Date fechaCreacion) {
+		this.fechaCreacion = fechaCreacion;
+	}
+
+	public Date getFechaObservacion() {
+		return fechaObservacion;
+	}
+
+	public void setFechaObservacion(Date fechaObservacion) {
+		this.fechaObservacion = fechaObservacion;
+	}
+
+	public Date getFechaEnProceso() {
+		return fechaEnProceso;
+	}
+
+	public void setFechaEnProceso(Date fechaEnProceso) {
+		this.fechaEnProceso = fechaEnProceso;
+	}
+
+	public Date getFechaFinalizado() {
+		return fechaFinalizado;
+	}
+
+	public void setFechaFinalizado(Date fechaFinalizado) {
+		this.fechaFinalizado = fechaFinalizado;
+	}
+
+	public int getIdUsuario() {
+		return idUsuario;
+	}
+
+	public void setIdUsuario(int idUsuario) {
+		this.idUsuario = idUsuario;
+	}
+
+	public String getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(String usuario) {
+		this.usuario = usuario;
+	}
+
+}

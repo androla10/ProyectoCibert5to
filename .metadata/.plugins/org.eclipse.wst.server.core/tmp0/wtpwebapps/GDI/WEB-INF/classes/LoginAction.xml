@@ -16,7 +16,7 @@
 			<result name="1" type="tiles">administrar</result>
 			<result name="2" type="redirect">/Incidencia/RegistrarIncidencia</result>
 			<result name="3" type="redirect">/Incidencia/ListarIncidencia</result>
-<!-- 			<result name="4" type="tiles">ReporteIncidencia</result> -->
+			<result name="4" type="redirect">/Incidencia/IncidenciasReportadasSup</result>
 			<result name="login">Login.jsp</result>
 		</action>
 
@@ -31,8 +31,9 @@
 		<action name="validarSession" class="com.cibertec.Actions.LoginAction"
 			method="validarSession">
 			<result name="1" type="tiles">administrar</result>
-			<!-- <result name="1" type="tiles">RegistrarIncidencia</result> -->
-			<!-- <result name="3" type="tiles">ModificarIncidencia</result> -->
+			<result name="2" type="redirect">/Incidencia/RegistrarIncidencia</result>
+			<result name="3" type="redirect">/Incidencia/ListarIncidencia</result>
+			<result name="4" type="redirect">/Incidencia/IncidenciasReportadasSup</result>
 			<result name="login">Login.jsp</result>
 		</action>
 

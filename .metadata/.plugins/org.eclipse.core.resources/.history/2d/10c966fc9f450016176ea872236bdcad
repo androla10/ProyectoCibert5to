@@ -1,0 +1,63 @@
+$('#formRegistroIncidencia2').formValidation({
+	framework : 'bootstrap',
+	icon : {
+		valid : 'glyphicon glyphicon-ok',
+		invalid : 'glyphicon glyphicon-remove',
+		validating : 'glyphicon glyphicon-refresh'
+	},
+	fields : {
+		'incidencia.idTipoIncidencia' : {
+			validators : {
+				notEmpty : {
+					message : 'El campo nombre es requerido'
+				}
+			}
+		},
+		'incidencia.idTipoPrioridad' : {
+			validators : {
+				notEmpty : {
+					message : 'El campo apellido es requerido es requerido'
+				}
+			}
+		},
+		'incidencia.idTipoUrgencia' : {
+			validators : {
+				notEmpty : {
+					message : 'El campo genero es requerido es requerido'
+				}
+			}
+		},
+		'incidencia.titulo' : {
+			validators : {
+				notEmpty : {
+					message : 'El campo titulo es obligatorio'
+				},
+				stringLength : {
+					min : 2,
+					max : 50,
+					message : 'Solo se acepta el titulo de 2 a 50 caracteres'
+				},
+				regexp : {
+					regexp : /^[a-zA-Z\s]+$/,
+					message : 'El titulo solo debe contener letras'
+				}
+			}
+		},
+		'incidencia.descripcion' : {
+			validators : {
+				notEmpty : {
+					message : 'El campo descripcion es obligatorio'
+				},
+				stringLength : {
+					min : 2,
+					max : 50,
+					message : 'Solo se acepta el titulo de 2 a 200 caracteres'
+				},
+				regexp : {
+					regexp : /^[a-zA-Z\s.,;:_-"]+$/,
+					message : 'El titulo solo debe contener letras'
+				}
+			}
+		}
+	}
+});

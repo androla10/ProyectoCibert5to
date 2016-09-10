@@ -3,6 +3,8 @@ package com.cibertec.InterfaceMapper;
 import com.cibertec.Model.*;
 import java.util.*;
 
+import org.apache.ibatis.annotations.Param;
+
 public interface SeguimientoModelMapper {
-	List<SeguimientoModel> listar(int id) throws Exception;
+	List<IncidenciaModel> listar(@Param("idUsuario") int idUsuario) throws Exception;
 }

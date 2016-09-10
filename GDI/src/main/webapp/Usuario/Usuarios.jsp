@@ -18,12 +18,12 @@
 					<th>Password</th>
 					<th>Nombre</th>
 					<th>Apellidos</th>
-					<th>Genero</th>
-					<th>Tipo Usuario</th>
+					<th>Activo</th>
+<!-- 					<th>Tipo Usuario</th> -->
 					<!-- 					<th>Fecha de Registro</th> -->
-					<th>Estado</th>
-					<th></th>
-					<th></th>
+<!-- 					<th>Estado</th> -->
+<!-- 					<th></th> -->
+<!-- 					<th></th> -->
 				</tr>
 				<s:if test="!lUsuario.isEmpty">
 					<s:iterator value="lUsuario">
@@ -33,11 +33,11 @@
 							<td><s:property value="password" /></td>
 							<td><s:property value="nombre" /></td>
 							<td><s:property value="apellido" /></td>
-							<td><s:property value="tipoUsuario" /></td>
-							<!-- 						<td>08/02/2016</td> -->
-							<td><s:property value="idActivo" /></td>
-							<td>b</td>
-							<td>b</td>
+<%-- 							<td><s:property value="tipoUsuario" /></td> --%>
+<!-- 													<td>08/02/2016</td> -->
+							<td><s:if test="idActivo == 1">Activado</s:if><s:else>Desactivado</s:else></td>
+<!-- 							<td>b</td> -->
+<!-- 							<td>b</td> -->
 						</tr>
 					</s:iterator>
 				</s:if>

@@ -1,0 +1,51 @@
+package com.cibertec.Actions;
+
+import java.util.List;
+
+import com.cibertec.Model.SeguimientoModel;
+import com.cibertec.Model.UsuarioModel;
+import com.cibertec.interceptor.UsuarioHabilitado;
+import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.Preparable;
+
+public class SeguimientoAction extends ActionSupport implements UsuarioHabilitado, Preparable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private SeguimientoModel seguimientoModel;
+	private List<SeguimientoModel> lSeguimiento;
+
+	public SeguimientoModel getSeguimientoModel() {
+		return seguimientoModel;
+	}
+
+	public void setSeguimientoModel(SeguimientoModel seguimientoModel) {
+		this.seguimientoModel = seguimientoModel;
+	}
+
+	public List<SeguimientoModel> getlSeguimiento() {
+		return lSeguimiento;
+	}
+
+	public void setlSeguimiento(List<SeguimientoModel> lSeguimiento) {
+		this.lSeguimiento = lSeguimiento;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+
+	@Override
+	public void prepare() throws Exception {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setUsuario(UsuarioModel usuario) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

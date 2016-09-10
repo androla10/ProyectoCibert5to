@@ -1,0 +1,12 @@
+package com.cibertec.Service;
+
+import java.util.List;
+
+import com.cibertec.InterfaceMapper.SeguimientoModelMapper;
+import com.cibertec.Model.SeguimientoModel;
+
+public class SeguimientoDAO implements SeguimientoModelMapper {
+
+	
+
+}

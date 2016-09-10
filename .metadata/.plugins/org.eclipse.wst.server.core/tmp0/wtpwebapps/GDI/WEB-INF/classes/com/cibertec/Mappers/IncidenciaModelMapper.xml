@@ -19,6 +19,8 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 		<result column="FechaCreacion" property="fechaCreacion" jdbcType="DATE" />
 		<result column="FechaAsignacion" property="fechaAsignacion" jdbcType="DATE" />
 		<result column="Titulo" property="titulo" jdbcType="VARCHAR" />
+		<result column="sUsuario" property="usuario" jdbcType="VARCHAR" />
+		
 	</resultMap>
 	
 	<resultMap type="AtencionIncidencia" id="rmAtencionIncidencia">
@@ -54,7 +56,7 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 		<collection property="listaSeguimientos" ofType="Seguimiento">
 	        <result column="sUsuario" property="sUsuario" jdbcType="VARCHAR"/>
 	        <result column="sSeguimiento" property="descripcion" jdbcType="VARCHAR"/>
-	        <result column="dFecha" property="fecha" jdbcType="DATE"/>
+	        <result column="dFecha" property="fecha" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
 	        <result column="idTipoSeguimiento" property="idTipoSeguimiento" jdbcType="INTEGER"/>
 	        <result column="sTipoSeguimiento" property="sTipoSeguimiento" jdbcType="VARCHAR"/>
 		</collection>
@@ -109,5 +111,9 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 	
 	<select id="AgregarComentario" resultType="INTEGER" statementType="CALLABLE" parameterType="Seguimiento">
 		{call SGI_WEB_C_COMENTARIO(#{idIncidencia},#{descripcion})}
+	</select>
+	
+	<select id="cargarFormularioIncidenciaReportadas" resultMap="rmListarIncidencia" statementType="CALLABLE">
+		{call SGI_WEB_R_LISTARINCIDENCIAREPORTADASSUP()}
 	</select>
 </mapper>

@@ -42,4 +42,10 @@ Foundation//DTD Tiles Configuration 2.0//EN"
 	<definition name='Supervisar' extends='d_plantilla'>
 		<put-attribute name="body" value='/Supervisor/Supervisar.jsp' />
 	</definition>
+	<definition name='DetalleSeguimiento' extends='d_plantilla'>
+		<put-attribute name="body" value='/Seguimiento/SeguimientoDetalle.jsp' />
+	</definition>
+	<definition name='ConsultarIncidencia' extends='d_plantilla'>
+		<put-attribute name="body" value='/Supervisor/ConsultarIncidencia.jsp' />
+	</definition>
 </tiles-definitions>

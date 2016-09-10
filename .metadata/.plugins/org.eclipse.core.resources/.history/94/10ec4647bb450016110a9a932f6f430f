@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<mapper namespace="com.cibertec.InterfaceMapper.SeguimientoModelMapper">
+	    <resultMap type="Incidencia" id="rmSeguimiento">
+	        <id column="idIncidencia" property="idIncidencia" jdbcType="INTEGER"/>
+	        <result column="titulo" property="titulo" jdbcType="VARCHAR"/>
+	        <result column="idEstadoActual" property="sEstado" jdbcType="INTEGER"/>
+	        <collection property="listaSeguimiento" ofType="Seguimiento">
+	        	<id column="idEstado" property="idEstado" jdbcType="INTEGER"/>	   
+	        	<result column="estado" property="estado" jdbcType="VARCHAR"/>
+	        	<result column="dFecha" property="fecha" javaType="java.util.Date" jdbcType="TIMESTAMP"/>
+	        </collection>
+	    </resultMap>
+	    <select id="listar" statementType="CALLABLE" parameterType="INTEGER" resultMap="rmSeguimiento">
+	    	{call SGI_WEB_R_SEGUIMIENTOINCIDENCIA(#{idUsuario})}
+	    </select>
+	</mapper>

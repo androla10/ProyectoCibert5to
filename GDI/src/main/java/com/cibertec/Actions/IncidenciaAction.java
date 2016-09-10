@@ -1,5 +1,6 @@
 package com.cibertec.Actions;
 
+import java.io.FileInputStream;
 import java.util.List;
 import java.util.Map;
 
@@ -48,6 +49,15 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 	private int idIncidencia;
 	private int idResultadoFinalizado;
 	private SeguimientoModel seguimiento;
+	private int ResultadoDerivar = 0;
+
+	public int getResultadoDerivar() {
+		return ResultadoDerivar;
+	}
+
+	public void setResultadoDerivar(int resultadoDerivar) {
+		ResultadoDerivar = resultadoDerivar;
+	}
 
 	public SeguimientoModel getSeguimiento() {
 		return seguimiento;
@@ -173,13 +183,15 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 
 	public String registrar() {
 
-		System.out.println("File Name is:" + incidencia.getFotoContentType());
-		System.out.println("File ContentType is:" + incidencia.getFotoFileName());
-		System.out.println("Files Directory is:" + filesPath);
-		System.out.println("Sé registro la incidencia generada");
+		 System.out.println("File Name is:" +
+		 incidencia.getFotoContentType());
+		 System.out.println("File ContentType is:" +
+		 incidencia.getFotoFileName());
+		 System.out.println("Files Directory is:" + filesPath);
+		 System.out.println("Sé registro la incidencia generada");
 
 		UsuarioModel usu = (UsuarioModel) session.get("user");
-
+		// System.out.println(usu.getIdUsuario());
 		this.incidencia.setIdUsuario(usu.getIdUsuario());
 		try {
 			this.incidencia.setFotobinary(Constantes.getBytesFromFile(this.incidencia.getFoto()));
@@ -193,7 +205,7 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return ERROR;
+		return LOGIN;
 	}
 
 	public String cargarFormularioRegistrarIncidencia() {
@@ -203,9 +215,9 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 			this.listarUrgencia = new UrgenciaDAO().listarUrgencia();
 
 			if (listarPrioridad != null && listarUrgencia != null && listarTipoIncidencia != null) {
-				for (PrioridadModel prioridadModel : listarPrioridad) {
-					System.out.println(prioridadModel.getsDescripcion());
-				}
+				// for (PrioridadModel prioridadModel : listarPrioridad) {
+				// System.out.println(prioridadModel.getsDescripcion());
+				// }
 				return SUCCESS;
 			} else
 				return LOGIN;
@@ -234,13 +246,17 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 		try {
 			this.atencion = new IncidenciaDAO().atencionIncidencia(this.idIncidencia);
 			if (this.atencion != null) {
+//				System.out.println(this.atencion.getFoto());
+//				System.out.println("File Name is "+this.atencion.getFotoFileName());
+//				System.out.println("File ContentType is "+this.atencion.getFotoContentType());
+//				System.out.println("File Directory is "+"imagen");
 				return SUCCESS;
 			} else
 				return LOGIN;
 		} catch (Exception e) {
 			e.printStackTrace();
+			return LOGIN;
 		}
-		return LOGIN;
 	}
 
 	public String comenzarAtencionIncidencia() {
@@ -260,8 +276,10 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 	public String DerivarIncidencia() {
 		try {
 			int resultado = new IncidenciaDAO().derivarIncidencia(this.incidencia);
-			if (resultado != -1) {
+			if (resultado != -1 && resultado != -2) {
 				return SUCCESS;
+			} else if (resultado == -2) {
+				return "-2";
 			} else {
 				return NONE;
 			}
@@ -293,6 +311,16 @@ public class IncidenciaAction extends ActionSupport implements ServletContextAwa
 			} else {
 				return NONE;
 			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			return LOGIN;
+		}
+	}
+
+	public String cargarFormularioIncidenciaReportadas() {
+		try {
+			this.listaIncidenciaAsignadas = new IncidenciaDAO().cargarFormularioIncidenciaReportadas();
+			return SUCCESS;
 		} catch (Exception e) {
 			e.printStackTrace();
 			return LOGIN;

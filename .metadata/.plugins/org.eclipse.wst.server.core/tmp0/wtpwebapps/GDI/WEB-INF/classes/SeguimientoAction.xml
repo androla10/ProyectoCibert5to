@@ -5,6 +5,7 @@
 		<result-types>
 			<result-type name="tiles"
 				class="org.apache.struts2.views.tiles.TilesResult" />
+			<result-type name="json" class="org.apache.struts2.json.JSONResult" />
 		</result-types>
 
 		<interceptors>
@@ -18,21 +19,26 @@
 		<default-interceptor-ref name="secureStack" />
 
 		<global-results>
-			<result name="login" type="redirect">/Login/FormularioLogin.action</result>
+			<result name="login" type="redirect">/Login/FormularioLogin.action
+			</result>
 		</global-results>
 
-		<action name="Seguimiento">
-			<result type="tiles">Seguimiento</result>
+		<action name="Seguimiento" class="com.cibertec.Actions.SeguimientoAction"
+			method="cargarSeguimiento">
+			<result name="success" type="tiles">Seguimiento</result>
 		</action>
 
-<!-- 		<action name="Usuarios"  class="com.cibertec.Actions.UsuarioAction"> -->
-<!-- 			<result type="tiles">Usuarios</result> -->
-<!-- 		</action> -->
-
-<!-- 		<action name="Registrar" class="com.cibertec.Actions.UsuarioAction" -->
-<!-- 			method="registrar"> -->
-<!-- 			<result name="success" type="tiles">registrarUsuario</result> -->
-<!-- 			<result name="error">Login.jsp</result> -->
-<!-- 		</action> -->
+		<action name="ObtenerSeguimiento" class="com.cibertec.Actions.SeguimientoAction"
+			method="cargarSeguimiento">
+			<result type="json">
+				<param name="excludeNullProperties">true</param>
+				<param name="noCache">true</param>
+			</result>
+		</action>
+		
+		<action name="DetalleSeguimiento" class="com.cibertec.Actions.SeguimientoAction"
+			method="DetalleSeguimiento">
+			<result name="success" type="tiles">DetalleSeguimiento</result>
+		</action>
 	</package>
 </struts>

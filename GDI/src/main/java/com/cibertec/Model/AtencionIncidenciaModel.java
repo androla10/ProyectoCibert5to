@@ -1,6 +1,9 @@
 package com.cibertec.Model;
 
+import java.io.File;
 import java.util.List;
+
+import com.cibertec.constantes.Constantes;
 
 public class AtencionIncidenciaModel {
 	private int idIncidencia;
@@ -8,6 +11,9 @@ public class AtencionIncidenciaModel {
 	private String sTipoIncidencia;
 	private String sDescripcion;
 	private byte[] fotobynari;
+	private File foto;
+	private String fotoContentType;
+	private String fotoFileName;
 	private String usuario;
 	private String nombre;
 	private String apellido;
@@ -18,8 +24,33 @@ public class AtencionIncidenciaModel {
 	private int idEstado;
 	private List<SeguimientoModel> listaSeguimientos;
 
+	
+	public String getFotoContentType() {
+		return fotoContentType;
+	}
+
+	public void setFotoContentType(String fotoContentType) {
+		this.fotoContentType = fotoContentType;
+	}
+
+	public String getFotoFileName() {
+		return Constantes.getFileFromBytes(fotobynari, "imagen").getName();
+	}
+
+	public void setFotoFileName(String fotoFileName) {
+		this.fotoFileName = fotoFileName;
+	}
+
 	public List<SeguimientoModel> getListaSeguimientos() {
 		return listaSeguimientos;
+	}
+
+	public File getFoto() {
+		return Constantes.getFileFromBytes(fotobynari, "imagen");
+	}
+
+	public void setFoto(File foto) {
+		this.foto = foto;
 	}
 
 	public void setListaSeguimientos(List<SeguimientoModel> listaSeguimientos) {

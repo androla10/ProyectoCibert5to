@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="Login" namespace="/Login" extends="struts-default">
+		<result-types>
+			<result-type name="tiles"
+				class="org.apache.struts2.views.tiles.TilesResult" />
+		</result-types>
+
+		<action name="FormularioLogin">
+			<result>Login.jsp</result>
+		</action>
+
+		<action name="Login" class="com.cibertec.Actions.LoginAction"
+			method="login">
+			<result name="1" type="tiles">administrar</result>
+			<result name="2" type="redirect">/Incidencia/RegistrarIncidencia</result>
+			<result name="3" type="redirect">/Incidencia/ListarIncidencia</result>
+			<result name="4" type="tiles">/Incidencia/Supervisar</result>
+			<result name="login">Login.jsp</result>
+		</action>
+
+		<action name="LoginOut" class="com.cibertec.Actions.LoginAction"
+			method="outLogin">
+			<result name="login" type="redirectAction">
+				<param name="actionName">FormularioLogin</param>
+			</result>
+			<!-- <result name="login">Login.jsp</result> -->
+		</action>
+
+		<action name="validarSession" class="com.cibertec.Actions.LoginAction"
+			method="validarSession">
+			<result name="1" type="tiles">administrar</result>
+			<result name="2" type="redirect">/Incidencia/RegistrarIncidencia</result>
+			<result name="3" type="redirect">/Incidencia/ListarIncidencia</result>
+			<result name="login">Login.jsp</result>
+		</action>
+
+	</package>
+</struts>

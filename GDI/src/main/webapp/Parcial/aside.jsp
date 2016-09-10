@@ -36,7 +36,7 @@
 	<s:a href="../Incidencia/ListarIncidencia"
 		class="list-group-item opcionesGenerales">
 		<i class="fa fa-list fa-ws" aria-hidden="true"></i>&nbsp; <div
-			class="palabra">Incidencias en Espera</div>
+			class="palabra">Atención de Incidencias</div>
 	</s:a>
 	<%
 	
@@ -44,12 +44,16 @@
 		}
 		else{
 	%>
-	<s:a href="../Seguimiento/Seguimiento"
+	<s:a href="../Incidencia/IncidenciasReportadasSup"
 		class="list-group-item opcionesGenerales">
-		<i class="fa fa-cog fa-ws" aria-hidden="true"></i>&nbsp; <div
-			class="palabra">Incidencias en Espera</div>
+		<i class="fa fa-flag fa-ws" aria-hidden="true"></i>&nbsp; <div
+			class="palabra">Incidencias Reportadas</div>
 	</s:a>
-
+	<s:a href="../Incidencia/ConsultaIncidencia"
+		class="list-group-item opcionesGenerales">
+		<i class="fa fa-flag fa-ws" aria-hidden="true"></i>&nbsp; <div
+			class="palabra">Consultar Incidencia</div>
+	</s:a>
 	<%
 		}
 	%>

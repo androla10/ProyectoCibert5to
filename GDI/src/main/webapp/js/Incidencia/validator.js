@@ -36,10 +36,6 @@ $('#formRegistroIncidencia2').formValidation({
 					min : 2,
 					max : 50,
 					message : 'Solo se acepta el titulo de 2 a 50 caracteres'
-				},
-				regexp : {
-					regexp : /^[a-zA-Z\s]+$/,
-					message : 'El titulo solo debe contener letras'
 				}
 			}
 		},
@@ -50,12 +46,8 @@ $('#formRegistroIncidencia2').formValidation({
 				},
 				stringLength : {
 					min : 2,
-					max : 50,
+					max : 200,
 					message : 'Solo se acepta el titulo de 2 a 200 caracteres'
-				},
-				regexp : {
-					regexp : /^[a-zA-Z\s]+$/,
-					message : 'El titulo solo debe contener letras'
 				}
 			}
 		}

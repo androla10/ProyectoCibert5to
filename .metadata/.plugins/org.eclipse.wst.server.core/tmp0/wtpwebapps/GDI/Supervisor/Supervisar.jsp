@@ -1,60 +1,47 @@
-<%@ taglib uri="/struts-tags" prefix="s" %>
+<%@ taglib prefix="s" uri="/struts-tags"%>
 <div class="container-fluid">
-	<h3><i class="fa fa-users" aria-hidden="true"></i> Supervision</h3>
-	<hr>
+	<h1 class="text-center">Incidencias Reportadas</h1>
 	<br>
-	<div class="row animated zoomIn">
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-			<div class="thumbnail">
-				<img src="../img/user.png" alt="Imagen User">
-				<div class="caption">
-					<h3>Usuarios</h3>
-					<div class="list-group">
-					  <s:a type="button" class="list-group-item opcionesAdministrador" href="../Usuario/Usuarios"><i class="fa fa-user fa-1x"></i> Administrar</s:a>
-					  <s:a type="button" class="list-group-item opcionesAdministrador" href="../Usuario/Usuarios"><i class="fa fa-cog fa-1x"></i> Configurar</s:a>
-					  <s:a type="button" class="list-group-item opcionesAdministrador" href="../Usuario/Usuarios"><i class="fa fa-user fa-1x"></i> Administrar Usuarios</s:a>
-					</div>
-				</div>
-			</div>
+	<div class="panel-primary">
+		<div class="panel-heading">
+			<i class="fa fa-list fa-1x"></i>&nbsp;Incidencias
 		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-			<div class="thumbnail">
-				<img src="../img/incidencia.png" alt="...">
-				<div class="caption">
-					<h3>Incidencias</h3>
-					<div class="list-group">
-					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Administrar</button>
-					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Configurar</button>
-					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Administrar Usuarios</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-			<div class="thumbnail">
-				<img src="../img/reporte.png" alt="...">
-				<div class="caption">
-					<h3>Reportes</h3>
-					<div class="list-group">
-					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-list-alt fa-1x"></i> Incidencia</button>
-					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Usuario</button>
-					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Administrar Usuarios</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-			<div class="thumbnail">
-				<img src="../img/configuracion.png" alt="...">
-				<div class="caption">
-					<h3>Configuracion</h3>
-					<div class="list-group">
-					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Reportes</button>
-					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Correos</button>
-					  <button type="button" class="list-group-item opcionesAdministrador"><i class="fa fa-user fa-1x"></i> Administrar Usuarios</button>
-					</div>
-				</div>
-			</div>
+		<div class="panel-body">
+			<s:if test="!listaIncidenciaAsignadas.isEmpty">
+				<table class="table table-hover table-striped">
+					<tr>
+						<th>Código de Incidencia</th>
+						<th>Usuario Creador</th>
+						<th>Tipo de Incidencia</th>
+						<th>Estado</th>
+						<th>Fecha Creación</th>
+						<th>Fecha Asignación</th>
+						<th>Titulo</th>
+						<th>Operativo</th>
+					</tr>
+					<s:iterator value="listaIncidenciaAsignadas">
+						<tr>
+							<s:url action="../Incidencia/AtencionIncidencia" var="urlt">
+								<s:param name="idIncidencia" value="%{idIncidencia}" />
+							</s:url>
+							<td><s:a href="%{urlt}">
+									<s:property value="idIncidencia" />
+								</s:a></td>
+							<td><s:property value="sNombreCompleto" /></td>
+							<td><s:property value="sTipoIncidencia" /></td>
+							<td><s:property value="sEstado" /></td>
+							<td><s:property value="fechaCreacion" /></td>
+							<td><s:property value="fechaAsignacion" /></td>
+							<td><s:property value="titulo" /></td>
+							<td><s:property value="usuario" /></td>
+						</tr>
+					</s:iterator>
+
+				</table>
+			</s:if>
+			<s:else>
+				<h3>No existe incidencias Reportadas</h3>
+			</s:else>
 		</div>
 	</div>
 </div>

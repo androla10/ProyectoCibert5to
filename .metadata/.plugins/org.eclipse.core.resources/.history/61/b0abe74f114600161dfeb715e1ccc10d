@@ -1,0 +1,90 @@
+<%@ taglib prefix="s" uri="/struts-tags"%>
+<div class="container-fluid">
+	<s:if test="ResultadoDerivar == 1">
+		<div class="alert alert-danger animated zoomIn" id="alertarcodigo"
+			role="alert">
+			<p>No puede derivar una incidencia que ya está asignado a usted.
+			</p>
+		</div>
+	</s:if>
+	<h1 class="text-center">Consulta Incidencia</h1>
+	<br>
+	<div class="panel-primary">
+		<div class="panel-heading">
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-9 col-lg-9">
+					<h4>
+						<i class="fa fa-user fa-1x"></i>&nbsp; Consulta Incidencia
+					</h4>
+				</div>
+			</div>
+		</div>
+		<div class="panel-body">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="input-group">
+						<form action="ConsultaIncidenciaPorCodigo">
+							<input type="text" class="form-control"
+								placeholder="Buscar por código de Incidencia"
+								name="idIncidencia"> <span class="input-group-btn">
+								<button class="btn btn-success" type="submit">Consultar</button>
+							</span>
+						</form>
+					</div>
+				</div>
+			</div>
+			<br>
+			<s:if test="atencion.isEmpty">
+				<div class="jumbotron animated zoomIn"
+					style="background-color: #ccc; padding: 10px 10px;">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<div class="form-group">
+								<h4>
+									Incidencia NRO:
+									<s:property value="atencion.idIncidencia" />
+								</h4>
+							</div>
+							<div class="form-group">
+								<h4>
+									Usuario :
+									<s:property value="atencion.sUsuario" />
+								</h4>
+							</div>
+							<div class="form-group">
+								<h4>
+									Nombres :
+									<s:property value="atencion.nombre" />
+								</h4>
+							</div>
+							<div class="form-group">
+								<h4>
+									Apellidos :
+									<s:property value="atencion.apellido" />
+								</h4>
+							</div>
+
+							<div class="form-group">
+								<label>Descripcion :</label>
+								<textarea rows="4" cols="50" class="form-control"><s:property
+										value="atencion.sDescripcion" /></textarea>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<h4>
+								Estado :
+								<s:property value="atencion.sEstado" />
+							</h4>
+
+							<s:url id="envio" action="../Seguimiento/DetalleSeguimiento">
+								<s:param name="idIncidencia" value="%{atencion.idIncidencia}" />
+							</s:url>
+							<a href="${envio}">Ir a más detalle</a>
+						</div>
+					</div>
+				</div>
+			</s:if>
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/Derivacion/validator.js"></script>
+	<script type="text/javascript" src="../js/Incidencia/query.js"></script>

@@ -1,10 +1,17 @@
 package com.cibertec.Actions;
 
+import java.text.SimpleDateFormat;
 import java.util.List;
+import java.util.Map;
 
+import com.cibertec.Model.AtencionIncidenciaModel;
+import com.cibertec.Model.IncidenciaModel;
 import com.cibertec.Model.SeguimientoModel;
 import com.cibertec.Model.UsuarioModel;
+import com.cibertec.Service.IncidenciaDAO;
+import com.cibertec.Service.SeguimientoDAO;
 import com.cibertec.interceptor.UsuarioHabilitado;
+import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.Preparable;
 
@@ -14,7 +21,27 @@ public class SeguimientoAction extends ActionSupport implements UsuarioHabilitad
 	 */
 	private static final long serialVersionUID = 1L;
 	private SeguimientoModel seguimientoModel;
-	private List<SeguimientoModel> lSeguimiento;
+	private List<IncidenciaModel> lSeguimiento;
+	private Map session = ActionContext.getContext().getSession();
+	private Map aplication = ActionContext.getContext().getApplication();
+	private AtencionIncidenciaModel atencion;
+	private int idIncidencia;
+
+	public int getIdIncidencia() {
+		return idIncidencia;
+	}
+
+	public void setIdIncidencia(int idIncidencia) {
+		this.idIncidencia = idIncidencia;
+	}
+
+	public AtencionIncidenciaModel getAtencion() {
+		return atencion;
+	}
+
+	public void setAtencion(AtencionIncidenciaModel atencion) {
+		this.atencion = atencion;
+	}
 
 	public SeguimientoModel getSeguimientoModel() {
 		return seguimientoModel;
@@ -24,16 +51,44 @@ public class SeguimientoAction extends ActionSupport implements UsuarioHabilitad
 		this.seguimientoModel = seguimientoModel;
 	}
 
-	public List<SeguimientoModel> getlSeguimiento() {
+	public List<IncidenciaModel> getlSeguimiento() {
 		return lSeguimiento;
 	}
 
-	public void setlSeguimiento(List<SeguimientoModel> lSeguimiento) {
+	public void setlSeguimiento(List<IncidenciaModel> lSeguimiento) {
 		this.lSeguimiento = lSeguimiento;
 	}
 
 	public static long getSerialversionuid() {
 		return serialVersionUID;
+	}
+
+	public String cargarSeguimiento() {
+		try {
+			UsuarioModel usu = (UsuarioModel) session.get("user");
+			lSeguimiento = new SeguimientoDAO().listar(usu.getIdUsuario());
+			if (lSeguimiento.size() >= 0) {
+				return SUCCESS;
+			} else {
+				return LOGIN;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			return LOGIN;
+		}
+	}
+
+	public String DetalleSeguimiento() {
+		try {
+			this.atencion = new IncidenciaDAO().atencionIncidencia(this.idIncidencia);
+			if (this.atencion != null) {
+				return SUCCESS;
+			} else
+				return LOGIN;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return LOGIN;
 	}
 
 	@Override

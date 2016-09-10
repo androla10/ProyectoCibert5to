@@ -1,7 +1,0 @@
-package com.cibertec.Model;
-
-public class ResidenciaModel {
-	private int idResidencia;
-	private String sDescripcion;
-	private int iActivo;
-}

@@ -76,4 +76,10 @@ public class IncidenciaDAO implements IncidenciaModelMapper {
 				.AgregarComentario(comentario);
 	}
 
+	@Override
+	public List<IncidenciaModel> cargarFormularioIncidenciaReportadas() throws SQLException {
+		return MyBatisUtil.getConeccion().openSession().getMapper(IncidenciaModelMapper.class)
+				.cargarFormularioIncidenciaReportadas();
+	}
+
 }
