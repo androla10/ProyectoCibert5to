@@ -1,6 +1,8 @@
 # ProyectoCibert5to
-Hello, this proyect is development for my and is a web system for incident management.
-This project use Struts2, Mybattis and database Mysql Server.
+
+Proyecto de Gestión de Incidencias.
+
+Este proyecto utiliza struts2, myBatis para la persistencia y Mysql.
 
 Project Web Personal.
 
